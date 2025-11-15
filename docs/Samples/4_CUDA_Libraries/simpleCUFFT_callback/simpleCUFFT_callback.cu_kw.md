@@ -1,0 +1,71 @@
+# Keyword Map for Samples/4_CUDA_Libraries/simpleCUFFT_callback/simpleCUFFT_callback.cu
+
+## File Information
+
+- **File Path**: `Samples/4_CUDA_Libraries/simpleCUFFT_callback/simpleCUFFT_callback.cu`
+- **Documentation**: [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md)
+- **Source**: [View Source](../../Samples/4_CUDA_Libraries/simpleCUFFT_callback/simpleCUFFT_callback.cu)
+
+## Extracted Keywords
+
+This file contains 24 keywords and identifiers:
+
+### Keywords by Category
+
+
+#### Cuda Keyword
+
+- **__device__**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **__host__**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **cudaFree**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **cudaMalloc**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **cudaMemcpy**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **kernel**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+
+#### Class/Struct
+
+- **_cb_params**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **cudaDeviceProp**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+
+#### Filename
+
+- **simpleCUFFT_callback**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+
+#### Function
+
+- **ComplexAdd**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **ComplexMul**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **ComplexPointwiseMulAndScale**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **ComplexScale**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **Convolve**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **DAMAGES**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **PadData**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **checkCudaErrors**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **for**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **free**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **main**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **printf**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **runTest**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+
+#### Macro
+
+- **FILTER_KERNEL_SIZE**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+- **SIGNAL_SIZE**: Defined in this file - See [simpleCUFFT_callback.cu_docs.md](simpleCUFFT_callback.cu_docs.md#detailed-analysis)
+
+
+## Keyword → Documentation Mapping
+
+Each keyword above links back to the detailed documentation for this file, where you can find:
+
+- Complete context for the keyword
+- Implementation details
+- Usage examples
+- Related concepts
+
+## Search Index
+
+You can search for any of the above keywords to find this file in the global keyword index.
+
+---
+
+*This keyword map was automatically generated.*

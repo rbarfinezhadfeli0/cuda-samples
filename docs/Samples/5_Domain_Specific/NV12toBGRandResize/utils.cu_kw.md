@@ -1,0 +1,53 @@
+# Keyword Map for Samples/5_Domain_Specific/NV12toBGRandResize/utils.cu
+
+## File Information
+
+- **File Path**: `Samples/5_Domain_Specific/NV12toBGRandResize/utils.cu`
+- **Documentation**: [utils.cu_docs.md](utils.cu_docs.md)
+- **Source**: [View Source](../../Samples/5_Domain_Specific/NV12toBGRandResize/utils.cu)
+
+## Extracted Keywords
+
+This file contains 12 keywords and identifiers:
+
+### Keywords by Category
+
+
+#### Cuda Keyword
+
+- **__global__**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **block**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **cudaMemcpy**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **thread**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+
+#### Filename
+
+- **utils**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+
+#### Function
+
+- **DAMAGES**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **dumpBGR**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **dumpRawBGR**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **dumpYUV**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **floatPlanarToChar**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **floatToChar**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+- **sprintf**: Defined in this file - See [utils.cu_docs.md](utils.cu_docs.md#detailed-analysis)
+
+
+## Keyword → Documentation Mapping
+
+Each keyword above links back to the detailed documentation for this file, where you can find:
+
+- Complete context for the keyword
+- Implementation details
+- Usage examples
+- Related concepts
+
+## Search Index
+
+You can search for any of the above keywords to find this file in the global keyword index.
+
+---
+
+*This keyword map was automatically generated.*

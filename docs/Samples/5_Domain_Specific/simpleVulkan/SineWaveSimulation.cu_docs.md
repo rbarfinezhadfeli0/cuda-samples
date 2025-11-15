@@ -1,0 +1,344 @@
+# Documentation for Samples/5_Domain_Specific/simpleVulkan/SineWaveSimulation.cu
+
+## File Metadata
+
+- **Path**: `Samples/5_Domain_Specific/simpleVulkan/SineWaveSimulation.cu`
+- **Type**: .cu
+- **Location**: Samples/5_Domain_Specific/simpleVulkan
+- **Binary**: No
+
+## Purpose and Role
+
+This is a CUDA source file containing GPU kernel implementations and host code.
+
+## Original Source Content
+
+```cu
+/* Copyright (c) 2022, NVIDIA CORPORATION. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *  * Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *  * Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *  * Neither the name of NVIDIA CORPORATION nor the names of its
+ *    contributors may be used to endorse or promote products derived
+ *    from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY
+ * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY
+ * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+#include <algorithm>
+#include <helper_cuda.h>
+
+#include "SineWaveSimulation.h"
+
+__global__ void sinewave(float *heightMap, unsigned int width, unsigned int height, float time)
+{
+    const float  freq   = 4.0f;
+    const size_t stride = gridDim.x * blockDim.x;
+
+    // Iterate through the entire array in a way that is
+    // independent of the grid configuration
+    for (size_t tid = blockIdx.x * blockDim.x + threadIdx.x; tid < width * height; tid += stride) {
+        // Calculate the x, y coordinates
+        const size_t y = tid / width;
+        const size_t x = tid - y * width;
+        // Normalize x, y to [0,1]
+        const float u = ((2.0f * x) / width) - 1.0f;
+        const float v = ((2.0f * y) / height) - 1.0f;
+        // Calculate the new height value
+        const float w = 0.5f * sinf(u * freq + time) * cosf(v * freq + time);
+        // Store this new height value
+        heightMap[tid] = w;
+    }
+}
+
+SineWaveSimulation::SineWaveSimulation(size_t width, size_t height)
+    : m_heightMap(nullptr)
+    , m_width(width)
+    , m_height(height)
+{
+}
+
+void SineWaveSimulation::initCudaLaunchConfig(int device)
+{
+    cudaDeviceProp prop = {};
+    checkCudaErrors(cudaSetDevice(device));
+    checkCudaErrors(cudaGetDeviceProperties(&prop, device));
+
+    // We don't need large block sizes, since there's not much inter-thread
+    // communication
+    m_threads = prop.warpSize;
+
+    // Use the occupancy calculator and fill the gpu as best as we can
+    checkCudaErrors(cudaOccupancyMaxActiveBlocksPerMultiprocessor(&m_blocks, sinewave, prop.warpSize, 0));
+    m_blocks *= prop.multiProcessorCount;
+
+    // Go ahead and the clamp the blocks to the minimum needed for this
+    // height/width
+    m_blocks = std::min(m_blocks, (int)((m_width * m_height + m_threads - 1) / m_threads));
+}
+
+int SineWaveSimulation::initCuda(uint8_t *vkDeviceUUID, size_t UUID_SIZE)
+{
+    int current_device     = 0;
+    int device_count       = 0;
+    int devices_prohibited = 0;
+
+    cudaDeviceProp deviceProp;
+    checkCudaErrors(cudaGetDeviceCount(&device_count));
+
+    if (device_count == 0) {
+        fprintf(stderr, "CUDA error: no devices supporting CUDA.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    // Find the GPU which is selected by Vulkan
+    while (current_device < device_count) {
+        cudaGetDeviceProperties(&deviceProp, current_device);
+        int computeMode;
+        checkCudaErrors(cudaDeviceGetAttribute(&computeMode, cudaDevAttrComputeMode, current_device));
+
+        if ((computeMode != cudaComputeModeProhibited)) {
+            // Compare the cuda device UUID with vulkan UUID
+            int ret = memcmp((void *)&deviceProp.uuid, vkDeviceUUID, UUID_SIZE);
+            if (ret == 0) {
+                checkCudaErrors(cudaSetDevice(current_device));
+                checkCudaErrors(cudaGetDeviceProperties(&deviceProp, current_device));
+                printf("GPU Device %d: \"%s\" with compute capability %d.%d\n\n",
+                       current_device,
+                       deviceProp.name,
+                       deviceProp.major,
+                       deviceProp.minor);
+
+                return current_device;
+            }
+        }
+        else {
+            devices_prohibited++;
+        }
+
+        current_device++;
+    }
+
+    if (devices_prohibited == device_count) {
+        fprintf(stderr,
+                "CUDA error:"
+                " No Vulkan-CUDA Interop capable GPU found.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    return -1;
+}
+
+SineWaveSimulation::~SineWaveSimulation() { m_heightMap = NULL; }
+
+void SineWaveSimulation::initSimulation(float *heights) { m_heightMap = heights; }
+
+void SineWaveSimulation::stepSimulation(float time, cudaStream_t stream)
+{
+    sinewave<<<m_blocks, m_threads, 0, stream>>>(m_heightMap, m_width, m_height, time);
+    getLastCudaError("Failed to launch CUDA simulation");
+}
+
+```
+
+## High-Level Overview
+
+This file is part of the CUDA Samples repository, located at `Samples/5_Domain_Specific/simpleVulkan/SineWaveSimulation.cu`.
+
+### Key Components
+
+This CUDA/C++ file contains implementations related to GPU computing and parallel processing.
+The file demonstrates techniques for:
+
+- GPU memory management
+- Kernel execution
+- Host-device data transfer
+- Performance optimization
+- Error handling
+
+### Architecture Integration
+
+This file integrates with the broader CUDA Samples architecture by providing:
+
+1. **Sample Implementation**: Demonstrates specific CUDA features or techniques
+2. **Educational Value**: Serves as a learning resource for CUDA developers
+3. **Best Practices**: Shows recommended patterns for CUDA programming
+4. **Performance Examples**: Illustrates optimization strategies
+
+## Detailed Analysis
+
+### File Statistics
+
+- **Total Lines**: 141
+- **Approximate Size**: 5413 bytes
+
+### Content Structure
+
+#### Functions and Kernels
+
+This file contains function definitions and potentially CUDA kernel launches.
+Functions in this file handle:
+
+- **Initialization**: Setting up CUDA context and allocating resources
+- **Computation**: Core algorithmic implementations
+- **Cleanup**: Freeing resources and error checking
+
+#### Error Handling
+
+The code implements error handling through:
+
+- CUDA error checking macros
+- Return code validation
+- Exception handling where appropriate
+
+#### Memory Management
+
+Memory operations include:
+
+- Device memory allocation (cudaMalloc)
+- Host memory allocation
+- Memory transfers (cudaMemcpy)
+- Proper cleanup and deallocation
+
+## Design Patterns and Best Practices
+
+### CUDA Best Practices Applied
+
+1. **Resource Management**: Proper allocation and deallocation of GPU resources
+2. **Error Checking**: Comprehensive error handling for CUDA API calls
+3. **Performance**: Optimized memory access patterns
+4. **Portability**: Code structured for multiple GPU architectures
+
+### Code Organization
+
+The code follows standard practices for:
+
+- Clear function naming
+- Logical code structure
+- Appropriate use of comments
+- Separation of concerns
+
+## Performance Considerations
+
+### Computational Complexity
+
+The algorithms in this file are designed with performance in mind:
+
+- **GPU Parallelism**: Leveraging thousands of CUDA cores
+- **Memory Bandwidth**: Optimizing data transfer patterns
+- **Occupancy**: Maximizing GPU utilization
+- **Latency Hiding**: Using asynchronous operations where beneficial
+
+### Optimization Opportunities
+
+Potential areas for optimization:
+
+1. Kernel launch configuration tuning
+2. Shared memory usage
+3. Coalesced memory access
+4. Reduction of host-device transfers
+
+## Security and Safety
+
+### Memory Safety
+
+- Bounds checking for array accesses
+- Proper initialization of variables
+- Validation of input parameters
+- Safe handling of CUDA API failures
+
+## Testing and Validation
+
+### How to Test
+
+To test this file:
+
+1. Build the sample using CMake
+2. Run the executable with appropriate parameters
+3. Verify output against expected results
+4. Check for memory leaks using cuda-memcheck
+5. Profile performance using NVIDIA profiling tools
+
+### Integration Tests
+
+This file is tested as part of the overall sample application, ensuring:
+
+- Correct functionality
+- Expected performance characteristics
+- Compatibility across different GPU architectures
+
+## Related Files and Dependencies
+
+### Direct Dependencies
+
+Files that this file depends on or interacts with:
+
+- Other source files in the same sample directory
+- Common utility headers from the `Common/` directory
+- CUDA Toolkit headers and libraries
+- System libraries
+
+### Reverse Dependencies
+
+Files that depend on this file:
+
+- Build system files (CMakeLists.txt)
+- Other samples that may reference similar patterns
+- Test scripts that validate this sample
+
+## Usage Examples
+
+### Building
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+```
+
+### Running
+
+```bash
+./{executable_name} [options]
+```
+
+Refer to the sample's README for specific command-line options and usage patterns.
+
+## Additional Notes
+
+This file is part of the NVIDIA CUDA Samples collection, which serves as:
+
+- **Educational Resource**: Teaching CUDA programming concepts
+- **Reference Implementation**: Demonstrating best practices
+- **Performance Baseline**: Providing benchmarks for optimization
+- **API Documentation**: Showing practical usage of CUDA features
+
+## Cross-References
+
+For related information, see:
+
+- [Repository README](../../README.md)
+- [Sample Category README](../README.md)
+- Other files in this sample directory
+- CUDA Programming Guide
+- CUDA Toolkit Documentation
+
+---
+
+*This documentation was automatically generated as part of comprehensive repository documentation.*

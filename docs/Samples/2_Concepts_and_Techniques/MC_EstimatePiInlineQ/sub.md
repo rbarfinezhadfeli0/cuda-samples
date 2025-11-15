@@ -1,0 +1,302 @@
+# Subtree Keyword Index for `Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/`
+
+## Scope
+
+This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/` and all its subdirectories (recursive).
+
+- **Files Indexed**: 8
+- **Unique Keywords**: 67
+
+## Keywords A-Z
+
+
+### A
+
+**abstract**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**argument**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+
+### B
+
+**BUILD_SHAREDMEMORY_TYPE**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**block**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**by**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+
+### C
+
+**CMakeLists**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**CUDASHAREDMEM_H**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**computeValue**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**cudaDeviceProp**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+**cudaFree**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**cudaFuncAttributes**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**cudaMalloc**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**cudaMemcpy**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**cudasharedmem**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**curand_init**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+
+### D
+
+**DAMAGES**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/piestimator.h](inc/piestimator.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+- *(and 1 more files)*
+
+
+### E
+
+**error**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**exit**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+
+### F
+
+**for**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+
+### G
+
+**GPU**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+**getPoint**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**grid**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+
+### I
+
+**IF**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**initRNG**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**invalid_argument**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+
+### K
+
+**k_bsize_def**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**k_bsize_min**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**k_bsize_qa**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**k_sims_def**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**k_sims_max**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**k_sims_min**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**k_sims_qa**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**kernel**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+
+### L
+
+**L**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**line**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+
+### M
+
+**MC_EstimatePiInlineQ**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**main**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**msg**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+
+### O
+
+**operator**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/piestimator.h](inc/piestimator.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+
+### P
+
+**PI**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**PIESTIMATOR_H**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/piestimator.h](inc/piestimator.h_docs.md)
+
+**PiEstimator**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/piestimator.h](inc/piestimator.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**piestimator**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/piestimator.h](inc/piestimator.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**prec**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**precision**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**printf**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+
+### R
+
+**R**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**README**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/README.md](README.md_docs.md)
+
+**reduce_sum**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**result**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+**runTest**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**runtime_error**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+
+### S
+
+**SharedMemory**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**showHelp**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**simulations**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**size**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+
+### T
+
+**T**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**TEST_H**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+
+**TYPE_IS**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**Test**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+**test**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+**that**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**thread**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/piestimator.h](inc/piestimator.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/test.h](inc/test.h_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/test.cpp](src/test.cpp_docs.md)
+
+
+### U
+
+**use**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+
+
+## Folder-Level Navigation
+
+### Keywords by Subfolder
+
+This section maps major keywords to the folders where they are most prevalent.
+
+
+#### CMakeLists.txt/
+
+`CMakeLists`, `MC_EstimatePiInlineQ`
+
+#### README.md/
+
+`README`
+
+#### inc/
+
+`BUILD_SHAREDMEMORY_TYPE`, `CUDASHAREDMEM_H`, `DAMAGES`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `by`, `cudasharedmem`, `k_bsize_def`, `k_bsize_min`, `k_bsize_qa`, `k_sims_def`, `k_sims_max`, `k_sims_min`, `k_sims_qa`, `operator`, `piestimator`, `test`, `that`, `thread`
+
+#### src/
+
+`DAMAGES`, `GPU`, `IF`, `L`, `PiEstimator`, `R`, `TYPE_IS`, `Test`, `__device__`, `__global__`, `__shared__`, `argument`, `block`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `curand_init`, `error`, `exit`, `for`, `getPoint`, `grid`, `initRNG`, `invalid_argument`, `kernel`, `line`, `main`
+
+
+---
+
+*Auto-generated subtree keyword index*

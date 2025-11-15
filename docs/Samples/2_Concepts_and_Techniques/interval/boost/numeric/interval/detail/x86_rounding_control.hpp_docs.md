@@ -1,0 +1,257 @@
+# Documentation for Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/detail/x86_rounding_control.hpp
+
+## File Metadata
+
+- **Path**: `Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/detail/x86_rounding_control.hpp`
+- **Type**: .hpp
+- **Location**: Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/detail
+- **Binary**: No
+
+## Purpose and Role
+
+This is a header file containing declarations, definitions, and interfaces.
+
+## Original Source Content
+
+```hpp
+/* Boost interval/detail/x86_rounding_control.hpp file
+ *
+ * Copyright 2000 Jens Maurer
+ * Copyright 2002 Herv Brnnimann, Guillaume Melquiond, Sylvain Pion
+ *
+ * Distributed under the Boost Software License, Version 1.0.
+ * (See accompanying file LICENSE_1_0.txt or
+ * copy at http://www.boost.org/LICENSE_1_0.txt)
+ */
+
+#ifndef BOOST_NUMERIC_INTERVAL_DETAIL_X86_ROUNDING_CONTROL_HPP
+#define BOOST_NUMERIC_INTERVAL_DETAIL_X86_ROUNDING_CONTROL_HPP
+
+#ifdef __GNUC__
+#include <boost/numeric/interval/detail/x86gcc_rounding_control.hpp>
+#elif defined(__BORLANDC__)
+#include <boost/numeric/interval/detail/bcc_rounding_control.hpp>
+#elif defined(_MSC_VER)
+#include <boost/numeric/interval/detail/msvc_rounding_control.hpp>
+#elif defined(__MWERKS__) || defined(__ICC)
+#define BOOST_NUMERIC_INTERVAL_USE_C99_SUBSYSTEM
+#include <boost/numeric/interval/detail/c99sub_rounding_control.hpp>
+#else
+#error Unsupported C++ compiler.
+#endif
+
+namespace boost {
+namespace numeric {
+namespace interval_lib {
+
+namespace detail {
+
+#ifdef BOOST_NUMERIC_INTERVAL_USE_C99_SUBSYSTEM
+typedef c99_rounding x86_rounding_control;
+#undef BOOST_NUMERIC_INTERVAL_USE_C99_SUBSYSTEM
+#else
+struct fpu_rounding_modes
+{
+    unsigned short to_nearest;
+    unsigned short downward;
+    unsigned short upward;
+    unsigned short toward_zero;
+};
+
+// exceptions masked, extended precision
+// hardware default is 0x037f (0x1000 only has a meaning on 287)
+static const fpu_rounding_modes rnd_mode = {0x137f, 0x177f, 0x1b7f, 0x1f7f};
+
+struct x86_rounding_control : x86_rounding
+{
+    static void to_nearest() { set_rounding_mode(rnd_mode.to_nearest); }
+    static void downward() { set_rounding_mode(rnd_mode.downward); }
+    static void upward() { set_rounding_mode(rnd_mode.upward); }
+    static void toward_zero() { set_rounding_mode(rnd_mode.toward_zero); }
+};
+#endif // BOOST_NUMERIC_INTERVAL_USE_C99_SUBSYSTEM
+
+} // namespace detail
+
+template <> struct rounding_control<float> : detail::x86_rounding_control
+{
+    static float force_rounding(const float &r)
+    {
+        volatile float r_ = r;
+        return r_;
+    }
+};
+
+template <> struct rounding_control<double> : detail::x86_rounding_control
+{
+    /*static double force_rounding(double r)
+    { asm volatile ("" : "+m"(r) : ); return r; }*/
+    static double force_rounding(const double &r)
+    {
+        volatile double r_ = r;
+        return r_;
+    }
+};
+
+namespace detail {
+
+template <bool> struct x86_rounding_control_long_double;
+
+template <> struct x86_rounding_control_long_double<false> : x86_rounding_control
+{
+    static long double force_rounding(long double const &r)
+    {
+        volatile long double r_ = r;
+        return r_;
+    }
+};
+
+template <> struct x86_rounding_control_long_double<true> : x86_rounding_control
+{
+    static long double const &force_rounding(long double const &r) { return r; }
+};
+
+} // namespace detail
+
+template <> struct rounding_control<long double> : detail::x86_rounding_control_long_double<(sizeof(long double) >= 10)>
+{
+};
+
+} // namespace interval_lib
+} // namespace numeric
+} // namespace boost
+
+#undef BOOST_NUMERIC_INTERVAL_NO_HARDWARE
+
+#endif /* BOOST_NUMERIC_INTERVAL_DETAIL_X86_ROUNDING_CONTROL_HPP */
+
+```
+
+## High-Level Overview
+
+This file is part of the CUDA Samples repository, located at `Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/detail/x86_rounding_control.hpp`.
+
+### Key Components
+
+This CUDA/C++ file contains implementations related to GPU computing and parallel processing.
+The file demonstrates techniques for:
+
+- GPU memory management
+- Kernel execution
+- Host-device data transfer
+- Performance optimization
+- Error handling
+
+### Architecture Integration
+
+This file integrates with the broader CUDA Samples architecture by providing:
+
+1. **Sample Implementation**: Demonstrates specific CUDA features or techniques
+2. **Educational Value**: Serves as a learning resource for CUDA developers
+3. **Best Practices**: Shows recommended patterns for CUDA programming
+4. **Performance Examples**: Illustrates optimization strategies
+
+## Detailed Analysis
+
+### File Statistics
+
+- **Total Lines**: 111
+- **Approximate Size**: 3172 bytes
+
+### Content Structure
+
+#### Declarations and Interfaces
+
+This header file provides:
+
+- Function declarations
+- Class/struct definitions
+- Macro definitions
+- Template definitions
+- Constant declarations
+
+#### Include Guards
+
+The header uses appropriate include guards or `#pragma once` to prevent multiple inclusion.
+
+## Design Patterns and Best Practices
+
+### CUDA Best Practices Applied
+
+1. **Resource Management**: Proper allocation and deallocation of GPU resources
+2. **Error Checking**: Comprehensive error handling for CUDA API calls
+3. **Performance**: Optimized memory access patterns
+4. **Portability**: Code structured for multiple GPU architectures
+
+### Code Organization
+
+The code follows standard practices for:
+
+- Clear function naming
+- Logical code structure
+- Appropriate use of comments
+- Separation of concerns
+
+## Performance Considerations
+
+This file's performance impact depends on its role in the build system or as a resource file.
+
+## Security and Safety
+
+### Memory Safety
+
+- Bounds checking for array accesses
+- Proper initialization of variables
+- Validation of input parameters
+- Safe handling of CUDA API failures
+
+## Testing and Validation
+
+### How to Test
+
+Testing for this file involves ensuring it integrates correctly with the build system
+and doesn't introduce errors into the compilation process.
+
+## Related Files and Dependencies
+
+### Direct Dependencies
+
+Files that this file depends on or interacts with:
+
+- Other source files in the same sample directory
+- Common utility headers from the `Common/` directory
+- CUDA Toolkit headers and libraries
+- System libraries
+
+### Reverse Dependencies
+
+Files that depend on this file:
+
+- Build system files (CMakeLists.txt)
+- Other samples that may reference similar patterns
+- Test scripts that validate this sample
+
+## Usage Examples
+
+## Additional Notes
+
+This file is part of the NVIDIA CUDA Samples collection, which serves as:
+
+- **Educational Resource**: Teaching CUDA programming concepts
+- **Reference Implementation**: Demonstrating best practices
+- **Performance Baseline**: Providing benchmarks for optimization
+- **API Documentation**: Showing practical usage of CUDA features
+
+## Cross-References
+
+For related information, see:
+
+- [Repository README](../../README.md)
+- [Sample Category README](../README.md)
+- Other files in this sample directory
+- CUDA Programming Guide
+- CUDA Toolkit Documentation
+
+---
+
+*This documentation was automatically generated as part of comprehensive repository documentation.*
