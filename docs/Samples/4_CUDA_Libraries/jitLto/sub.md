@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/jitLto/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 19
+- **Files Indexed**: 6
+- **Unique Keywords**: 22
 
 ## Keywords A-Z
 
@@ -24,6 +24,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/jitLto/` an
 **CUDA_SAFE_CALL**
 - [Samples/4_CUDA_Libraries/jitLto/jitLto.cpp](jitLto.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/jitLto/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **compute**
 - [Samples/4_CUDA_Libraries/jitLto/jitLto.cpp](jitLto.cpp_docs.md)
 
@@ -32,6 +35,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/jitLto/` an
 
 **DAMAGES**
 - [Samples/4_CUDA_Libraries/jitLto/jitLto.cpp](jitLto.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/jitLto/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### G
@@ -54,6 +63,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/jitLto/` an
 
 **kernel**
 - [Samples/4_CUDA_Libraries/jitLto/jitLto.cpp](jitLto.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/jitLto/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -102,6 +117,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/jitLto/` an
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

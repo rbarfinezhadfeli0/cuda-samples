@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 88
-- **Unique Keywords**: 442
+- **Files Indexed**: 124
+- **Unique Keywords**: 445
 
 ## Keywords A-Z
 
@@ -182,6 +182,14 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/` 
 
 **Create**
 - [Samples/8_Platform_Specific/Tegra/nbody_opengles/nbody_opengles.cpp](nbody_opengles/nbody_opengles.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/c_cpp_properties.json](EGLSync_CUDAEvent_Interop/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAErrorReporting/.vscode/c_cpp_properties.json](cuDLAErrorReporting/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAHybridMode/.vscode/c_cpp_properties.json](cuDLAHybridMode/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsHybrid/.vscode/c_cpp_properties.json](cuDLALayerwiseStatsHybrid/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/c_cpp_properties.json](cuDLALayerwiseStatsStandalone/.vscode/c_cpp_properties.json_docs.md)
+- *(and 7 more files)*
 
 **calls**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu_docs.md)
@@ -573,6 +581,14 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/` 
 **exitHandler**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu_docs.md)
 
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/extensions.json](EGLSync_CUDAEvent_Interop/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAErrorReporting/.vscode/extensions.json](cuDLAErrorReporting/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAHybridMode/.vscode/extensions.json](cuDLAHybridMode/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsHybrid/.vscode/extensions.json](cuDLALayerwiseStatsHybrid/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/extensions.json](cuDLALayerwiseStatsStandalone/.vscode/extensions.json_docs.md)
+- *(and 7 more files)*
+
 
 ### F
 
@@ -908,6 +924,14 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/` 
 **LogLevelMessage**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.cpp](cudaNvSciNvMedia/nvmedia_utils/log_utils.cpp_docs.md)
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.h](cudaNvSciNvMedia/nvmedia_utils/log_utils.h_docs.md)
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/launch.json](EGLSync_CUDAEvent_Interop/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAErrorReporting/.vscode/launch.json](cuDLAErrorReporting/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAHybridMode/.vscode/launch.json](cuDLAHybridMode/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsHybrid/.vscode/launch.json](cuDLALayerwiseStatsHybrid/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/launch.json](cuDLALayerwiseStatsStandalone/.vscode/launch.json_docs.md)
+- *(and 7 more files)*
 
 **launchFlipSurfaceBitsKernel**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.cpp](cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.cpp_docs.md)
@@ -1606,31 +1630,31 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### EGLSync_CUDAEvent_Interop/
 
-`BLOCK_SIZE`, `CMakeLists`, `CUDA_SAFE_CALL`, `CUDA_SAFE_CALL_NO_CLEANUP`, `DAMAGES`, `EGLSync_CUDAEvent_Interop`, `EXTENSION_LIST`, `EXTLST_DECL`, `EXTLST_ENTRY`, `EXTLST_EXTERN`, `FAILURE`, `GET_GLERROR`, `GL_READ`, `GL_SAFE_CALL`, `GL_SAFE_CALL_NO_CLEANUP`, `GL_WRITE`, `MAX_ITR`, `README`, `SUCCESS`, `WAIVED`, `_EGL_COMMON_H_`, `__device__`, `__global__`, `block`, `calls`, `checkSync`, `checkSyncOnCPU`, `checkSyncOnGPU`, `cleanup`, `cuStreamWaitEvent`
+`BLOCK_SIZE`, `CMakeLists`, `CUDA_SAFE_CALL`, `CUDA_SAFE_CALL_NO_CLEANUP`, `DAMAGES`, `EGLSync_CUDAEvent_Interop`, `EXTENSION_LIST`, `EXTLST_DECL`, `EXTLST_ENTRY`, `EXTLST_EXTERN`, `FAILURE`, `GET_GLERROR`, `GL_READ`, `GL_SAFE_CALL`, `GL_SAFE_CALL_NO_CLEANUP`, `GL_WRITE`, `MAX_ITR`, `README`, `SUCCESS`, `WAIVED`, `_EGL_COMMON_H_`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `calls`, `checkSync`, `checkSyncOnCPU`, `checkSyncOnGPU`, `cleanup`
 
 #### cuDLAErrorReporting/
 
-`CMakeLists`, `DAMAGES`, `DPRINTF`, `README`, `cleanUp`, `cuDLAErrorReporting`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `main`, `printTensorDesc`, `stat`
+`CMakeLists`, `DAMAGES`, `DPRINTF`, `README`, `c_cpp_properties`, `cleanUp`, `cuDLAErrorReporting`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `launch`, `main`, `printTensorDesc`, `stat`
 
 #### cuDLAHybridMode/
 
-`CMakeLists`, `DAMAGES`, `DPRINTF`, `README`, `cleanUp`, `cuDLAHybridMode`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `initializeInputBuffers`, `main`, `printTensorDesc`, `stat`
+`CMakeLists`, `DAMAGES`, `DPRINTF`, `README`, `c_cpp_properties`, `cleanUp`, `cuDLAHybridMode`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `initializeInputBuffers`, `launch`, `main`, `printTensorDesc`, `stat`
 
 #### cuDLALayerwiseStatsHybrid/
 
-`CMakeLists`, `DAMAGES`, `DPRINTF`, `MAX_FILENAME_LEN`, `README`, `RESERVED_SUFFIX_LEN`, `cleanUp`, `cuDLALayerwiseStatsHybrid`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `for`, `main`, `printTensorDesc`, `stat`
+`CMakeLists`, `DAMAGES`, `DPRINTF`, `MAX_FILENAME_LEN`, `README`, `RESERVED_SUFFIX_LEN`, `c_cpp_properties`, `cleanUp`, `cuDLALayerwiseStatsHybrid`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `for`, `launch`, `main`, `printTensorDesc`, `stat`
 
 #### cuDLALayerwiseStatsStandalone/
 
-`CMakeLists`, `DAMAGES`, `DPRINTF`, `MAX_FILENAME_LEN`, `NvSciSyncAttrListSetAttrs`, `README`, `RESERVED_SUFFIX_LEN`, `cleanUp`, `createAndSetAttrList`, `cuDLALayerwiseStatsStandalone`, `fillCpuWaiterAttrList`, `for`, `main`, `printTensorDesc`, `stat`
+`CMakeLists`, `DAMAGES`, `DPRINTF`, `MAX_FILENAME_LEN`, `NvSciSyncAttrListSetAttrs`, `README`, `RESERVED_SUFFIX_LEN`, `c_cpp_properties`, `cleanUp`, `createAndSetAttrList`, `cuDLALayerwiseStatsStandalone`, `extensions`, `fillCpuWaiterAttrList`, `for`, `launch`, `main`, `printTensorDesc`, `stat`
 
 #### cuDLAStandaloneMode/
 
-`CMakeLists`, `DAMAGES`, `DPRINTF`, `NvSciSyncAttrListSetAttrs`, `NvSciSyncObjSignal`, `README`, `cleanUp`, `createAndSetAttrList`, `cuDLAStandaloneMode`, `fillCpuSignalerAttrList`, `fillCpuWaiterAttrList`, `initializeInputBuffers`, `main`, `printTensorDesc`, `stat`
+`CMakeLists`, `DAMAGES`, `DPRINTF`, `NvSciSyncAttrListSetAttrs`, `NvSciSyncObjSignal`, `README`, `c_cpp_properties`, `cleanUp`, `createAndSetAttrList`, `cuDLAStandaloneMode`, `extensions`, `fillCpuSignalerAttrList`, `fillCpuWaiterAttrList`, `initializeInputBuffers`, `launch`, `main`, `printTensorDesc`, `stat`
 
 #### cudaNvSciBufMultiplanar/
 
-`ATTR_SIZE`, `CMakeLists`, `CUDA_NVSCIBUF_MULTIPLANAR_H`, `Caller`, `DAMAGES`, `DEFAULT_GPU`, `MAX_FILE_SIZE`, `PLANAR_CHROMA_HEIGHT_ORDER`, `PLANAR_CHROMA_WIDTH_ORDER`, `PLANAR_NUM_PLANES`, `Pascal`, `README`, `__global__`, `block`, `checkCudaDrvErrors`, `checkNvSciErrors`, `compareFiles`, `copyCudaArrayToYUV`, `copyExtMemToMultiPlanarArrays`, `copyYUVToCudaArrayAndFlipBits`, `cudaFree`, `cudaMemcpy`, `cudaNvSciBufMultiplanar`, `cudaNvSciBufMultiplanarApp`, `deinit`, `flipBits`, `flipSurfaceBits`, `imageKernels`, `init`, `initCuda`
+`ATTR_SIZE`, `CMakeLists`, `CUDA_NVSCIBUF_MULTIPLANAR_H`, `Caller`, `DAMAGES`, `DEFAULT_GPU`, `MAX_FILE_SIZE`, `PLANAR_CHROMA_HEIGHT_ORDER`, `PLANAR_CHROMA_WIDTH_ORDER`, `PLANAR_NUM_PLANES`, `Pascal`, `README`, `__global__`, `block`, `c_cpp_properties`, `checkCudaDrvErrors`, `checkNvSciErrors`, `compareFiles`, `copyCudaArrayToYUV`, `copyExtMemToMultiPlanarArrays`, `copyYUVToCudaArrayAndFlipBits`, `cudaFree`, `cudaMemcpy`, `cudaNvSciBufMultiplanar`, `cudaNvSciBufMultiplanarApp`, `deinit`, `extensions`, `flipBits`, `flipSurfaceBits`, `imageKernels`
 
 #### cudaNvSciNvMedia/
 
@@ -1646,11 +1670,11 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### simpleGLES/
 
-`CMakeLists`, `DAMAGES`, `FOPEN`, `GET_GLERROR`, `GLenum`, `GLubyte`, `GUI_IDLE`, `GUI_ROTATE`, `GUI_TRANSLATE`, `InitGraphicsState`, `Interop`, `MAX`, `MAX_EPSILON_ERROR`, `NOMINMAX`, `README`, `REFRESH_DELAY`, `SETUP`, `ShaderCreate`, `THRESHOLD`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `_manually_`, `block`, `bound`, `checkCudaErrors`, `checkResultCuda`, `computeFPS`, `cudaFree`, `cudaGraphicsResource`, `cudaGraphicsUnmapResources`
+`CMakeLists`, `DAMAGES`, `FOPEN`, `GET_GLERROR`, `GLenum`, `GLubyte`, `GUI_IDLE`, `GUI_ROTATE`, `GUI_TRANSLATE`, `InitGraphicsState`, `Interop`, `MAX`, `MAX_EPSILON_ERROR`, `NOMINMAX`, `README`, `REFRESH_DELAY`, `SETUP`, `ShaderCreate`, `THRESHOLD`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `_manually_`, `block`, `bound`, `c_cpp_properties`, `checkCudaErrors`, `checkResultCuda`, `computeFPS`, `cudaFree`, `cudaGraphicsResource`
 
 #### simpleGLES_EGLOutput/
 
-`CMakeLists`, `CheckExtension`, `DAMAGES`, `EGLDisplay`, `FOPEN`, `GET_GLERROR`, `GLenum`, `GLubyte`, `GUI_IDLE`, `GUI_ROTATE`, `GUI_TRANSLATE`, `InitGraphicsState`, `Interop`, `MAX`, `MAX_DEVICES`, `MAX_EPSILON_ERROR`, `NOMINMAX`, `README`, `REFRESH_DELAY`, `SETUP`, `ShaderCreate`, `THRESHOLD`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `_manually_`, `block`, `bound`, `checkCudaErrors`, `checkResultCuda`, `computeFPS`
+`CMakeLists`, `CheckExtension`, `DAMAGES`, `EGLDisplay`, `FOPEN`, `GET_GLERROR`, `GLenum`, `GLubyte`, `GUI_IDLE`, `GUI_ROTATE`, `GUI_TRANSLATE`, `InitGraphicsState`, `Interop`, `MAX`, `MAX_DEVICES`, `MAX_EPSILON_ERROR`, `NOMINMAX`, `README`, `REFRESH_DELAY`, `SETUP`, `ShaderCreate`, `THRESHOLD`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `_manually_`, `block`, `bound`, `c_cpp_properties`, `checkCudaErrors`, `checkResultCuda`
 
 
 ---

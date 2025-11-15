@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/segmentationTreeThrust/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 8
-- **Unique Keywords**: 67
+- **Files Indexed**: 11
+- **Unique Keywords**: 70
 
 ## Keywords A-Z
 
@@ -42,6 +42,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/se
 
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calculateEdgesInfo**
 - [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/kernels.cuh](kernels.cuh_docs.md)
@@ -83,6 +86,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/se
 
 **edges**
 - [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/segmentationTree.cu](segmentationTree.cu_docs.md)
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -150,6 +156,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/se
 
 **Level**
 - [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/segmentationTree.cu](segmentationTree.cu_docs.md)
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **levelsCount**
 - [Samples/2_Concepts_and_Techniques/segmentationTreeThrust/segmentationTree.cu](segmentationTree.cu_docs.md)
@@ -259,6 +268,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/se
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

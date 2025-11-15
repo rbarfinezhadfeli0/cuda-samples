@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 383
-- **Unique Keywords**: 1689
+- **Files Indexed**: 479
+- **Unique Keywords**: 1691
 
 ## Keywords A-Z
 
@@ -767,6 +767,14 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/` 
 **c99sub_rounding_control**
 - [Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/detail/c99sub_rounding_control.hpp](interval/boost/numeric/interval/detail/c99sub_rounding_control.hpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/c_cpp_properties.json](EGLStream_CUDA_CrossGPU/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/.vscode/c_cpp_properties.json](EGLStream_CUDA_Interop/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/FunctionPointers/.vscode/c_cpp_properties.json](FunctionPointers/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineP/.vscode/c_cpp_properties.json](MC_EstimatePiInlineP/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/.vscode/c_cpp_properties.json](MC_EstimatePiInlineQ/.vscode/c_cpp_properties.json_docs.md)
+- *(and 27 more files)*
+
 **calcGridHash**
 - [Samples/2_Concepts_and_Techniques/particles/particles_kernel_impl.cuh](particles/particles_kernel_impl.cuh_docs.md)
 
@@ -890,10 +898,6 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/` 
 **clamp_0_255**
 - [Samples/2_Concepts_and_Techniques/dct8x8/BmpUtil.cpp](dct8x8/BmpUtil.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/dct8x8/BmpUtil.h](dct8x8/BmpUtil.h_docs.md)
-
-**class**
-- [Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/rounding.hpp](interval/boost/numeric/interval/rounding.hpp_docs.md)
-- [Samples/2_Concepts_and_Techniques/particles/particleSystem.h](particles/particleSystem.h_docs.md)
 
 
 ### D
@@ -1302,6 +1306,14 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/` 
 
 **explicit**
 - [Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/compare/explicit.hpp](interval/boost/numeric/interval/compare/explicit.hpp_docs.md)
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/extensions.json](EGLStream_CUDA_CrossGPU/.vscode/extensions.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/.vscode/extensions.json](EGLStream_CUDA_Interop/.vscode/extensions.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/FunctionPointers/.vscode/extensions.json](FunctionPointers/.vscode/extensions.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineP/.vscode/extensions.json](MC_EstimatePiInlineP/.vscode/extensions.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/.vscode/extensions.json](MC_EstimatePiInlineQ/.vscode/extensions.json_docs.md)
+- *(and 27 more files)*
 
 
 ### F
@@ -2242,9 +2254,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/` 
 - [Samples/2_Concepts_and_Techniques/dct8x8/dct8x8.cu](dct8x8/dct8x8.cu_docs.md)
 
 **launch**
-- [Samples/2_Concepts_and_Techniques/reduction/reduction.cpp](reduction/reduction.cpp_docs.md)
-- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](reductionMultiBlockCG/reductionMultiBlockCG.cu_docs.md)
-- [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](threadFenceReduction/threadFenceReduction.cu_docs.md)
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/launch.json](EGLStream_CUDA_CrossGPU/.vscode/launch.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/.vscode/launch.json](EGLStream_CUDA_Interop/.vscode/launch.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/FunctionPointers/.vscode/launch.json](FunctionPointers/.vscode/launch.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineP/.vscode/launch.json](MC_EstimatePiInlineP/.vscode/launch.json_docs.md)
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/.vscode/launch.json](MC_EstimatePiInlineQ/.vscode/launch.json_docs.md)
+- *(and 30 more files)*
 
 **launchProducer**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/helper.h](EGLStream_CUDA_CrossGPU/helper.h_docs.md)
@@ -4285,7 +4300,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### EGLStream_CUDA_Interop/
 
-`CMakeLists`, `DAMAGES`, `EGLStreamFini`, `EGLStreamInit`, `EGLStream_CUDA_Interop`, `EGL_EGLEXT_PROTOTYPES`, `EXTENSION_LIST`, `EXTLST_DECL`, `EXTLST_ENTRY`, `EXTLST_EXTERN`, `HEIGHT`, `MAX_EGL_DEVICES`, `MAX_STRING_SIZE`, `NUM_TRAILS`, `README`, `WIDTH`, `_CUDA_CONSUMER_H_`, `_CUDA_PRODUCER_H_`, `_EGLSTRM_COMMON_H_`, `_TestArgs`, `_test_cuda_consumer_s`, `_test_cuda_producer_s`, `checkbuf`, `cuEGLStreamConsumerDisconnect`, `cuEGLStreamProducerDisconnect`, `cudaConsumerTest`, `cudaDeviceCreateConsumer`, `cudaDeviceCreateProducer`, `cudaProducerDeinit`, `cudaProducerInit`
+`CMakeLists`, `DAMAGES`, `EGLStreamFini`, `EGLStreamInit`, `EGLStream_CUDA_Interop`, `EGL_EGLEXT_PROTOTYPES`, `EXTENSION_LIST`, `EXTLST_DECL`, `EXTLST_ENTRY`, `EXTLST_EXTERN`, `HEIGHT`, `MAX_EGL_DEVICES`, `MAX_STRING_SIZE`, `NUM_TRAILS`, `README`, `WIDTH`, `_CUDA_CONSUMER_H_`, `_CUDA_PRODUCER_H_`, `_EGLSTRM_COMMON_H_`, `_TestArgs`, `_test_cuda_consumer_s`, `_test_cuda_producer_s`, `c_cpp_properties`, `checkbuf`, `cuEGLStreamConsumerDisconnect`, `cuEGLStreamProducerDisconnect`, `cudaConsumerTest`, `cudaDeviceCreateConsumer`, `cudaDeviceCreateProducer`, `cudaProducerDeinit`
 
 #### FunctionPointers/
 
@@ -4293,23 +4308,23 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### MC_EstimatePiInlineP/
 
-`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_EstimatePiInlineP`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `computeValue`, `count`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `cudasharedmem`, `curand_init`
+`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_EstimatePiInlineP`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `c_cpp_properties`, `computeValue`, `count`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `cudasharedmem`
 
 #### MC_EstimatePiInlineQ/
 
-`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `IF`, `L`, `MC_EstimatePiInlineQ`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `R`, `README`, `SharedMemory`, `T`, `TEST_H`, `TYPE_IS`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`
+`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `IF`, `L`, `MC_EstimatePiInlineQ`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `R`, `README`, `SharedMemory`, `T`, `TEST_H`, `TYPE_IS`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `c_cpp_properties`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`
 
 #### MC_EstimatePiP/
 
-`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_EstimatePiP`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `cudasharedmem`, `error`, `exit`
+`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_EstimatePiP`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `c_cpp_properties`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `cudasharedmem`, `error`
 
 #### MC_EstimatePiQ/
 
-`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_EstimatePiQ`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `cudasharedmem`, `error`, `exit`
+`BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_EstimatePiQ`, `PI`, `PIESTIMATOR_H`, `PiEstimator`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `block`, `by`, `c_cpp_properties`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `cudasharedmem`, `error`
 
 #### MC_SingleAsianOptionP/
 
-`ASIANOPTION_H`, `AsianOption`, `BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_SingleAsianOptionP`, `Option`, `PRICINGENGINE_H`, `PricingEngine`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `asianoption`, `block`, `by`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`
+`ASIANOPTION_H`, `AsianOption`, `BUILD_SHAREDMEMORY_TYPE`, `CMakeLists`, `CUDASHAREDMEM_H`, `DAMAGES`, `GPU`, `MC_SingleAsianOptionP`, `Option`, `PRICINGENGINE_H`, `PricingEngine`, `README`, `SharedMemory`, `T`, `TEST_H`, `Test`, `__device__`, `__global__`, `__shared__`, `abstract`, `argument`, `asianoption`, `block`, `by`, `c_cpp_properties`, `computeValue`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`
 
 #### README.md/
 
@@ -4317,15 +4332,15 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### boxFilter/
 
-`CMakeLists`, `DAMAGES`, `MAX_EPSILON_ERROR`, `OpenGL`, `README`, `REFRESH_DELAY`, `_BOXFILTER_KERNEL_CH_`, `__checkCudaErrors`, `__device__`, `__global__`, `block`, `boxFilter`, `boxFilterRGBA`, `boxFilter_cpu`, `boxFilter_kernel`, `checkCudaErrors`, `cleanup`, `compileASMShader`, `computeFPS`, `computeGold`, `cudaFree`, `cudaGraphicsResource`, `cudaMalloc`, `cudaMemcpy`, `d_boxfilter_rgba_x`, `d_boxfilter_rgba_y`, `d_boxfilter_x`, `d_boxfilter_x_global`, `d_boxfilter_x_tex`, `d_boxfilter_y`
+`CMakeLists`, `DAMAGES`, `MAX_EPSILON_ERROR`, `OpenGL`, `README`, `REFRESH_DELAY`, `_BOXFILTER_KERNEL_CH_`, `__checkCudaErrors`, `__device__`, `__global__`, `block`, `boxFilter`, `boxFilterRGBA`, `boxFilter_cpu`, `boxFilter_kernel`, `c_cpp_properties`, `checkCudaErrors`, `cleanup`, `compileASMShader`, `computeFPS`, `computeGold`, `cudaFree`, `cudaGraphicsResource`, `cudaMalloc`, `cudaMemcpy`, `d_boxfilter_rgba_x`, `d_boxfilter_rgba_y`, `d_boxfilter_x`, `d_boxfilter_x_global`, `d_boxfilter_x_tex`
 
 #### convolutionSeparable/
 
-`CMakeLists`, `COLUMNS_BLOCKDIM_X`, `COLUMNS_BLOCKDIM_Y`, `COLUMNS_HALO_STEPS`, `COLUMNS_RESULT_STEPS`, `CONVOLUTIONSEPARABLE_COMMON_H`, `DAMAGES`, `KERNEL_LENGTH`, `KERNEL_RADIUS`, `README`, `ROWS_BLOCKDIM_X`, `ROWS_BLOCKDIM_Y`, `ROWS_HALO_STEPS`, `ROWS_RESULT_STEPS`, `__global__`, `__shared__`, `block`, `blocks`, `convolution`, `convolutionColumnCPU`, `convolutionColumnsGPU`, `convolutionColumnsKernel`, `convolutionRowCPU`, `convolutionRowsGPU`, `convolutionRowsKernel`, `convolutionSeparable`, `convolutionSeparable_common`, `convolutionSeparable_gold`, `cudaFree`, `cudaMalloc`
+`CMakeLists`, `COLUMNS_BLOCKDIM_X`, `COLUMNS_BLOCKDIM_Y`, `COLUMNS_HALO_STEPS`, `COLUMNS_RESULT_STEPS`, `CONVOLUTIONSEPARABLE_COMMON_H`, `DAMAGES`, `KERNEL_LENGTH`, `KERNEL_RADIUS`, `README`, `ROWS_BLOCKDIM_X`, `ROWS_BLOCKDIM_Y`, `ROWS_HALO_STEPS`, `ROWS_RESULT_STEPS`, `__global__`, `__shared__`, `block`, `blocks`, `c_cpp_properties`, `convolution`, `convolutionColumnCPU`, `convolutionColumnsGPU`, `convolutionColumnsKernel`, `convolutionRowCPU`, `convolutionRowsGPU`, `convolutionRowsKernel`, `convolutionSeparable`, `convolutionSeparable_common`, `convolutionSeparable_gold`, `cudaFree`
 
 #### convolutionTexture/
 
-`CMakeLists`, `CONVOLUTIONTEXTURE_COMMON_H`, `DAMAGES`, `IMAD`, `KERNEL_LENGTH`, `KERNEL_RADIUS`, `Performance`, `README`, `UNROLL_INNER`, `__device__`, `__global__`, `block`, `blocks`, `convolution`, `convolutionColumn`, `convolutionColumnsCPU`, `convolutionColumnsGPU`, `convolutionColumnsKernel`, `convolutionRow`, `convolutionRowGPU`, `convolutionRowsCPU`, `convolutionRowsGPU`, `convolutionRowsKernel`, `convolutionTexture`, `convolutionTexture_common`, `convolutionTexture_gold`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `findCudaDevice`
+`CMakeLists`, `CONVOLUTIONTEXTURE_COMMON_H`, `DAMAGES`, `IMAD`, `KERNEL_LENGTH`, `KERNEL_RADIUS`, `Performance`, `README`, `UNROLL_INNER`, `__device__`, `__global__`, `block`, `blocks`, `c_cpp_properties`, `convolution`, `convolutionColumn`, `convolutionColumnsCPU`, `convolutionColumnsGPU`, `convolutionColumnsKernel`, `convolutionRow`, `convolutionRowGPU`, `convolutionRowsCPU`, `convolutionRowsGPU`, `convolutionRowsKernel`, `convolutionTexture`, `convolutionTexture_common`, `convolutionTexture_gold`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`
 
 #### dct8x8/
 
@@ -4337,7 +4352,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### histogram/
 
-`CMakeLists`, `DAMAGES`, `HISTOGRAM256_BIN_COUNT`, `HISTOGRAM256_THREADBLOCK_MEMORY`, `HISTOGRAM256_THREADBLOCK_SIZE`, `HISTOGRAM64_BIN_COUNT`, `HISTOGRAM64_THREADBLOCK_SIZE`, `HISTOGRAM_COMMON_H`, `LOG2_WARP_SIZE`, `MERGE_THREADBLOCK_SIZE`, `README`, `SHARED_MEMORY_BANKS`, `TAG_MASK`, `UINT_BITS`, `UMAD`, `UMUL`, `WARP_COUNT`, `WARP_SIZE`, `__device__`, `__global__`, `__shared__`, `addByte`, `addWord`, `block`, `bytes`, `closeHistogram256`, `closeHistogram64`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`
+`CMakeLists`, `DAMAGES`, `HISTOGRAM256_BIN_COUNT`, `HISTOGRAM256_THREADBLOCK_MEMORY`, `HISTOGRAM256_THREADBLOCK_SIZE`, `HISTOGRAM64_BIN_COUNT`, `HISTOGRAM64_THREADBLOCK_SIZE`, `HISTOGRAM_COMMON_H`, `LOG2_WARP_SIZE`, `MERGE_THREADBLOCK_SIZE`, `README`, `SHARED_MEMORY_BANKS`, `TAG_MASK`, `UINT_BITS`, `UMAD`, `UMUL`, `WARP_COUNT`, `WARP_SIZE`, `__device__`, `__global__`, `__shared__`, `addByte`, `addWord`, `block`, `bytes`, `c_cpp_properties`, `closeHistogram256`, `closeHistogram64`, `cudaFree`, `cudaMalloc`
 
 #### imageDenoising/
 
@@ -4345,11 +4360,11 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### inlinePTX/
 
-`CMakeLists`, `DAMAGES`, `PTX`, `README`, `__global__`, `asm`, `block`, `cudaBlockSize`, `cudaFree`, `cudaGridSize`, `cudaMalloc`, `cudaMemcpy`, `inlinePTX`, `kernel`, `main`, `sequence_cpu`, `sequence_gpu`, `thread`, `warp`
+`CMakeLists`, `DAMAGES`, `PTX`, `README`, `__global__`, `asm`, `block`, `c_cpp_properties`, `cudaBlockSize`, `cudaFree`, `cudaGridSize`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `inlinePTX`, `kernel`, `launch`, `main`, `sequence_cpu`, `sequence_gpu`, `thread`, `warp`
 
 #### inlinePTX_nvrtc/
 
-`CMakeLists`, `DAMAGES`, `PTX`, `README`, `__global__`, `asm`, `block`, `cudaBlockSize`, `cudaGridSize`, `grid`, `inlinePTX`, `inlinePTX_kernel`, `inlinePTX_nvrtc`, `kernel`, `main`, `sequence_cpu`, `sequence_gpu`, `thread`, `warp`
+`CMakeLists`, `DAMAGES`, `PTX`, `README`, `__global__`, `asm`, `block`, `c_cpp_properties`, `cudaBlockSize`, `cudaGridSize`, `extensions`, `grid`, `inlinePTX`, `inlinePTX_kernel`, `inlinePTX_nvrtc`, `kernel`, `launch`, `main`, `sequence_cpu`, `sequence_gpu`, `thread`, `warp`
 
 #### interval/
 

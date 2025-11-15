@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/lineOfSight/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 30
+- **Files Indexed**: 6
+- **Unique Keywords**: 33
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/lineOfSight
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/lineOfSight/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/lineOfSight/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/lineOfSight/lineOfSight.cu](lineOfSight.cu_docs.md)
@@ -50,6 +53,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/lineOfSight
 
 **DAMAGES**
 - [Samples/4_CUDA_Libraries/lineOfSight/lineOfSight.cu](lineOfSight.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/lineOfSight/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -86,6 +95,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/lineOfSight
 
 
 ### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/lineOfSight/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **lineOfSight**
 - [Samples/4_CUDA_Libraries/lineOfSight/CMakeLists.txt](CMakeLists.txt_docs.md)
@@ -141,6 +153,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/lineOfSight
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

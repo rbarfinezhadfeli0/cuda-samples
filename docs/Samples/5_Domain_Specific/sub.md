@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 392
-- **Unique Keywords**: 1626
+- **Files Indexed**: 491
+- **Unique Keywords**: 1629
 
 ## Keywords A-Z
 
@@ -668,6 +668,14 @@ This keyword index covers all files within `Samples/5_Domain_Specific/` and all 
 **CudaMath**
 - [Samples/5_Domain_Specific/dxtc/CudaMath.h](dxtc/CudaMath.h_docs.md)
 
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/BlackScholes/.vscode/c_cpp_properties.json](BlackScholes/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/5_Domain_Specific/BlackScholes_nvrtc/.vscode/c_cpp_properties.json](BlackScholes_nvrtc/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/5_Domain_Specific/FDTD3d/.vscode/c_cpp_properties.json](FDTD3d/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/5_Domain_Specific/HSOpticalFlow/.vscode/c_cpp_properties.json](HSOpticalFlow/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/5_Domain_Specific/Mandelbrot/.vscode/c_cpp_properties.json](Mandelbrot/.vscode/c_cpp_properties.json_docs.md)
+- *(and 28 more files)*
+
 **calcDepth**
 - [Samples/5_Domain_Specific/smokeParticles/ParticleSystem.cpp](smokeParticles/ParticleSystem.cpp_docs.md)
 - [Samples/5_Domain_Specific/smokeParticles/ParticleSystem.cuh](smokeParticles/ParticleSystem.cuh_docs.md)
@@ -774,9 +782,6 @@ This keyword index covers all files within `Samples/5_Domain_Specific/` and all 
 
 **clampF**
 - [Samples/5_Domain_Specific/NV12toBGRandResize/nv12_to_bgr_planar.cu](NV12toBGRandResize/nv12_to_bgr_planar.cu_docs.md)
-
-**classifyVoxel**
-- [Samples/5_Domain_Specific/marchingCubes/marchingCubes_kernel.cu](marchingCubes/marchingCubes_kernel.cu_docs.md)
 
 
 ### D
@@ -1212,6 +1217,14 @@ This keyword index covers all files within `Samples/5_Domain_Specific/` and all 
 - [Samples/5_Domain_Specific/binomialOptions/binomialOptions_kernel.cu](binomialOptions/binomialOptions_kernel.cu_docs.md)
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_gold.cpp](binomialOptions_nvrtc/binomialOptions_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_kernel.cu](binomialOptions_nvrtc/binomialOptions_kernel.cu_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/BlackScholes/.vscode/extensions.json](BlackScholes/.vscode/extensions.json_docs.md)
+- [Samples/5_Domain_Specific/BlackScholes_nvrtc/.vscode/extensions.json](BlackScholes_nvrtc/.vscode/extensions.json_docs.md)
+- [Samples/5_Domain_Specific/FDTD3d/.vscode/extensions.json](FDTD3d/.vscode/extensions.json_docs.md)
+- [Samples/5_Domain_Specific/HSOpticalFlow/.vscode/extensions.json](HSOpticalFlow/.vscode/extensions.json_docs.md)
+- [Samples/5_Domain_Specific/Mandelbrot/.vscode/extensions.json](Mandelbrot/.vscode/extensions.json_docs.md)
+- *(and 28 more files)*
 
 
 ### F
@@ -2380,6 +2393,14 @@ This keyword index covers all files within `Samples/5_Domain_Specific/` and all 
 
 **LoadPipeline**
 - [Samples/5_Domain_Specific/simpleD3D12/simpleD3D12.h](simpleD3D12/simpleD3D12.h_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/BlackScholes/.vscode/launch.json](BlackScholes/.vscode/launch.json_docs.md)
+- [Samples/5_Domain_Specific/BlackScholes_nvrtc/.vscode/launch.json](BlackScholes_nvrtc/.vscode/launch.json_docs.md)
+- [Samples/5_Domain_Specific/FDTD3d/.vscode/launch.json](FDTD3d/.vscode/launch.json_docs.md)
+- [Samples/5_Domain_Specific/HSOpticalFlow/.vscode/launch.json](HSOpticalFlow/.vscode/launch.json_docs.md)
+- [Samples/5_Domain_Specific/Mandelbrot/.vscode/launch.json](Mandelbrot/.vscode/launch.json_docs.md)
+- *(and 28 more files)*
 
 **launch_classifyVoxel**
 - [Samples/5_Domain_Specific/marchingCubes/marchingCubes.cpp](marchingCubes/marchingCubes.cpp_docs.md)
@@ -4662,11 +4683,11 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### BlackScholes/
 
-`BlackScholes`, `BlackScholesBodyCPU`, `BlackScholesBodyGPU`, `BlackScholesCPU`, `BlackScholesGPU`, `BlackScholes_gold`, `BlackScholes_kernel`, `CMakeLists`, `CND`, `DAMAGES`, `DIV_UP`, `ILP`, `README`, `RandFloat`, `__device__`, `__global__`, `block`, `checkCudaErrors`, `cndGPU`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `for`, `grid`, `kernel`, `main`, `printf`, `thread`
+`BlackScholes`, `BlackScholesBodyCPU`, `BlackScholesBodyGPU`, `BlackScholesCPU`, `BlackScholesGPU`, `BlackScholes_gold`, `BlackScholes_kernel`, `CMakeLists`, `CND`, `DAMAGES`, `DIV_UP`, `ILP`, `README`, `RandFloat`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cndGPU`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `for`, `grid`, `kernel`, `launch`, `main`, `printf`
 
 #### BlackScholes_nvrtc/
 
-`BlackScholes`, `BlackScholesBodyCPU`, `BlackScholesBodyGPU`, `BlackScholesCPU`, `BlackScholesGPU`, `BlackScholes_gold`, `BlackScholes_kernel`, `BlackScholes_nvrtc`, `CMakeLists`, `CND`, `DAMAGES`, `DIV_UP`, `ILP`, `README`, `RandFloat`, `__device__`, `__global__`, `block`, `checkCudaErrors`, `cndGPU`, `cudaBlockSize`, `cudaGridSize`, `for`, `grid`, `kernel`, `main`, `printf`, `thread`
+`BlackScholes`, `BlackScholesBodyCPU`, `BlackScholesBodyGPU`, `BlackScholesCPU`, `BlackScholesGPU`, `BlackScholes_gold`, `BlackScholes_kernel`, `BlackScholes_nvrtc`, `CMakeLists`, `CND`, `DAMAGES`, `DIV_UP`, `ILP`, `README`, `RandFloat`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cndGPU`, `cudaBlockSize`, `cudaGridSize`, `extensions`, `for`, `grid`, `kernel`, `launch`, `main`, `printf`
 
 #### CMakeLists.txt/
 
@@ -4674,7 +4695,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### FDTD3d/
 
-`CLAMP`, `CMakeLists`, `DAMAGES`, `FDTD`, `FDTD3d`, `FDTD3dGPU`, `FDTD3dGPUKernel`, `FDTD3dReference`, `FiniteDifferencesKernel`, `RADIUS`, `README`, `_FDTD3DGPU_H_`, `_FDTD3DREFERENCE_H_`, `_FDTD3D_H_`, `__global__`, `__shared__`, `block`, `buffer`, `bufferSrc`, `checkCudaErrors`, `compareData`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `defined`, `device`, `direction`, `exit`
+`CLAMP`, `CMakeLists`, `DAMAGES`, `FDTD`, `FDTD3d`, `FDTD3dGPU`, `FDTD3dGPUKernel`, `FDTD3dReference`, `FiniteDifferencesKernel`, `RADIUS`, `README`, `_FDTD3DGPU_H_`, `_FDTD3DREFERENCE_H_`, `_FDTD3D_H_`, `__global__`, `__shared__`, `block`, `buffer`, `bufferSrc`, `c_cpp_properties`, `checkCudaErrors`, `compareData`, `cudaDeviceProp`, `cudaFree`, `cudaFuncAttributes`, `cudaMalloc`, `cudaMemcpy`, `defined`, `device`, `direction`
 
 #### HSOpticalFlow/
 
@@ -4690,7 +4711,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### NV12toBGRandResize/
 
-`CMakeLists`, `CONV_THREADS_X`, `CONV_THREADS_Y`, `DAMAGES`, `NV12toBGRandResize`, `README`, `TEST_LOOP`, `__H_RESIZE_CONVERT__`, `__H_UTIL_`, `__device__`, `__global__`, `_nv12_to_bgr24_context_t`, `bgr`, `bgr_resize`, `block`, `blocks`, `checkCudaErrors`, `clampF`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `cudaStreamAttachMemAsync`, `dumpBGR`, `dumpRawBGR`, `dumpYUV`, `floatPlanarToChar`, `floatToChar`, `for`, `grid`, `loadNV12Frame`
+`CMakeLists`, `CONV_THREADS_X`, `CONV_THREADS_Y`, `DAMAGES`, `NV12toBGRandResize`, `README`, `TEST_LOOP`, `__H_RESIZE_CONVERT__`, `__H_UTIL_`, `__device__`, `__global__`, `_nv12_to_bgr24_context_t`, `bgr`, `bgr_resize`, `block`, `blocks`, `c_cpp_properties`, `checkCudaErrors`, `clampF`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `cudaStreamAttachMemAsync`, `dumpBGR`, `dumpRawBGR`, `dumpYUV`, `extensions`, `floatPlanarToChar`, `floatToChar`, `for`
 
 #### README.md/
 
@@ -4698,23 +4719,23 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### SobelFilter/
 
-`BlockWidth`, `CMakeLists`, `ComputeSobel`, `DAMAGES`, `Detection`, `Image`, `MAX`, `MAX_EPSILON_ERROR`, `OFFSET`, `RADIUS`, `README`, `REFRESH_DELAY`, `Resource`, `SharedPitch`, `SobelCopyImage`, `SobelFilter`, `SobelFilter_kernels`, `SobelShared`, `SobelTex`, `__SOBELFILTER_KERNELS_H_`, `__checkCudaErrors`, `__device__`, `__global__`, `__shared__`, `block`, `checkCudaErrors`, `cleanup`, `computeFPS`, `cudaFree`, `cudaGraphicsResource`
+`BlockWidth`, `CMakeLists`, `ComputeSobel`, `DAMAGES`, `Detection`, `Image`, `MAX`, `MAX_EPSILON_ERROR`, `OFFSET`, `RADIUS`, `README`, `REFRESH_DELAY`, `Resource`, `SharedPitch`, `SobelCopyImage`, `SobelFilter`, `SobelFilter_kernels`, `SobelShared`, `SobelTex`, `__SOBELFILTER_KERNELS_H_`, `__checkCudaErrors`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cleanup`, `computeFPS`, `cudaFree`
 
 #### SobolQRNG/
 
-`CMakeLists`, `Copyright`, `DAMAGES`, `L1ERROR_TOLERANCE`, `README`, `SOBOL_GOLD_H`, `SOBOL_GPU_H`, `SOBOL_H`, `SOBOL_PRIMITIVES_H`, `SobolQRNG`, `__global__`, `__shared__`, `block`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `defined`, `dimensions`, `equation`, `exit`, `ffs`, `findCudaDevice`, `for`, `grid`, `index`, `initSobolDirectionVectors`, `k_2powneg32`, `kernel`, `log2`, `main`
+`CMakeLists`, `Copyright`, `DAMAGES`, `L1ERROR_TOLERANCE`, `README`, `SOBOL_GOLD_H`, `SOBOL_GPU_H`, `SOBOL_H`, `SOBOL_PRIMITIVES_H`, `SobolQRNG`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `defined`, `dimensions`, `equation`, `exit`, `extensions`, `ffs`, `findCudaDevice`, `for`, `grid`, `index`, `initSobolDirectionVectors`, `k_2powneg32`, `kernel`
 
 #### bicubicTexture/
 
-`CMakeLists`, `DAMAGES`, `GL_TEXTURE_TYPE`, `MAX`, `MAX_EPSILON_ERROR`, `OpenGL`, `R`, `README`, `REFRESH_DELAY`, `T`, `USE_BUFFER_TEX`, `_BICUBICTEXTURE_CU_`, `_BICUBICTEXTURE_KERNEL_CUH_`, `__device__`, `__global__`, `__host__`, `bicubicTexture`, `bicubicTexture_cuda`, `bicubicTexture_kernel`, `block`, `blockSize`, `bspline_w0`, `bspline_w1`, `bspline_w2`, `bspline_w3`, `catRomFilter`, `catrom_w0`, `catrom_w1`, `catrom_w2`, `catrom_w3`
+`CMakeLists`, `DAMAGES`, `GL_TEXTURE_TYPE`, `MAX`, `MAX_EPSILON_ERROR`, `OpenGL`, `R`, `README`, `REFRESH_DELAY`, `T`, `USE_BUFFER_TEX`, `_BICUBICTEXTURE_CU_`, `_BICUBICTEXTURE_KERNEL_CUH_`, `__device__`, `__global__`, `__host__`, `bicubicTexture`, `bicubicTexture_cuda`, `bicubicTexture_kernel`, `block`, `blockSize`, `bspline_w0`, `bspline_w1`, `bspline_w2`, `bspline_w3`, `c_cpp_properties`, `catRomFilter`, `catrom_w0`, `catrom_w1`, `catrom_w2`
 
 #### bilateralFilter/
 
-`CMakeLists`, `DAMAGES`, `Distance`, `EPSILON`, `GL_TEXTURE_TYPE`, `LoadBMPFile`, `MAX_EPSILON_ERROR`, `MAX_EUCLIDEAN_D`, `MAX_FILTER_RADIUS`, `MIN_EUCLIDEAN_D`, `README`, `REFRESH_DELAY`, `__device__`, `__expf`, `__global__`, `add4`, `bilateralFilter`, `bilateralFilterGold`, `bilateralFilterRGBA`, `bilateralFilter_cpu`, `bilateral_kernel`, `block`, `blockSize`, `bmploader`, `checkCUDAProfile`, `checkCudaErrors`, `cleanup`, `compileASMShader`, `component`, `computeFPS`
+`CMakeLists`, `DAMAGES`, `Distance`, `EPSILON`, `GL_TEXTURE_TYPE`, `LoadBMPFile`, `MAX_EPSILON_ERROR`, `MAX_EUCLIDEAN_D`, `MAX_FILTER_RADIUS`, `MIN_EUCLIDEAN_D`, `README`, `REFRESH_DELAY`, `__device__`, `__expf`, `__global__`, `add4`, `bilateralFilter`, `bilateralFilterGold`, `bilateralFilterRGBA`, `bilateralFilter_cpu`, `bilateral_kernel`, `block`, `blockSize`, `bmploader`, `c_cpp_properties`, `checkCUDAProfile`, `checkCudaErrors`, `cleanup`, `compileASMShader`, `component`
 
 #### binomialOptions/
 
-`BINOMIALOPTIONS_COMMON_H`, `BlackScholesCall`, `CMakeLists`, `CND`, `DAMAGES`, `DOUBLE_PRECISION`, `ELEMS_PER_THREAD`, `MAX_OPTIONS`, `NUM_STEPS`, `README`, `REALTYPE_H`, `THREADBLOCK_SIZE`, `__device__`, `__global__`, `__shared__`, `binomialOptions`, `binomialOptionsCPU`, `binomialOptionsGPU`, `binomialOptionsKernel`, `binomialOptions_common`, `binomialOptions_gold`, `binomialOptions_kernel`, `block`, `cudaMemcpy`, `expiryCallValue`, `for`, `kernel`, `main`, `randData`, `realtype`
+`BINOMIALOPTIONS_COMMON_H`, `BlackScholesCall`, `CMakeLists`, `CND`, `DAMAGES`, `DOUBLE_PRECISION`, `ELEMS_PER_THREAD`, `MAX_OPTIONS`, `NUM_STEPS`, `README`, `REALTYPE_H`, `THREADBLOCK_SIZE`, `__device__`, `__global__`, `__shared__`, `binomialOptions`, `binomialOptionsCPU`, `binomialOptionsGPU`, `binomialOptionsKernel`, `binomialOptions_common`, `binomialOptions_gold`, `binomialOptions_kernel`, `block`, `c_cpp_properties`, `cudaMemcpy`, `expiryCallValue`, `extensions`, `for`, `kernel`, `launch`
 
 #### binomialOptions_nvrtc/
 
@@ -4722,19 +4743,19 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### convolutionFFT2D/
 
-`CMakeLists`, `CONVOLUTIONFFT2D_COMMON_H`, `DAMAGES`, `LOAD_FCOMPLEX`, `LOAD_FCOMPLEX_A`, `LOAD_FCOMPLEX_B`, `LOAD_FLOAT`, `POWER_OF_TWO`, `README`, `SET_FCOMPLEX_BASE`, `SET_FCOMPLEX_BASE_A`, `SET_FCOMPLEX_BASE_B`, `SET_FLOAT_BASE`, `USE_TEXTURE`, `__device__`, `__global__`, `block`, `convolutionClampToBorderCPU`, `convolutionFFT2D`, `convolutionFFT2D_common`, `convolutionFFT2D_gold`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `factorRadix2`, `findCudaDevice`, `getRand`, `getTwiddle`, `grid`, `iAlignUp`
+`CMakeLists`, `CONVOLUTIONFFT2D_COMMON_H`, `DAMAGES`, `LOAD_FCOMPLEX`, `LOAD_FCOMPLEX_A`, `LOAD_FCOMPLEX_B`, `LOAD_FLOAT`, `POWER_OF_TWO`, `README`, `SET_FCOMPLEX_BASE`, `SET_FCOMPLEX_BASE_A`, `SET_FCOMPLEX_BASE_B`, `SET_FLOAT_BASE`, `USE_TEXTURE`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `convolutionClampToBorderCPU`, `convolutionFFT2D`, `convolutionFFT2D_common`, `convolutionFFT2D_gold`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `factorRadix2`, `findCudaDevice`, `getRand`, `getTwiddle`
 
 #### dwtHaar1D/
 
-`CMakeLists`, `DAMAGES`, `INV_SQRT_2`, `NOMINMAX`, `README`, `_DWTHAAR1D_KERNEL_H_`, `__global__`, `__shared__`, `benefit`, `block`, `checkCudaErrors`, `compact`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `detail`, `dwtHaar1D`, `dwtHaar1D_kernel`, `findCudaDevice`, `for`, `fprintf`, `free`, `getLevels`, `grid`, `initValue`, `kernel`, `main`, `regression.gold`, `regression_2_14.gold`, `regression_2_18.gold`
+`CMakeLists`, `DAMAGES`, `INV_SQRT_2`, `NOMINMAX`, `README`, `_DWTHAAR1D_KERNEL_H_`, `__global__`, `__shared__`, `benefit`, `block`, `c_cpp_properties`, `checkCudaErrors`, `compact`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `detail`, `dwtHaar1D`, `dwtHaar1D_kernel`, `extensions`, `findCudaDevice`, `for`, `fprintf`, `free`, `getLevels`, `grid`, `initValue`, `kernel`, `launch`, `main`
 
 #### dxtc/
 
-`BlockDXT1`, `CMakeLists`, `CUDAMATH_H`, `CudaMath`, `DAMAGES`, `DDSCaps`, `DDSHeader`, `DDSPixelFormat`, `DDS_H`, `ERROR_THRESHOLD`, `INPUT_IMAGE`, `MAKEFOURCC`, `NUM_THREADS`, `PERMUTATIONS_H`, `README`, `REFERENCE_IMAGE`, `T`, `USE_TABLES`, `__debugsync`, `__device__`, `__global__`, `__host__`, `__shared__`, `bestFitLine`, `block`, `checkCudaErrors`, `colorSums`, `compareBlock`, `compareColors`, `compress`
+`BlockDXT1`, `CMakeLists`, `CUDAMATH_H`, `CudaMath`, `DAMAGES`, `DDSCaps`, `DDSHeader`, `DDSPixelFormat`, `DDS_H`, `ERROR_THRESHOLD`, `INPUT_IMAGE`, `MAKEFOURCC`, `NUM_THREADS`, `PERMUTATIONS_H`, `README`, `REFERENCE_IMAGE`, `T`, `USE_TABLES`, `__debugsync`, `__device__`, `__global__`, `__host__`, `__shared__`, `bestFitLine`, `block`, `c_cpp_properties`, `checkCudaErrors`, `colorSums`, `compareBlock`, `compareColors`
 
 #### fastWalshTransform/
 
-`CMakeLists`, `DAMAGES`, `ELEMENTARY_LOG2SIZE`, `FWT`, `FWT_KERNEL_CUH`, `Podlozhnyuk`, `README`, `__global__`, `__shared__`, `block`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dyadicConvolutionCPU`, `fastWalshTransform`, `fastWalshTransform_gold`, `fastWalshTransform_kernel`, `findCudaDevice`, `for`, `fwtBatch1Kernel`, `fwtBatch2Kernel`, `fwtBatchGPU`, `fwtCPU`, `fwt_kernel_cuh`, `grid`, `kernel`, `main`, `modulateGPU`, `modulateKernel`, `of`
+`CMakeLists`, `DAMAGES`, `ELEMENTARY_LOG2SIZE`, `FWT`, `FWT_KERNEL_CUH`, `Podlozhnyuk`, `README`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dyadicConvolutionCPU`, `extensions`, `fastWalshTransform`, `fastWalshTransform_gold`, `fastWalshTransform_kernel`, `findCudaDevice`, `for`, `fwtBatch1Kernel`, `fwtBatch2Kernel`, `fwtBatchGPU`, `fwtCPU`, `fwt_kernel_cuh`, `grid`, `kernel`, `launch`, `main`
 
 #### fluidsGL/
 

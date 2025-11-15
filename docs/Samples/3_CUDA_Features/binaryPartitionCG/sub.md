@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/binaryPartitionCG/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 17
+- **Files Indexed**: 6
+- **Unique Keywords**: 20
 
 ## Keywords A-Z
 
@@ -25,6 +25,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/binaryPartit
 **CMakeLists**
 - [Samples/3_CUDA_Features/binaryPartitionCG/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/binaryPartitionCG/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **cudaFree**
 - [Samples/3_CUDA_Features/binaryPartitionCG/binaryPartitionCG.cu](binaryPartitionCG.cu_docs.md)
 
@@ -39,6 +42,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/binaryPartit
 
 **DAMAGES**
 - [Samples/3_CUDA_Features/binaryPartitionCG/binaryPartitionCG.cu](binaryPartitionCG.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/binaryPartitionCG/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### G
@@ -57,6 +66,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/binaryPartit
 
 **kernel**
 - [Samples/3_CUDA_Features/binaryPartitionCG/binaryPartitionCG.cu](binaryPartitionCG.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/binaryPartitionCG/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -99,6 +114,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/binaryPartit
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

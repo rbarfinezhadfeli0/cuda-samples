@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/bindlessTexture/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 12
-- **Unique Keywords**: 74
+- **Files Indexed**: 15
+- **Unique Keywords**: 77
 
 ## Keywords A-Z
 
@@ -32,6 +32,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/bindlessText
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/bindlessTexture/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/bindlessTexture/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/3_CUDA_Features/bindlessTexture/bindlessTexture.cpp](bindlessTexture.cpp_docs.md)
@@ -95,6 +98,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/bindlessText
 
 **encodeTextureObject**
 - [Samples/3_CUDA_Features/bindlessTexture/bindlessTexture_kernel.cu](bindlessTexture_kernel.cu_docs.md)
+
+**extensions**
+- [Samples/3_CUDA_Features/bindlessTexture/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -173,6 +179,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/bindlessText
 
 
 ### L
+
+**launch**
+- [Samples/3_CUDA_Features/bindlessTexture/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadImageData**
 - [Samples/3_CUDA_Features/bindlessTexture/bindlessTexture.cpp](bindlessTexture.cpp_docs.md)
@@ -283,6 +292,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/bindlessText
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

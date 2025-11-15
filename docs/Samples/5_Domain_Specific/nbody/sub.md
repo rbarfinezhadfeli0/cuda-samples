@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/nbody/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 16
-- **Unique Keywords**: 144
+- **Files Indexed**: 19
+- **Unique Keywords**: 147
 
 ## Keywords A-Z
 
@@ -64,6 +64,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/nbody/` an
 
 **Create**
 - [Samples/5_Domain_Specific/nbody/nbody.cpp](nbody.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/nbody/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/nbody/bodysystemcuda_impl.h](bodysystemcuda_impl.h_docs.md)
@@ -142,6 +145,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/nbody/` an
 
 **evalHermite**
 - [Samples/5_Domain_Specific/nbody/render_particles.cpp](render_particles.cpp_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/nbody/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -251,6 +257,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/nbody/` an
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/nbody/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadTipsyFile**
 - [Samples/5_Domain_Specific/nbody/bodysystem.h](bodysystem.h_docs.md)
@@ -481,6 +490,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/nbody/` an
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

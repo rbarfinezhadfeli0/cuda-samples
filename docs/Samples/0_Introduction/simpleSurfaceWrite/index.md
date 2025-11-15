@@ -6,7 +6,14 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `simpleSurfaceWrite`
 
-## Subfolders (1)
+## Subfolders (2)
+
+### .vscode/
+
+- **Path**: `Samples/0_Introduction/simpleSurfaceWrite/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
 
 ### data/
 

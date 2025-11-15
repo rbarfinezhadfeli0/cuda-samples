@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/6_Performance/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 25
-- **Unique Keywords**: 122
+- **Files Indexed**: 40
+- **Unique Keywords**: 125
 
 ## Keywords A-Z
 
@@ -48,6 +48,13 @@ This keyword index covers all files within `Samples/6_Performance/` and all its 
 
 **CU_INIT_UUID**
 - [Samples/6_Performance/UnifiedMemoryPerf/helperFunctions.cpp](UnifiedMemoryPerf/helperFunctions.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/6_Performance/LargeKernelParameter/.vscode/c_cpp_properties.json](LargeKernelParameter/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/6_Performance/UnifiedMemoryPerf/.vscode/c_cpp_properties.json](UnifiedMemoryPerf/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/6_Performance/alignedTypes/.vscode/c_cpp_properties.json](alignedTypes/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/6_Performance/cudaGraphsPerfScaling/.vscode/c_cpp_properties.json](cudaGraphsPerfScaling/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/6_Performance/transpose/.vscode/c_cpp_properties.json](transpose/.vscode/c_cpp_properties.json_docs.md)
 
 **calculateAverageAndStdDev**
 - [Samples/6_Performance/UnifiedMemoryPerf/helperFunctions.cpp](UnifiedMemoryPerf/helperFunctions.cpp_docs.md)
@@ -148,6 +155,13 @@ This keyword index covers all files within `Samples/6_Performance/` and all its 
 
 **empty**
 - [Samples/6_Performance/cudaGraphsPerfScaling/cudaGraphPerfScaling.cu](cudaGraphsPerfScaling/cudaGraphPerfScaling.cu_docs.md)
+
+**extensions**
+- [Samples/6_Performance/LargeKernelParameter/.vscode/extensions.json](LargeKernelParameter/.vscode/extensions.json_docs.md)
+- [Samples/6_Performance/UnifiedMemoryPerf/.vscode/extensions.json](UnifiedMemoryPerf/.vscode/extensions.json_docs.md)
+- [Samples/6_Performance/alignedTypes/.vscode/extensions.json](alignedTypes/.vscode/extensions.json_docs.md)
+- [Samples/6_Performance/cudaGraphsPerfScaling/.vscode/extensions.json](cudaGraphsPerfScaling/.vscode/extensions.json_docs.md)
+- [Samples/6_Performance/transpose/.vscode/extensions.json](transpose/.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -253,6 +267,13 @@ This keyword index covers all files within `Samples/6_Performance/` and all its 
 **LargeKernelParameter**
 - [Samples/6_Performance/LargeKernelParameter/CMakeLists.txt](LargeKernelParameter/CMakeLists.txt_docs.md)
 - [Samples/6_Performance/LargeKernelParameter/LargeKernelParameter.cu](LargeKernelParameter/LargeKernelParameter.cu_docs.md)
+
+**launch**
+- [Samples/6_Performance/LargeKernelParameter/.vscode/launch.json](LargeKernelParameter/.vscode/launch.json_docs.md)
+- [Samples/6_Performance/UnifiedMemoryPerf/.vscode/launch.json](UnifiedMemoryPerf/.vscode/launch.json_docs.md)
+- [Samples/6_Performance/alignedTypes/.vscode/launch.json](alignedTypes/.vscode/launch.json_docs.md)
+- [Samples/6_Performance/cudaGraphsPerfScaling/.vscode/launch.json](cudaGraphsPerfScaling/.vscode/launch.json_docs.md)
+- [Samples/6_Performance/transpose/.vscode/launch.json](transpose/.vscode/launch.json_docs.md)
 
 
 ### M
@@ -497,7 +518,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### LargeKernelParameter/
 
-`CMakeLists`, `CONST_COPIED_PARAMS`, `DAMAGES`, `KERNEL_PARAM_LIMIT`, `LargeKernelParameter`, `README`, `TEST_ITERATIONS`, `TOTAL_PARAMS`, `__global__`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `for`, `grid`, `kernel`, `kernelDefault`, `kernelLargeParam`, `main`, `report_time`
+`CMakeLists`, `CONST_COPIED_PARAMS`, `DAMAGES`, `KERNEL_PARAM_LIMIT`, `LargeKernelParameter`, `README`, `TEST_ITERATIONS`, `TOTAL_PARAMS`, `__global__`, `c_cpp_properties`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `for`, `grid`, `kernel`, `kernelDefault`, `kernelLargeParam`, `launch`, `main`, `report_time`
 
 #### README.md/
 
@@ -505,19 +526,19 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### UnifiedMemoryPerf/
 
-`BLOCK_SIZE`, `CMakeLists`, `CU_INIT_UUID`, `DAMAGES`, `KB_str`, `MB_str`, `ONE_KB`, `ONE_MB`, `README`, `RandFloat`, `UNITS_BW`, `UNITS_Time`, `UnifiedMemoryPerf`, `VERIFY_GPU_CORRECTNESS`, `_COMMON_DEFS_`, `__global__`, `__shared__`, `__syncthreads`, `block`, `calculateAverageAndStdDev`, `calculateStdDevBandwidth`, `checkCudaErrors`, `commonDefs`, `commonKernels`, `compareDoubles`, `copyMatrix`, `createAndInitTestResults`, `createResultDataAndAddToTestResults`, `cudaFree`, `cudaMalloc`
+`BLOCK_SIZE`, `CMakeLists`, `CU_INIT_UUID`, `DAMAGES`, `KB_str`, `MB_str`, `ONE_KB`, `ONE_MB`, `README`, `RandFloat`, `UNITS_BW`, `UNITS_Time`, `UnifiedMemoryPerf`, `VERIFY_GPU_CORRECTNESS`, `_COMMON_DEFS_`, `__global__`, `__shared__`, `__syncthreads`, `block`, `c_cpp_properties`, `calculateAverageAndStdDev`, `calculateStdDevBandwidth`, `checkCudaErrors`, `commonDefs`, `commonKernels`, `compareDoubles`, `copyMatrix`, `createAndInitTestResults`, `createResultDataAndAddToTestResults`, `cudaFree`
 
 #### alignedTypes/
 
-`CMakeLists`, `DAMAGES`, `README`, `TData`, `__align__`, `__global__`, `alignedTypes`, `block`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `grid`, `hardware`, `iAlignDown`, `iAlignUp`, `iDivDown`, `iDivUp`, `kernel`, `main`, `printf`, `runTest`, `testCPU`, `testKernel`, `thread`
+`CMakeLists`, `DAMAGES`, `README`, `TData`, `__align__`, `__global__`, `alignedTypes`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `grid`, `hardware`, `iAlignDown`, `iAlignUp`, `iDivDown`, `iDivUp`, `kernel`, `launch`, `main`, `printf`, `runTest`, `testCPU`, `testKernel`, `thread`
 
 #### cudaGraphsPerfScaling/
 
-`CMakeLists`, `DAMAGES`, `RANGE`, `RANGE_POP`, `RANGE_PUSH`, `README`, `Tracer`, `USE_NVTX`, `__device__`, `__global__`, `__globaltimer`, `block`, `createParallelChain`, `cudaFree`, `cudaGraphPerfScaling`, `cudaGraphsPerfScaling`, `cudaMalloc`, `cudaStreamSynchronize`, `cudaStreamWaitEvent`, `dataCollection`, `delay`, `empty`, `getAsyncMicroSecondDuration`, `getMicroSecondDuration`, `hostData`, `kernel`, `main`, `postUploadAnnotation`, `preUploadAnnotation`, `runDemo`
+`CMakeLists`, `DAMAGES`, `RANGE`, `RANGE_POP`, `RANGE_PUSH`, `README`, `Tracer`, `USE_NVTX`, `__device__`, `__global__`, `__globaltimer`, `block`, `c_cpp_properties`, `createParallelChain`, `cudaFree`, `cudaGraphPerfScaling`, `cudaGraphsPerfScaling`, `cudaMalloc`, `cudaStreamSynchronize`, `cudaStreamWaitEvent`, `dataCollection`, `delay`, `empty`, `extensions`, `getAsyncMicroSecondDuration`, `getMicroSecondDuration`, `hostData`, `kernel`, `launch`, `main`
 
 #### transpose/
 
-`BLOCK_ROWS`, `CMakeLists`, `DAMAGES`, `FLOOR`, `NUM_REPS`, `README`, `TILE_DIM`, `__global__`, `__shared__`, `block`, `checkCudaErrors`, `computeTransposeGold`, `copy`, `copySharedMem`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `factor`, `for`, `free`, `getParams`, `grid`, `kernel`, `main`, `matrices`, `matrix`, `printf`, `showHelp`, `size`, `switch`
+`BLOCK_ROWS`, `CMakeLists`, `DAMAGES`, `FLOOR`, `NUM_REPS`, `README`, `TILE_DIM`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `computeTransposeGold`, `copy`, `copySharedMem`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `factor`, `for`, `free`, `getParams`, `grid`, `kernel`, `launch`, `main`, `matrices`, `matrix`, `printf`
 
 
 ---

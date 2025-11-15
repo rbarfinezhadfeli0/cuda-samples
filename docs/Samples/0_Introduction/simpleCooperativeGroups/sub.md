@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleCooperativeGroups/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 15
+- **Files Indexed**: 6
+- **Unique Keywords**: 18
 
 ## Keywords A-Z
 
@@ -27,6 +27,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCoopera
 **CMakeLists**
 - [Samples/0_Introduction/simpleCooperativeGroups/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleCooperativeGroups/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **cgkernel**
 - [Samples/0_Introduction/simpleCooperativeGroups/simpleCooperativeGroups.cu](simpleCooperativeGroups.cu_docs.md)
 
@@ -35,6 +38,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCoopera
 
 **DAMAGES**
 - [Samples/0_Introduction/simpleCooperativeGroups/simpleCooperativeGroups.cu](simpleCooperativeGroups.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleCooperativeGroups/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -47,6 +56,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCoopera
 
 **kernel**
 - [Samples/0_Introduction/simpleCooperativeGroups/simpleCooperativeGroups.cu](simpleCooperativeGroups.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleCooperativeGroups/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -84,6 +99,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCoopera
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

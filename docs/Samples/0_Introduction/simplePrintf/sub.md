@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simplePrintf/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 14
+- **Files Indexed**: 6
+- **Unique Keywords**: 17
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/simplePrintf/
 
 **CMakeLists**
 - [Samples/0_Introduction/simplePrintf/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simplePrintf/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simplePrintf/simplePrintf.cu](simplePrintf.cu_docs.md)
@@ -37,10 +40,22 @@ This keyword index covers all files within `Samples/0_Introduction/simplePrintf/
 - [Samples/0_Introduction/simplePrintf/simplePrintf.cu](simplePrintf.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simplePrintf/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **grid**
 - [Samples/0_Introduction/simplePrintf/simplePrintf.cu](simplePrintf.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simplePrintf/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -81,6 +96,10 @@ This keyword index covers all files within `Samples/0_Introduction/simplePrintf/
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

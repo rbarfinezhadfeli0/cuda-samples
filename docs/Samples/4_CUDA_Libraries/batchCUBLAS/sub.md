@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/batchCUBLAS/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 72
+- **Files Indexed**: 7
+- **Unique Keywords**: 75
 
 ## Keywords A-Z
 
@@ -73,6 +73,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/batchCUBLAS
 
 **CUDA_ZNEW**
 - [Samples/4_CUDA_Libraries/batchCUBLAS/batchCUBLAS.h](batchCUBLAS.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/batchCUBLAS/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cuEqual**
 - [Samples/4_CUDA_Libraries/batchCUBLAS/batchCUBLAS.h](batchCUBLAS.h_docs.md)
@@ -142,6 +145,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/batchCUBLAS
 **error**
 - [Samples/4_CUDA_Libraries/batchCUBLAS/batchCUBLAS.cpp](batchCUBLAS.cpp_docs.md)
 
+**extensions**
+- [Samples/4_CUDA_Libraries/batchCUBLAS/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -197,6 +203,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/batchCUBLAS
 
 **kernel**
 - [Samples/4_CUDA_Libraries/batchCUBLAS/batchCUBLAS.cpp](batchCUBLAS.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/batchCUBLAS/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -282,6 +294,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/batchCUBLAS
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/matrixMul_nvrtc/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 29
+- **Files Indexed**: 7
+- **Unique Keywords**: 32
 
 ## Keywords A-Z
 
@@ -21,6 +21,9 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul_nvr
 
 **CMakeLists**
 - [Samples/0_Introduction/matrixMul_nvrtc/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/matrixMul_nvrtc/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/matrixMul_nvrtc/matrixMul.cpp](matrixMul.cpp_docs.md)
@@ -45,6 +48,12 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul_nvr
 - [Samples/0_Introduction/matrixMul_nvrtc/matrixMul.cpp](matrixMul.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/matrixMul_nvrtc/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -66,6 +75,12 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul_nvr
 **kernel**
 - [Samples/0_Introduction/matrixMul_nvrtc/matrixMul.cpp](matrixMul.cpp_docs.md)
 - [Samples/0_Introduction/matrixMul_nvrtc/matrixMul_kernel.cu](matrixMul_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/matrixMul_nvrtc/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -134,6 +149,10 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul_nvr
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

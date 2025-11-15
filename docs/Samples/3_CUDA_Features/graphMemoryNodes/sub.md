@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/graphMemoryNodes/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 32
+- **Files Indexed**: 6
+- **Unique Keywords**: 35
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/graphMemoryN
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/graphMemoryNodes/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/graphMemoryNodes/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/3_CUDA_Features/graphMemoryNodes/graphMemoryNodes.cu](graphMemoryNodes.cu_docs.md)
@@ -61,6 +64,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/graphMemoryN
 - [Samples/3_CUDA_Features/graphMemoryNodes/graphMemoryNodes.cu](graphMemoryNodes.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/graphMemoryNodes/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **fillRandomly**
@@ -81,6 +90,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/graphMemoryN
 
 **kernel**
 - [Samples/3_CUDA_Features/graphMemoryNodes/graphMemoryNodes.cu](graphMemoryNodes.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/graphMemoryNodes/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -153,6 +168,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/graphMemoryN
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

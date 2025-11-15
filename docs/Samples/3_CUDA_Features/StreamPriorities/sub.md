@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/StreamPriorities/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 21
+- **Files Indexed**: 6
+- **Unique Keywords**: 24
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/StreamPriori
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/StreamPriorities/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/StreamPriorities/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaMalloc**
 - [Samples/3_CUDA_Features/StreamPriorities/StreamPriorities.cu](StreamPriorities.cu_docs.md)
@@ -45,6 +48,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/StreamPriori
 **ERR_NE**
 - [Samples/3_CUDA_Features/StreamPriorities/StreamPriorities.cu](StreamPriorities.cu_docs.md)
 
+**extensions**
+- [Samples/3_CUDA_Features/StreamPriorities/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### G
 
@@ -56,6 +62,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/StreamPriori
 
 **kernel**
 - [Samples/3_CUDA_Features/StreamPriorities/StreamPriorities.cu](StreamPriorities.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/StreamPriorities/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -108,6 +120,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/StreamPriori
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

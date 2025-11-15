@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleCubemapTexture/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 21
+- **Files Indexed**: 6
+- **Unique Keywords**: 24
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCubemap
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleCubemapTexture/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleCubemapTexture/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleCubemapTexture/simpleCubemapTexture.cu](simpleCubemapTexture.cu_docs.md)
@@ -49,6 +52,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCubemap
 - [Samples/0_Introduction/simpleCubemapTexture/simpleCubemapTexture.cu](simpleCubemapTexture.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleCubemapTexture/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **free**
@@ -65,6 +74,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCubemap
 
 **kernel**
 - [Samples/0_Introduction/simpleCubemapTexture/simpleCubemapTexture.cu](simpleCubemapTexture.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleCubemapTexture/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -108,6 +123,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCubemap
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/radixSortThrust/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 10
+- **Files Indexed**: 7
+- **Unique Keywords**: 13
 
 ## Keywords A-Z
 
@@ -15,6 +15,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ra
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/radixSortThrust/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/radixSortThrust/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 
 ### D
 
@@ -22,10 +25,22 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ra
 - [Samples/2_Concepts_and_Techniques/radixSortThrust/radixSortThrust.cu](radixSortThrust.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/radixSortThrust/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### K
 
 **keys**
 - [Samples/2_Concepts_and_Techniques/radixSortThrust/radixSortThrust.cu](radixSortThrust.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/radixSortThrust/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -69,6 +84,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ra
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

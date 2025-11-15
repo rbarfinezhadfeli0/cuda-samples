@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/smokeParticles/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 32
-- **Unique Keywords**: 289
+- **Files Indexed**: 35
+- **Unique Keywords**: 292
 
 ## Keywords A-Z
 
@@ -90,6 +90,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/smokeParti
 - [Samples/5_Domain_Specific/smokeParticles/nvMatrix.h](nvMatrix.h_docs.md)
 - [Samples/5_Domain_Specific/smokeParticles/nvQuaternion.h](nvQuaternion.h_docs.md)
 - [Samples/5_Domain_Specific/smokeParticles/nvVector.h](nvVector.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/smokeParticles/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calcDepth**
 - [Samples/5_Domain_Specific/smokeParticles/ParticleSystem.cpp](ParticleSystem.cpp_docs.md)
@@ -271,6 +274,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/smokeParti
 
 **endSceneRender**
 - [Samples/5_Domain_Specific/smokeParticles/SmokeRenderer.h](SmokeRenderer.h_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/smokeParticles/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -534,6 +540,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/smokeParti
 - [Samples/5_Domain_Specific/smokeParticles/framebufferObject.h](framebufferObject.h_docs.md)
 - [Samples/5_Domain_Specific/smokeParticles/renderbuffer.cpp](renderbuffer.cpp_docs.md)
 - [Samples/5_Domain_Specific/smokeParticles/renderbuffer.h](renderbuffer.h_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/smokeParticles/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **length**
 - [Samples/5_Domain_Specific/smokeParticles/nvVector.h](nvVector.h_docs.md)
@@ -1009,6 +1018,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/smokeParti
 This section maps major keywords to the folders where they are most prevalent.
 
 
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
+
 #### CMakeLists.txt/
 
 `CMakeLists`, `smokeParticles`
@@ -1084,10 +1097,6 @@ This section maps major keywords to the folders where they are most prevalent.
 #### nvQuaternion.h/
 
 `Copyright`, `DAMAGES`, `NV_QUATERNION_H`, `T`, `TORT`, `agreement`, `conjugate`, `get_value`, `mult_vec`, `normalize`, `nvQuaternion`, `quaternion`, `scale_angle`, `vec2`, `vec3`, `vec4`
-
-#### nvVector.h/
-
-`Copyright`, `DAMAGES`, `NV_VECTOR_H`, `T`, `TORT`, `agreement`, `dot`, `for`, `length`, `max`, `min`, `normalize`, `nvVector`, `size`, `square_norm`, `sum`, `vec2`, `vec3`, `vec4`
 
 
 ---

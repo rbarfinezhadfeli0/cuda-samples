@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/FunctionPointers/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 9
-- **Unique Keywords**: 65
+- **Files Indexed**: 12
+- **Unique Keywords**: 68
 
 ## Keywords A-Z
 
@@ -37,6 +37,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/Fu
 
 **ComputeSobel**
 - [Samples/2_Concepts_and_Techniques/FunctionPointers/FunctionPointers_kernels.cu](FunctionPointers_kernels.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/FunctionPointers/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **char**
 - [Samples/2_Concepts_and_Techniques/FunctionPointers/FunctionPointers_kernels.cu](FunctionPointers_kernels.cu_docs.md)
@@ -93,6 +96,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/Fu
 **EXIT_WAIVED**
 - [Samples/2_Concepts_and_Techniques/FunctionPointers/FunctionPointers.cpp](FunctionPointers.cpp_docs.md)
 
+**extensions**
+- [Samples/2_Concepts_and_Techniques/FunctionPointers/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -146,6 +152,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/Fu
 
 
 ### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/FunctionPointers/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadDefaultImage**
 - [Samples/2_Concepts_and_Techniques/FunctionPointers/FunctionPointers.cpp](FunctionPointers.cpp_docs.md)
@@ -267,6 +276,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/Fu
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleMPI/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 22
+- **Files Indexed**: 8
+- **Unique Keywords**: 25
 
 ## Keywords A-Z
 
@@ -25,6 +25,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMPI/` a
 
 **CUDA_CHECK**
 - [Samples/0_Introduction/simpleMPI/simpleMPI.cu](simpleMPI.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleMPI/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **computeGPU**
 - [Samples/0_Introduction/simpleMPI/simpleMPI.cpp](simpleMPI.cpp_docs.md)
@@ -52,6 +55,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMPI/` a
 - [Samples/0_Introduction/simpleMPI/simpleMPI.cu](simpleMPI.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleMPI/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **grid**
@@ -71,6 +80,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMPI/` a
 
 **kernel**
 - [Samples/0_Introduction/simpleMPI/simpleMPI.cu](simpleMPI.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleMPI/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -127,6 +142,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMPI/` a
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

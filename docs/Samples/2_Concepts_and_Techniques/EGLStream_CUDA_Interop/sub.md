@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 13
-- **Unique Keywords**: 64
+- **Files Indexed**: 16
+- **Unique Keywords**: 67
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkbuf**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/cuda_consumer.cpp](cuda_consumer.cpp_docs.md)
@@ -178,6 +181,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/eglstrm_common.cpp](eglstrm_common.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/eglstrm_common.h](eglstrm_common.h_docs.md)
 
+**extensions**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -190,6 +196,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 
 **HEIGHT**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/eglstrm_common.h](eglstrm_common.h_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_Interop/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -250,6 +262,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 20
+- **Files Indexed**: 6
+- **Unique Keywords**: 23
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUFFT
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaFree**
 - [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/simpleCUFFT_2d_MGPU.cu](simpleCUFFT_2d_MGPU.cu_docs.md)
@@ -43,6 +46,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUFFT
 - [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/simpleCUFFT_2d_MGPU.cu](simpleCUFFT_2d_MGPU.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -62,6 +71,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUFFT
 
 **kernel**
 - [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/simpleCUFFT_2d_MGPU.cu](simpleCUFFT_2d_MGPU.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/simpleCUFFT_2d_MGPU/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -108,6 +123,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUFFT
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

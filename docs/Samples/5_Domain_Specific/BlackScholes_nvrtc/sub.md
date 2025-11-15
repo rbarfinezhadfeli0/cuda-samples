@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/BlackScholes_nvrtc/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 28
+- **Files Indexed**: 8
+- **Unique Keywords**: 31
 
 ## Keywords A-Z
 
@@ -50,6 +50,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/BlackSchol
 **CND**
 - [Samples/5_Domain_Specific/BlackScholes_nvrtc/BlackScholes_gold.cpp](BlackScholes_gold.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/BlackScholes_nvrtc/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/BlackScholes_nvrtc/BlackScholes.cpp](BlackScholes.cpp_docs.md)
 
@@ -74,6 +77,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/BlackSchol
 - [Samples/5_Domain_Specific/BlackScholes_nvrtc/BlackScholes.cpp](BlackScholes.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/BlackScholes_nvrtc/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -96,6 +105,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/BlackSchol
 
 **kernel**
 - [Samples/5_Domain_Specific/BlackScholes_nvrtc/BlackScholes.cpp](BlackScholes.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/BlackScholes_nvrtc/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -132,6 +147,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/BlackSchol
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### BlackScholes.cpp/
 

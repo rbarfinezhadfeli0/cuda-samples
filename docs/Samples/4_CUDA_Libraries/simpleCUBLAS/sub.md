@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUBLAS/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 11
+- **Files Indexed**: 6
+- **Unique Keywords**: 14
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUBLA
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/simpleCUBLAS/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/simpleCUBLAS/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaFree**
 - [Samples/4_CUDA_Libraries/simpleCUBLAS/simpleCUBLAS.cpp](simpleCUBLAS.cpp_docs.md)
@@ -33,11 +36,20 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUBLA
 **error**
 - [Samples/4_CUDA_Libraries/simpleCUBLAS/simpleCUBLAS.cpp](simpleCUBLAS.cpp_docs.md)
 
+**extensions**
+- [Samples/4_CUDA_Libraries/simpleCUBLAS/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### K
 
 **kernel**
 - [Samples/4_CUDA_Libraries/simpleCUBLAS/simpleCUBLAS.cpp](simpleCUBLAS.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/simpleCUBLAS/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -75,6 +87,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/simpleCUBLA
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

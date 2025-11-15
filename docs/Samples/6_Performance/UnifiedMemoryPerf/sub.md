@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/6_Performance/UnifiedMemoryPerf/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 7
-- **Unique Keywords**: 56
+- **Files Indexed**: 10
+- **Unique Keywords**: 59
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/6_Performance/UnifiedMemoryP
 
 **CU_INIT_UUID**
 - [Samples/6_Performance/UnifiedMemoryPerf/helperFunctions.cpp](helperFunctions.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/6_Performance/UnifiedMemoryPerf/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calculateAverageAndStdDev**
 - [Samples/6_Performance/UnifiedMemoryPerf/helperFunctions.cpp](helperFunctions.cpp_docs.md)
@@ -77,6 +80,12 @@ This keyword index covers all files within `Samples/6_Performance/UnifiedMemoryP
 - [Samples/6_Performance/UnifiedMemoryPerf/matrixMultiplyPerf.cu](matrixMultiplyPerf.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/6_Performance/UnifiedMemoryPerf/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **fillMatrixWithRandomValues**
@@ -116,6 +125,12 @@ This keyword index covers all files within `Samples/6_Performance/UnifiedMemoryP
 
 **kernel**
 - [Samples/6_Performance/UnifiedMemoryPerf/matrixMultiplyPerf.cu](matrixMultiplyPerf.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/6_Performance/UnifiedMemoryPerf/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -233,6 +248,10 @@ This keyword index covers all files within `Samples/6_Performance/UnifiedMemoryP
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

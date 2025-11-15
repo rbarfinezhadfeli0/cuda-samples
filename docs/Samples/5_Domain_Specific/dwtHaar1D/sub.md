@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/dwtHaar1D/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 10
-- **Unique Keywords**: 38
+- **Files Indexed**: 13
+- **Unique Keywords**: 41
 
 ## Keywords A-Z
 
@@ -25,6 +25,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dwtHaar1D/
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/dwtHaar1D/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/dwtHaar1D/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/dwtHaar1D/dwtHaar1D.cu](dwtHaar1D.cu_docs.md)
@@ -59,6 +62,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dwtHaar1D/
 
 **dwtHaar1D_kernel**
 - [Samples/5_Domain_Specific/dwtHaar1D/dwtHaar1D_kernel.cuh](dwtHaar1D_kernel.cuh_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/dwtHaar1D/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -100,6 +109,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dwtHaar1D/
 
 **kernel**
 - [Samples/5_Domain_Specific/dwtHaar1D/dwtHaar1D.cu](dwtHaar1D.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/dwtHaar1D/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -170,6 +185,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dwtHaar1D/
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

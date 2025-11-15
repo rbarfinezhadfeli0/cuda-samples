@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/FilterBorderControlNPP/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 32
+- **Files Indexed**: 7
+- **Unique Keywords**: 35
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/FilterBorde
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/FilterBorderControlNPP/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/FilterBorderControlNPP/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaDeviceInit**
 - [Samples/4_CUDA_Libraries/FilterBorderControlNPP/FilterBorderControlNPP.cpp](FilterBorderControlNPP.cpp_docs.md)
@@ -36,6 +39,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/FilterBorde
 **edge**
 - [Samples/4_CUDA_Libraries/FilterBorderControlNPP/FilterBorderControlNPP.cpp](FilterBorderControlNPP.cpp_docs.md)
 
+**extensions**
+- [Samples/4_CUDA_Libraries/FilterBorderControlNPP/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -57,6 +63,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/FilterBorde
 
 **kernel**
 - [Samples/4_CUDA_Libraries/FilterBorderControlNPP/FilterBorderControlNPP.cpp](FilterBorderControlNPP.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/FilterBorderControlNPP/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -147,6 +159,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/FilterBorde
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

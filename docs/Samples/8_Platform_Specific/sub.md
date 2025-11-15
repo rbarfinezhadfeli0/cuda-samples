@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 88
-- **Unique Keywords**: 442
+- **Files Indexed**: 124
+- **Unique Keywords**: 445
 
 ## Keywords A-Z
 
@@ -182,6 +182,14 @@ This keyword index covers all files within `Samples/8_Platform_Specific/` and al
 
 **Create**
 - [Samples/8_Platform_Specific/Tegra/nbody_opengles/nbody_opengles.cpp](Tegra/nbody_opengles/nbody_opengles.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/c_cpp_properties.json](Tegra/EGLSync_CUDAEvent_Interop/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAErrorReporting/.vscode/c_cpp_properties.json](Tegra/cuDLAErrorReporting/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAHybridMode/.vscode/c_cpp_properties.json](Tegra/cuDLAHybridMode/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsHybrid/.vscode/c_cpp_properties.json](Tegra/cuDLALayerwiseStatsHybrid/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/c_cpp_properties.json](Tegra/cuDLALayerwiseStatsStandalone/.vscode/c_cpp_properties.json_docs.md)
+- *(and 7 more files)*
 
 **calls**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu_docs.md)
@@ -573,6 +581,14 @@ This keyword index covers all files within `Samples/8_Platform_Specific/` and al
 **exitHandler**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu_docs.md)
 
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/extensions.json](Tegra/EGLSync_CUDAEvent_Interop/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAErrorReporting/.vscode/extensions.json](Tegra/cuDLAErrorReporting/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAHybridMode/.vscode/extensions.json](Tegra/cuDLAHybridMode/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsHybrid/.vscode/extensions.json](Tegra/cuDLALayerwiseStatsHybrid/.vscode/extensions.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/extensions.json](Tegra/cuDLALayerwiseStatsStandalone/.vscode/extensions.json_docs.md)
+- *(and 7 more files)*
+
 
 ### F
 
@@ -908,6 +924,14 @@ This keyword index covers all files within `Samples/8_Platform_Specific/` and al
 **LogLevelMessage**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.cpp](Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.cpp_docs.md)
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.h](Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.h_docs.md)
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/launch.json](Tegra/EGLSync_CUDAEvent_Interop/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAErrorReporting/.vscode/launch.json](Tegra/cuDLAErrorReporting/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLAHybridMode/.vscode/launch.json](Tegra/cuDLAHybridMode/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsHybrid/.vscode/launch.json](Tegra/cuDLALayerwiseStatsHybrid/.vscode/launch.json_docs.md)
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/launch.json](Tegra/cuDLALayerwiseStatsStandalone/.vscode/launch.json_docs.md)
+- *(and 7 more files)*
 
 **launchFlipSurfaceBitsKernel**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.cpp](Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.cpp_docs.md)

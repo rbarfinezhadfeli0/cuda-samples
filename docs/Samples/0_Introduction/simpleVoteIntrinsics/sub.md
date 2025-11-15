@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleVoteIntrinsics/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 34
+- **Files Indexed**: 7
+- **Unique Keywords**: 37
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleVoteInt
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleVoteIntrinsics/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleVoteIntrinsics/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleVoteIntrinsics/simpleVoteIntrinsics.cu](simpleVoteIntrinsics.cu_docs.md)
@@ -50,6 +53,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleVoteInt
 - [Samples/0_Introduction/simpleVoteIntrinsics/simpleVote_kernel.cuh](simpleVote_kernel.cuh_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleVoteIntrinsics/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **Functions**
@@ -76,6 +85,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleVoteInt
 **kernel**
 - [Samples/0_Introduction/simpleVoteIntrinsics/simpleVoteIntrinsics.cu](simpleVoteIntrinsics.cu_docs.md)
 - [Samples/0_Introduction/simpleVoteIntrinsics/simpleVote_kernel.cuh](simpleVote_kernel.cuh_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleVoteIntrinsics/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -157,6 +172,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleVoteInt
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

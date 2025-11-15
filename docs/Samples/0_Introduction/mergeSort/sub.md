@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/mergeSort/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 8
-- **Unique Keywords**: 59
+- **Files Indexed**: 11
+- **Unique Keywords**: 62
 
 ## Keywords A-Z
 
@@ -62,6 +62,9 @@ This keyword index covers all files within `Samples/0_Introduction/mergeSort/` a
 **ComparatorExtended**
 - [Samples/0_Introduction/mergeSort/bitonic.cu](bitonic.cu_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/mergeSort/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/0_Introduction/mergeSort/mergeSort.cu](mergeSort.cu_docs.md)
 
@@ -94,6 +97,12 @@ This keyword index covers all files within `Samples/0_Introduction/mergeSort/` a
 - [Samples/0_Introduction/mergeSort/mergeSort_common.h](mergeSort_common.h_docs.md)
 - [Samples/0_Introduction/mergeSort/mergeSort_host.cpp](mergeSort_host.cpp_docs.md)
 - *(and 1 more files)*
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/mergeSort/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -140,6 +149,12 @@ This keyword index covers all files within `Samples/0_Introduction/mergeSort/` a
 
 **intervals**
 - [Samples/0_Introduction/mergeSort/mergeSort_host.cpp](mergeSort_host.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/mergeSort/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -258,6 +273,10 @@ This keyword index covers all files within `Samples/0_Introduction/mergeSort/` a
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

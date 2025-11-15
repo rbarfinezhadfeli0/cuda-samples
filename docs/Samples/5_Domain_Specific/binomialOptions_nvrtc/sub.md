@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/binomialOptions_nvrtc/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 9
-- **Unique Keywords**: 43
+- **Files Indexed**: 12
+- **Unique Keywords**: 46
 
 ## Keywords A-Z
 
@@ -76,6 +76,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 **CND**
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_gold.cpp](binomialOptions_gold.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/binomialOptions_nvrtc/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **common_gpu_header**
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/common_gpu_header.h](common_gpu_header.h_docs.md)
 
@@ -109,6 +112,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_gold.cpp](binomialOptions_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_kernel.cu](binomialOptions_kernel.cu_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/binomialOptions_nvrtc/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -127,6 +133,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 **kernel**
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_gpu.cpp](binomialOptions_gpu.cpp_docs.md)
 - [Samples/5_Domain_Specific/binomialOptions_nvrtc/binomialOptions_kernel.cu](binomialOptions_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/binomialOptions_nvrtc/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -184,6 +196,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

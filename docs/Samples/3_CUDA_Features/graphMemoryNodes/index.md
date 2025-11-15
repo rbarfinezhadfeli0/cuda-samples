@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `graphMemoryNodes`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/3_CUDA_Features/graphMemoryNodes/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (3)
 
 | Filename | Type | Documentation | Keywords |

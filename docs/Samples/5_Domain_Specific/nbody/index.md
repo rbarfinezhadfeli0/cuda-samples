@@ -6,7 +6,14 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `nbody`
 
-## Subfolders (1)
+## Subfolders (2)
+
+### .vscode/
+
+- **Path**: `Samples/5_Domain_Specific/nbody/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
 
 ### doc/
 

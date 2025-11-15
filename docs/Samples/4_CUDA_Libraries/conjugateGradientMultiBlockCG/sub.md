@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 36
+- **Files Indexed**: 6
+- **Unique Keywords**: 39
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/conjugateGradientMultiBlockCG.cu](conjugateGradientMultiBlockCG.cu_docs.md)
@@ -63,6 +66,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 
 **ENABLE_CPU_DEBUG_CODE**
 - [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/conjugateGradientMultiBlockCG.cu](conjugateGradientMultiBlockCG.cu_docs.md)
+
+**extensions**
+- [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -113,6 +119,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 - [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/conjugateGradientMultiBlockCG.cu](conjugateGradientMultiBlockCG.cu_docs.md)
 
 
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/conjugateGradientMultiBlockCG/.vscode/launch.json](.vscode/launch.json_docs.md)
+
+
 ### M
 
 **main**
@@ -156,6 +168,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

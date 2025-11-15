@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `EGLStream_CUDA_CrossGPU`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (11)
 
 | Filename | Type | Documentation | Keywords |

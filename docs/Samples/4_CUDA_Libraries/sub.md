@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 174
-- **Unique Keywords**: 520
+- **Files Indexed**: 276
+- **Unique Keywords**: 523
 
 ## Keywords A-Z
 
@@ -149,6 +149,14 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/` and all i
 - [Samples/4_CUDA_Libraries/simpleCUFFT/simpleCUFFT.cu](simpleCUFFT/simpleCUFFT.cu_docs.md)
 - [Samples/4_CUDA_Libraries/simpleCUFFT_MGPU/simpleCUFFT_MGPU.cu](simpleCUFFT_MGPU/simpleCUFFT_MGPU.cu_docs.md)
 - [Samples/4_CUDA_Libraries/simpleCUFFT_callback/simpleCUFFT_callback.cu](simpleCUFFT_callback/simpleCUFFT_callback.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/FilterBorderControlNPP/.vscode/c_cpp_properties.json](FilterBorderControlNPP/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/4_CUDA_Libraries/MersenneTwisterGP11213/.vscode/c_cpp_properties.json](MersenneTwisterGP11213/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/4_CUDA_Libraries/batchCUBLAS/.vscode/c_cpp_properties.json](batchCUBLAS/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/4_CUDA_Libraries/boxFilterNPP/.vscode/c_cpp_properties.json](boxFilterNPP/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/4_CUDA_Libraries/cannyEdgeDetectorNPP/.vscode/c_cpp_properties.json](cannyEdgeDetectorNPP/.vscode/c_cpp_properties.json_docs.md)
+- *(and 29 more files)*
 
 **calculateSlopeKernel**
 - [Samples/4_CUDA_Libraries/oceanFFT/oceanFFT_kernel.cu](oceanFFT/oceanFFT_kernel.cu_docs.md)
@@ -437,9 +445,6 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/` and all i
 **cudaNvSciSignal**
 - [Samples/4_CUDA_Libraries/cudaNvSci/cudaNvSci.cpp](cudaNvSci/cudaNvSci.cpp_docs.md)
 
-**cudaNvSciWait**
-- [Samples/4_CUDA_Libraries/cudaNvSci/cudaNvSci.cpp](cudaNvSci/cudaNvSci.cpp_docs.md)
-
 
 ### D
 
@@ -550,6 +555,14 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/` and all i
 - [Samples/4_CUDA_Libraries/randomFog/randomFog.cpp](randomFog/randomFog.cpp_docs.md)
 - [Samples/4_CUDA_Libraries/simpleCUBLAS/simpleCUBLAS.cpp](simpleCUBLAS/simpleCUBLAS.cpp_docs.md)
 - [Samples/4_CUDA_Libraries/simpleCUBLASXT/simpleCUBLASXT.cpp](simpleCUBLASXT/simpleCUBLASXT.cpp_docs.md)
+
+**extensions**
+- [Samples/4_CUDA_Libraries/FilterBorderControlNPP/.vscode/extensions.json](FilterBorderControlNPP/.vscode/extensions.json_docs.md)
+- [Samples/4_CUDA_Libraries/MersenneTwisterGP11213/.vscode/extensions.json](MersenneTwisterGP11213/.vscode/extensions.json_docs.md)
+- [Samples/4_CUDA_Libraries/batchCUBLAS/.vscode/extensions.json](batchCUBLAS/.vscode/extensions.json_docs.md)
+- [Samples/4_CUDA_Libraries/boxFilterNPP/.vscode/extensions.json](boxFilterNPP/.vscode/extensions.json_docs.md)
+- [Samples/4_CUDA_Libraries/cannyEdgeDetectorNPP/.vscode/extensions.json](cannyEdgeDetectorNPP/.vscode/extensions.json_docs.md)
+- *(and 29 more files)*
 
 
 ### F
@@ -957,6 +970,14 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/` and all i
 - [Samples/4_CUDA_Libraries/cuSolverSp_LinearSolver/lap3D_7pt_n20.mtx](cuSolverSp_LinearSolver/lap3D_7pt_n20.mtx_docs.md)
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelCholesky/lap3D_7pt_n20.mtx](cuSolverSp_LowlevelCholesky/lap3D_7pt_n20.mtx_docs.md)
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx](cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx_docs.md)
+
+**launch**
+- [Samples/4_CUDA_Libraries/FilterBorderControlNPP/.vscode/launch.json](FilterBorderControlNPP/.vscode/launch.json_docs.md)
+- [Samples/4_CUDA_Libraries/MersenneTwisterGP11213/.vscode/launch.json](MersenneTwisterGP11213/.vscode/launch.json_docs.md)
+- [Samples/4_CUDA_Libraries/batchCUBLAS/.vscode/launch.json](batchCUBLAS/.vscode/launch.json_docs.md)
+- [Samples/4_CUDA_Libraries/boxFilterNPP/.vscode/launch.json](boxFilterNPP/.vscode/launch.json_docs.md)
+- [Samples/4_CUDA_Libraries/cannyEdgeDetectorNPP/.vscode/launch.json](cannyEdgeDetectorNPP/.vscode/launch.json_docs.md)
+- *(and 29 more files)*
 
 **launchGrayScaleKernel**
 - [Samples/4_CUDA_Libraries/cudaNvSci/cudaNvSci.h](cudaNvSci/cudaNvSci.h_docs.md)
@@ -2222,11 +2243,11 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### FilterBorderControlNPP/
 
-`CMakeLists`, `DAMAGES`, `FilterBorderControlNPP`, `NOMINMAX`, `NPP_CHECK_NPP`, `README`, `WINDOWS_LEAN_AND_MEAN`, `cudaDeviceInit`, `defined`, `differences`, `edge`, `files`, `infile`, `kernel`, `main`, `match`, `oDeviceDstOutX`, `oDeviceDstOutXDiff`, `oDeviceDstOutXMixedBorders`, `oDeviceDstOutXNoBorders`, `oDeviceDstOutY`, `oDeviceDstOutYDiff`, `oDeviceDstOutYMixedBorders`, `oDeviceDstOutYNoBorders`, `oDeviceDstX`, `oDeviceDstY`, `oDeviceSrc`, `oEnlargedDeviceSrc`, `oHostDstX`, `oHostDstY`
+`CMakeLists`, `DAMAGES`, `FilterBorderControlNPP`, `NOMINMAX`, `NPP_CHECK_NPP`, `README`, `WINDOWS_LEAN_AND_MEAN`, `c_cpp_properties`, `cudaDeviceInit`, `defined`, `differences`, `edge`, `extensions`, `files`, `infile`, `kernel`, `launch`, `main`, `match`, `oDeviceDstOutX`, `oDeviceDstOutXDiff`, `oDeviceDstOutXMixedBorders`, `oDeviceDstOutXNoBorders`, `oDeviceDstOutY`, `oDeviceDstOutYDiff`, `oDeviceDstOutYMixedBorders`, `oDeviceDstOutYNoBorders`, `oDeviceDstX`, `oDeviceDstY`, `oDeviceSrc`
 
 #### MersenneTwisterGP11213/
 
-`CMakeLists`, `DAMAGES`, `MersenneTwister`, `MersenneTwisterGP11213`, `README`, `compareResults`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `main`, `printf`
+`CMakeLists`, `DAMAGES`, `MersenneTwister`, `MersenneTwisterGP11213`, `README`, `c_cpp_properties`, `compareResults`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `launch`, `main`, `printf`
 
 #### README.md/
 
@@ -2238,35 +2259,35 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### boxFilterNPP/
 
-`CMakeLists`, `DAMAGES`, `NOMINMAX`, `NPP_CHECK_NPP`, `README`, `WINDOWS_LEAN_AND_MEAN`, `boxFilterNPP`, `defined`, `infile`, `main`, `oDeviceDst`, `oDeviceSrc`, `oHostDst`, `warning`, `with`
+`CMakeLists`, `DAMAGES`, `NOMINMAX`, `NPP_CHECK_NPP`, `README`, `WINDOWS_LEAN_AND_MEAN`, `boxFilterNPP`, `c_cpp_properties`, `defined`, `extensions`, `infile`, `launch`, `main`, `oDeviceDst`, `oDeviceSrc`, `oHostDst`, `warning`, `with`
 
 #### cannyEdgeDetectorNPP/
 
-`CMakeLists`, `DAMAGES`, `NOMINMAX`, `NPP_CHECK_NPP`, `README`, `WINDOWS_LEAN_AND_MEAN`, `cannyEdgeDetectorNPP`, `cudaDeviceInit`, `cudaFree`, `cudaMalloc`, `defined`, `infile`, `kernel`, `main`, `oDeviceDst`, `oDeviceSrc`, `oHostDst`, `warning`, `with`
+`CMakeLists`, `DAMAGES`, `NOMINMAX`, `NPP_CHECK_NPP`, `README`, `WINDOWS_LEAN_AND_MEAN`, `c_cpp_properties`, `cannyEdgeDetectorNPP`, `cudaDeviceInit`, `cudaFree`, `cudaMalloc`, `defined`, `extensions`, `infile`, `kernel`, `launch`, `main`, `oDeviceDst`, `oDeviceSrc`, `oHostDst`, `warning`, `with`
 
 #### conjugateGradient/
 
-`CMakeLists`, `DAMAGES`, `README`, `conjugateGradient`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `genTridiag`, `main`, `printf`, `updated`
+`CMakeLists`, `DAMAGES`, `README`, `c_cpp_properties`, `conjugateGradient`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `genTridiag`, `launch`, `main`, `printf`, `updated`
 
 #### conjugateGradientCudaGraphs/
 
-`CMakeLists`, `DAMAGES`, `README`, `WITH_GRAPH`, `__global__`, `a_minus`, `block`, `checkCudaErrors`, `conjugateGradientCudaGraphs`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `genTridiag`, `grid`, `initVectors`, `main`, `printf`, `r1_div_x`, `thread`, `updated`
+`CMakeLists`, `DAMAGES`, `README`, `WITH_GRAPH`, `__global__`, `a_minus`, `block`, `c_cpp_properties`, `checkCudaErrors`, `conjugateGradientCudaGraphs`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `genTridiag`, `grid`, `initVectors`, `launch`, `main`, `printf`, `r1_div_x`, `thread`, `updated`
 
 #### conjugateGradientMultiBlockCG/
 
-`CMakeLists`, `DAMAGES`, `ENABLE_CPU_DEBUG_CODE`, `GPU`, `README`, `THREADS_PER_BLOCK`, `__device__`, `__global__`, `__shared__`, `areAlmostEqual`, `block`, `checkCudaErrors`, `conjugateGradientMultiBlockCG`, `cpuConjugateGrad`, `cpuSpMV`, `cudaFree`, `cudaMalloc`, `dimGrid`, `dotProduct`, `for`, `fprintf`, `free`, `genTridiag`, `gpuConjugateGradient`, `gpuCopyVector`, `gpuDotProduct`, `gpuSaxpy`, `gpuScaleVectorAndSaxpy`, `gpuSpMV`, `grid`
+`CMakeLists`, `DAMAGES`, `ENABLE_CPU_DEBUG_CODE`, `GPU`, `README`, `THREADS_PER_BLOCK`, `__device__`, `__global__`, `__shared__`, `areAlmostEqual`, `block`, `c_cpp_properties`, `checkCudaErrors`, `conjugateGradientMultiBlockCG`, `cpuConjugateGrad`, `cpuSpMV`, `cudaFree`, `cudaMalloc`, `dimGrid`, `dotProduct`, `extensions`, `for`, `fprintf`, `free`, `genTridiag`, `gpuConjugateGradient`, `gpuCopyVector`, `gpuDotProduct`, `gpuSaxpy`, `gpuScaleVectorAndSaxpy`
 
 #### conjugateGradientMultiDeviceCG/
 
-`CMakeLists`, `DAMAGES`, `ENABLE_CPU_DEBUG_CODE`, `MultiDeviceData`, `PeerGroup`, `README`, `THREADS_PER_BLOCK`, `__device__`, `__global__`, `__shared__`, `block`, `checkCudaErrors`, `conjugateGradientMultiDeviceCG`, `cpuConjugateGrad`, `cpuSpMV`, `cudaFree`, `cudaMalloc`, `dimGrid`, `dotProduct`, `for`, `free`, `genTridiag`, `gpuCopyVector`, `gpuDotProduct`, `gpuSaxpy`, `gpuScaleVectorAndSaxpy`, `gpuSpMV`, `grid`, `kernel`, `load_arrived`
+`CMakeLists`, `DAMAGES`, `ENABLE_CPU_DEBUG_CODE`, `MultiDeviceData`, `PeerGroup`, `README`, `THREADS_PER_BLOCK`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `conjugateGradientMultiDeviceCG`, `cpuConjugateGrad`, `cpuSpMV`, `cudaFree`, `cudaMalloc`, `dimGrid`, `dotProduct`, `extensions`, `for`, `free`, `genTridiag`, `gpuCopyVector`, `gpuDotProduct`, `gpuSaxpy`, `gpuScaleVectorAndSaxpy`, `gpuSpMV`, `grid`
 
 #### conjugateGradientPrecond/
 
-`CMakeLists`, `CSR`, `DAMAGES`, `ILU`, `README`, `checkCudaErrors`, `conjugateGradientPrecond`, `cudaDeviceReset`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `cusparseScsrilu02`, `cusparseScsrsv2_solve`, `for`, `genLaplace`, `main`, `updated`
+`CMakeLists`, `CSR`, `DAMAGES`, `ILU`, `README`, `c_cpp_properties`, `checkCudaErrors`, `conjugateGradientPrecond`, `cudaDeviceReset`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `cusparseScsrilu02`, `cusparseScsrsv2_solve`, `extensions`, `for`, `genLaplace`, `launch`, `main`, `updated`
 
 #### conjugateGradientUM/
 
-`CMakeLists`, `DAMAGES`, `README`, `checkCudaErrors`, `conjugateGradientUM`, `cudaFree`, `cudaMalloc`, `fprintf`, `genTridiag`, `main`, `printf`, `updated`
+`CMakeLists`, `DAMAGES`, `README`, `c_cpp_properties`, `checkCudaErrors`, `conjugateGradientUM`, `cudaFree`, `cudaMalloc`, `extensions`, `fprintf`, `genTridiag`, `launch`, `main`, `printf`, `updated`
 
 #### cuSolverDn_LinearSolver/
 
@@ -2290,11 +2311,11 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### cudaNvSci/
 
-`CMakeLists`, `CUDANVSCI_H`, `DAMAGES`, `Pascal`, `README`, `__device__`, `__global__`, `block`, `checkCudaErrors`, `checkNvSciErrors`, `copyDataToImageArray`, `createNvSciBufImageObj`, `createNvSciRawBufObj`, `createNvSciSyncObj`, `createTexture`, `cudaFree`, `cudaImportNvSciImage`, `cudaImportNvSciRawBuf`, `cudaImportNvSciSemaphore`, `cudaMalloc`, `cudaMemcpy`, `cudaNvSci`, `cudaNvSciApp`, `cudaNvSciSignal`, `cudaNvSciWait`, `dimBlock`, `dimGrid`, `getNvSciImageBufAttrList`, `getNvSciRawBufAttrList`, `getNvSciSyncAttrList`
+`CMakeLists`, `CUDANVSCI_H`, `DAMAGES`, `Pascal`, `README`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `checkNvSciErrors`, `copyDataToImageArray`, `createNvSciBufImageObj`, `createNvSciRawBufObj`, `createNvSciSyncObj`, `createTexture`, `cudaFree`, `cudaImportNvSciImage`, `cudaImportNvSciRawBuf`, `cudaImportNvSciSemaphore`, `cudaMalloc`, `cudaMemcpy`, `cudaNvSci`, `cudaNvSciApp`, `cudaNvSciSignal`, `cudaNvSciWait`, `dimBlock`, `dimGrid`, `extensions`, `getNvSciImageBufAttrList`
 
 #### freeImageInteropNPP/
 
-`CMakeLists`, `DAMAGES`, `FreeImageErrorHandler`, `FreeImage_SetOutputMessage`, `NOMINMAX`, `NPP_ASSERT`, `NPP_CHECK_CUDA`, `README`, `WINDOWS_LEAN_AND_MEAN`, `cudaDeviceInit`, `cudaMemcpy`, `defined`, `freeImageInteropNPP`, `infile`, `main`, `nppiFree`, `warning`
+`CMakeLists`, `DAMAGES`, `FreeImageErrorHandler`, `FreeImage_SetOutputMessage`, `NOMINMAX`, `NPP_ASSERT`, `NPP_CHECK_CUDA`, `README`, `WINDOWS_LEAN_AND_MEAN`, `c_cpp_properties`, `cudaDeviceInit`, `cudaMemcpy`, `defined`, `extensions`, `freeImageInteropNPP`, `infile`, `launch`, `main`, `nppiFree`, `warning`
 
 
 ---

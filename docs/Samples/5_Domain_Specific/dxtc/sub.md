@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/dxtc/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 11
-- **Unique Keywords**: 56
+- **Files Indexed**: 14
+- **Unique Keywords**: 59
 
 ## Keywords A-Z
 
@@ -32,6 +32,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dxtc/` and
 
 **CudaMath**
 - [Samples/5_Domain_Specific/dxtc/CudaMath.h](CudaMath.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/dxtc/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/dxtc/dxtc.cu](dxtc.cu_docs.md)
@@ -109,6 +112,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dxtc/` and
 **evalPermutation4**
 - [Samples/5_Domain_Specific/dxtc/dxtc.cu](dxtc.cu_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/dxtc/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -139,6 +145,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dxtc/` and
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/dxtc/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadColorBlock**
 - [Samples/5_Domain_Specific/dxtc/dxtc.cu](dxtc.cu_docs.md)
@@ -221,6 +230,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/dxtc/` and
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

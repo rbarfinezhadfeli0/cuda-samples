@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/vectorAddDrv/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 18
+- **Files Indexed**: 7
+- **Unique Keywords**: 21
 
 ## Keywords A-Z
 
@@ -31,6 +31,9 @@ This keyword index covers all files within `Samples/0_Introduction/vectorAddDrv/
 **CleanupNoFailure**
 - [Samples/0_Introduction/vectorAddDrv/vectorAddDrv.cpp](vectorAddDrv.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/vectorAddDrv/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/0_Introduction/vectorAddDrv/vectorAddDrv.cpp](vectorAddDrv.cpp_docs.md)
 
@@ -40,6 +43,12 @@ This keyword index covers all files within `Samples/0_Introduction/vectorAddDrv/
 **DAMAGES**
 - [Samples/0_Introduction/vectorAddDrv/vectorAddDrv.cpp](vectorAddDrv.cpp_docs.md)
 - [Samples/0_Introduction/vectorAddDrv/vectorAdd_kernel.cu](vectorAdd_kernel.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/vectorAddDrv/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -59,6 +68,12 @@ This keyword index covers all files within `Samples/0_Introduction/vectorAddDrv/
 **kernel**
 - [Samples/0_Introduction/vectorAddDrv/vectorAddDrv.cpp](vectorAddDrv.cpp_docs.md)
 - [Samples/0_Introduction/vectorAddDrv/vectorAdd_kernel.cu](vectorAdd_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/vectorAddDrv/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -103,6 +118,10 @@ This keyword index covers all files within `Samples/0_Introduction/vectorAddDrv/
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

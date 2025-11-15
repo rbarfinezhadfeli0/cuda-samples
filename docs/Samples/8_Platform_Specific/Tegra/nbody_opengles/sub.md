@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/nbody_opengles/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 13
-- **Unique Keywords**: 132
+- **Files Indexed**: 16
+- **Unique Keywords**: 135
 
 ## Keywords A-Z
 
@@ -67,6 +67,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/nb
 
 **Create**
 - [Samples/8_Platform_Specific/Tegra/nbody_opengles/nbody_opengles.cpp](nbody_opengles.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/nbody_opengles/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/8_Platform_Specific/Tegra/nbody_opengles/bodysystemcuda_impl.h](bodysystemcuda_impl.h_docs.md)
@@ -143,6 +146,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/nb
 **evalHermite**
 - [Samples/8_Platform_Specific/Tegra/nbody_opengles/render_particles.cpp](render_particles.cpp_docs.md)
 
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/nbody_opengles/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -217,6 +223,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/nb
 
 
 ### L
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/nbody_opengles/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadTipsyFile**
 - [Samples/8_Platform_Specific/Tegra/nbody_opengles/bodysystem.h](bodysystem.h_docs.md)
@@ -445,6 +454,10 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/nb
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

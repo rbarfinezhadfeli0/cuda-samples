@@ -50,7 +50,7 @@ class RepoDocGenerator:
     def should_skip_path(self, path: Path) -> bool:
         """Check if a path should be skipped"""
         parts = path.parts
-        skip_dirs = {'.git', 'docs', '__pycache__', '.vscode', 'build', 'bin'}
+        skip_dirs = {'.git', 'docs', '__pycache__', 'build', 'bin'}
         return any(part in skip_dirs for part in parts)
 
     def scan_repository(self):
@@ -1432,7 +1432,7 @@ This file is part of the CUDA Samples repository, located at `generate_docs.py`.
 ### File Statistics
 
 - **Total Lines**: 1407
-- **Approximate Size**: 41717 bytes
+- **Approximate Size**: 41706 bytes
 
 ### Content Structure
 

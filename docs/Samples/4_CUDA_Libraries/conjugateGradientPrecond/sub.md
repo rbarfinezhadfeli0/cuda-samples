@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGradientPrecond/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 17
+- **Files Indexed**: 6
+- **Unique Keywords**: 20
 
 ## Keywords A-Z
 
@@ -17,6 +17,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 
 **CSR**
 - [Samples/4_CUDA_Libraries/conjugateGradientPrecond/main.cpp](main.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/conjugateGradientPrecond/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/conjugateGradientPrecond/main.cpp](main.cpp_docs.md)
@@ -49,6 +52,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 - [Samples/4_CUDA_Libraries/conjugateGradientPrecond/main.cpp](main.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/conjugateGradientPrecond/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -65,6 +74,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 
 **ILU**
 - [Samples/4_CUDA_Libraries/conjugateGradientPrecond/main.cpp](main.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/conjugateGradientPrecond/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -92,6 +107,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/conjugateGr
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

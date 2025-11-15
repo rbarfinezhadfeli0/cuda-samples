@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/cdpBezierTessellation/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 24
+- **Files Indexed**: 6
+- **Unique Keywords**: 27
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpBezierTes
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/cdpBezierTessellation/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/cdpBezierTessellation/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cdpBezierTessellation**
 - [Samples/3_CUDA_Features/cdpBezierTessellation/CMakeLists.txt](CMakeLists.txt_docs.md)
@@ -58,6 +61,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpBezierTes
 - [Samples/3_CUDA_Features/cdpBezierTessellation/BezierLineCDP.cu](BezierLineCDP.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/cdpBezierTessellation/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **freeVertexMem**
@@ -68,6 +77,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpBezierTes
 
 **Lines**
 - [Samples/3_CUDA_Features/cdpBezierTessellation/BezierLineCDP.cu](BezierLineCDP.cu_docs.md)
+
+**launch**
+- [Samples/3_CUDA_Features/cdpBezierTessellation/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **length**
 - [Samples/3_CUDA_Features/cdpBezierTessellation/BezierLineCDP.cu](BezierLineCDP.cu_docs.md)
@@ -113,6 +125,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpBezierTes
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### BezierLineCDP.cu/
 

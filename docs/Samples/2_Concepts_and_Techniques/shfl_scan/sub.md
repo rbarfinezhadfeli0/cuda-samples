@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/shfl_scan/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 58
+- **Files Indexed**: 8
+- **Unique Keywords**: 61
 
 ## Keywords A-Z
 
@@ -43,6 +43,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sh
 **CUDA_CHECK**
 - [Samples/2_Concepts_and_Techniques/shfl_scan/util.h](util.h_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/shfl_scan/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/2_Concepts_and_Techniques/shfl_scan/shfl_scan.cu](shfl_scan.cu_docs.md)
 
@@ -71,6 +74,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sh
 
 **diff**
 - [Samples/2_Concepts_and_Techniques/shfl_scan/shfl_scan.cu](shfl_scan.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/shfl_scan/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -116,6 +125,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sh
 
 
 ### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/shfl_scan/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **log2**
 - [Samples/2_Concepts_and_Techniques/shfl_scan/shfl_scan.cu](shfl_scan.cu_docs.md)
@@ -242,6 +254,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sh
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 62
+- **Files Indexed**: 8
+- **Unique Keywords**: 65
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/EG
 
 **CUDA_SAFE_CALL_NO_CLEANUP**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](EGLSync_CUDAEvent_Interop.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calls**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](EGLSync_CUDAEvent_Interop.cu_docs.md)
@@ -128,6 +131,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/EG
 **exitHandler**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](EGLSync_CUDAEvent_Interop.cu_docs.md)
 
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -178,6 +184,12 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/EG
 
 **kernel**
 - [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/EGLSync_CUDAEvent_Interop.cu](EGLSync_CUDAEvent_Interop.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/EGLSync_CUDAEvent_Interop/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -241,6 +253,10 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/EG
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

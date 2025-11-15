@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/simpleGL/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 55
+- **Files Indexed**: 7
+- **Unique Keywords**: 58
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleGL/`
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/simpleGL/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/simpleGL/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/simpleGL/simpleGL.cu](simpleGL.cu_docs.md)
@@ -62,6 +65,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleGL/`
 
 **display**
 - [Samples/5_Domain_Specific/simpleGL/simpleGL.cu](simpleGL.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/simpleGL/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -128,6 +137,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleGL/`
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/simpleGL/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launch_kernel**
 - [Samples/5_Domain_Specific/simpleGL/simpleGL.cu](simpleGL.cu_docs.md)
@@ -228,6 +240,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleGL/`
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

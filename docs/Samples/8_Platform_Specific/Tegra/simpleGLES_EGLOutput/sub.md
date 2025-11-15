@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 7
-- **Unique Keywords**: 83
+- **Files Indexed**: 10
+- **Unique Keywords**: 86
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/si
 
 **CheckExtension**
 - [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/graphics_interface_egloutput_via_egl.c](graphics_interface_egloutput_via_egl.c_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/simpleGLES_EGLOutput.cu](simpleGLES_EGLOutput.cu_docs.md)
@@ -87,6 +90,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/si
 
 **error_exit**
 - [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/simpleGLES_EGLOutput.cu](simpleGLES_EGLOutput.cu_docs.md)
+
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -183,6 +189,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/si
 
 
 ### L
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launch_kernel**
 - [Samples/8_Platform_Specific/Tegra/simpleGLES_EGLOutput/simpleGLES_EGLOutput.cu](simpleGLES_EGLOutput.cu_docs.md)
@@ -320,6 +329,10 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/si
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/dct8x8/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 31
-- **Unique Keywords**: 137
+- **Files Indexed**: 34
+- **Unique Keywords**: 140
 
 ## Keywords A-Z
 
@@ -146,6 +146,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/dc
 **Cosines**
 - [Samples/2_Concepts_and_Techniques/dct8x8/doc/Cosines.xls](doc/Cosines.xls_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/dct8x8/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/2_Concepts_and_Techniques/dct8x8/dct8x8.cu](dct8x8.cu_docs.md)
 
@@ -233,6 +236,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/dc
 
 **elements**
 - [Samples/2_Concepts_and_Techniques/dct8x8/dct8x8_kernel_short.cuh](dct8x8_kernel_short.cuh_docs.md)
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/dct8x8/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -336,6 +342,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/dc
 - [Samples/2_Concepts_and_Techniques/dct8x8/BmpUtil.cpp](BmpUtil.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/dct8x8/BmpUtil.h](BmpUtil.h_docs.md)
 - [Samples/2_Concepts_and_Techniques/dct8x8/dct8x8.cu](dct8x8.cu_docs.md)
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/dct8x8/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -532,6 +541,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/dc
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### BmpUtil.cpp/
 

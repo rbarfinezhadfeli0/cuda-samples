@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleAWBarrier/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 23
+- **Files Indexed**: 6
+- **Unique Keywords**: 26
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAWBarri
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleAWBarrier/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleAWBarrier/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaFree**
 - [Samples/0_Introduction/simpleAWBarrier/simpleAWBarrier.cu](simpleAWBarrier.cu_docs.md)
@@ -38,6 +41,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAWBarri
 
 **dimGrid**
 - [Samples/0_Introduction/simpleAWBarrier/simpleAWBarrier.cu](simpleAWBarrier.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleAWBarrier/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -59,6 +68,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAWBarri
 
 **kernel**
 - [Samples/0_Introduction/simpleAWBarrier/simpleAWBarrier.cu](simpleAWBarrier.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleAWBarrier/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -117,6 +132,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAWBarri
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

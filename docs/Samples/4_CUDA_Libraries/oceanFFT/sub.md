@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/oceanFFT/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 12
-- **Unique Keywords**: 72
+- **Files Indexed**: 15
+- **Unique Keywords**: 75
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/oceanFFT/` 
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/oceanFFT/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/oceanFFT/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calculateSlopeKernel**
 - [Samples/4_CUDA_Libraries/oceanFFT/oceanFFT_kernel.cu](oceanFFT_kernel.cu_docs.md)
@@ -104,6 +107,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/oceanFFT/` 
 - [Samples/4_CUDA_Libraries/oceanFFT/oceanFFT.cpp](oceanFFT.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/oceanFFT/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **gauss**
@@ -162,6 +171,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/oceanFFT/` 
 
 
 ### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/oceanFFT/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadGLSLProgram**
 - [Samples/4_CUDA_Libraries/oceanFFT/oceanFFT.cpp](oceanFFT.cpp_docs.md)
@@ -284,6 +296,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/oceanFFT/` 
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

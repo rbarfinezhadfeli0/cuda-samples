@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/warpAggregatedAtomicsCG/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 27
+- **Files Indexed**: 6
+- **Unique Keywords**: 30
 
 ## Keywords A-Z
 
@@ -32,6 +32,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/warpAggregat
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calculateMaxInBuckets**
 - [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/warpAggregatedAtomicsCG.cu](warpAggregatedAtomicsCG.cu_docs.md)
@@ -61,6 +64,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/warpAggregat
 - [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/warpAggregatedAtomicsCG.cu](warpAggregatedAtomicsCG.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **filter_arr**
@@ -71,6 +80,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/warpAggregat
 
 **grid**
 - [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/warpAggregatedAtomicsCG.cu](warpAggregatedAtomicsCG.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -129,6 +144,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/warpAggregat
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

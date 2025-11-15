@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/6_Performance/cudaGraphsPerfScaling/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 34
+- **Files Indexed**: 7
+- **Unique Keywords**: 37
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/6_Performance/cudaGraphsPerf
 
 **CMakeLists**
 - [Samples/6_Performance/cudaGraphsPerfScaling/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/6_Performance/cudaGraphsPerfScaling/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **createParallelChain**
 - [Samples/6_Performance/cudaGraphsPerfScaling/cudaGraphPerfScaling.cu](cudaGraphPerfScaling.cu_docs.md)
@@ -60,6 +63,9 @@ This keyword index covers all files within `Samples/6_Performance/cudaGraphsPerf
 **empty**
 - [Samples/6_Performance/cudaGraphsPerfScaling/cudaGraphPerfScaling.cu](cudaGraphPerfScaling.cu_docs.md)
 
+**extensions**
+- [Samples/6_Performance/cudaGraphsPerfScaling/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### G
 
@@ -80,6 +86,12 @@ This keyword index covers all files within `Samples/6_Performance/cudaGraphsPerf
 
 **kernel**
 - [Samples/6_Performance/cudaGraphsPerfScaling/cudaGraphPerfScaling.cu](cudaGraphPerfScaling.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/6_Performance/cudaGraphsPerfScaling/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -152,6 +164,10 @@ This keyword index covers all files within `Samples/6_Performance/cudaGraphsPerf
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

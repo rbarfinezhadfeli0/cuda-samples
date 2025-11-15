@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `(root)/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 1478
-- **Unique Keywords**: 7221
+- **Files Indexed**: 2046
+- **Unique Keywords**: 7226
 
 ## Keywords A-Z
 
@@ -2954,12 +2954,14 @@ This keyword index covers all files within `(root)/` and all its subdirectories 
 **ImageCPU**
 - [Common/UtilNPP/ImagesCPU.h](Common/UtilNPP/ImagesCPU.h_docs.md)
 - [Common/UtilNPP/ImagesNPP.h](Common/UtilNPP/ImagesNPP.h_docs.md)
+- [generate_comprehensive_book.py](generate_comprehensive_book.py_docs.md)
 
 **ImageIO**
 - [Common/UtilNPP/ImageIO.h](Common/UtilNPP/ImageIO.h_docs.md)
 
 **ImageNPP**
 - [Common/UtilNPP/ImagesNPP.h](Common/UtilNPP/ImagesNPP.h_docs.md)
+- [generate_comprehensive_book.py](generate_comprehensive_book.py_docs.md)
 
 **ImagePacked**
 - [Common/UtilNPP/ImagePacked.h](Common/UtilNPP/ImagePacked.h_docs.md)
@@ -3691,10 +3693,12 @@ This keyword index covers all files within `(root)/` and all its subdirectories 
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx](Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx_docs.md)
 
 **launch**
-- [Samples/0_Introduction/simpleCallback/simpleCallback.cu](Samples/0_Introduction/simpleCallback/simpleCallback.cu_docs.md)
-- [Samples/2_Concepts_and_Techniques/reduction/reduction.cpp](Samples/2_Concepts_and_Techniques/reduction/reduction.cpp_docs.md)
-- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu_docs.md)
-- [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu_docs.md)
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/launch.json](Samples/0_Introduction/UnifiedMemoryStreams/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/launch.json](Samples/0_Introduction/asyncAPI/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/launch.json](Samples/0_Introduction/clock/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock_nvrtc/.vscode/launch.json](Samples/0_Introduction/clock_nvrtc/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/cudaOpenMP/.vscode/launch.json](Samples/0_Introduction/cudaOpenMP/.vscode/launch.json_docs.md)
+- *(and 188 more files)*
 
 **launchConfig**
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu_docs.md)
@@ -6204,9 +6208,11 @@ This keyword index covers all files within `(root)/` and all its subdirectories 
 **SignalCPU**
 - [Common/UtilNPP/SignalsCPU.h](Common/UtilNPP/SignalsCPU.h_docs.md)
 - [Common/UtilNPP/SignalsNPP.h](Common/UtilNPP/SignalsNPP.h_docs.md)
+- [generate_comprehensive_book.py](generate_comprehensive_book.py_docs.md)
 
 **SignalNPP**
 - [Common/UtilNPP/SignalsNPP.h](Common/UtilNPP/SignalsNPP.h_docs.md)
+- [generate_comprehensive_book.py](generate_comprehensive_book.py_docs.md)
 
 **SignalTemplate**
 - [Common/UtilNPP/Signal.h](Common/UtilNPP/Signal.h_docs.md)
@@ -7814,6 +7820,10 @@ This section maps major keywords to the folders where they are most prevalent.
 #### cmake/
 
 `FindEGL`, `FindFreeImage`, `FindNVSCI`, `toolchain-aarch64-linux`, `toolchain-aarch64-qnx`
+
+#### generate_comprehensive_book.py/
+
+`CheckRender`, `ComprehensiveBookGenerator`, `ImageCPU`, `ImageNPP`, `SignalCPU`, `SignalNPP`, `StopWatchInterface`, `__init__`, `generate_comprehensive_book`, `generate_massive_book`, `run_executable`
 
 #### generate_docs.py/
 

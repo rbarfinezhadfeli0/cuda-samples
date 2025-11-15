@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleMultiCopy/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 31
+- **Files Indexed**: 6
+- **Unique Keywords**: 34
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiCo
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleMultiCopy/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleMultiCopy/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleMultiCopy/simpleMultiCopy.cu](simpleMultiCopy.cu_docs.md)
@@ -60,6 +63,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiCo
 **exit**
 - [Samples/0_Introduction/simpleMultiCopy/simpleMultiCopy.cu](simpleMultiCopy.cu_docs.md)
 
+**extensions**
+- [Samples/0_Introduction/simpleMultiCopy/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -89,6 +95,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiCo
 
 **kernel**
 - [Samples/0_Introduction/simpleMultiCopy/simpleMultiCopy.cu](simpleMultiCopy.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleMultiCopy/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -150,6 +162,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiCo
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

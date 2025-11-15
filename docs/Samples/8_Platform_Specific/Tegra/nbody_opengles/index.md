@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `nbody_opengles`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/8_Platform_Specific/Tegra/nbody_opengles/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (13)
 
 | Filename | Type | Documentation | Keywords |

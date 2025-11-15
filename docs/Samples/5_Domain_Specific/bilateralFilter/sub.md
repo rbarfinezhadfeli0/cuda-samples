@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/bilateralFilter/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 11
-- **Unique Keywords**: 84
+- **Files Indexed**: 14
+- **Unique Keywords**: 87
 
 ## Keywords A-Z
 
@@ -50,6 +50,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bilateralF
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/bilateralFilter/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/bilateralFilter/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCUDAProfile**
 - [Samples/5_Domain_Specific/bilateralFilter/bilateralFilter.cpp](bilateralFilter.cpp_docs.md)
@@ -120,6 +123,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bilateralF
 
 **expf**
 - [Samples/5_Domain_Specific/bilateralFilter/bilateralFilter_cpu.cpp](bilateralFilter_cpu.cpp_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/bilateralFilter/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -223,6 +229,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bilateralF
 **LoadBMPFile**
 - [Samples/5_Domain_Specific/bilateralFilter/bilateralFilter.cpp](bilateralFilter.cpp_docs.md)
 - [Samples/5_Domain_Specific/bilateralFilter/bmploader.cpp](bmploader.cpp_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/bilateralFilter/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadImageData**
 - [Samples/5_Domain_Specific/bilateralFilter/bilateralFilter.cpp](bilateralFilter.cpp_docs.md)
@@ -333,6 +342,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bilateralF
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

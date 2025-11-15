@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 201
-- **Unique Keywords**: 748
+- **Files Indexed**: 339
+- **Unique Keywords**: 750
 
 ## Keywords A-Z
 
@@ -399,6 +399,14 @@ This keyword index covers all files within `Samples/0_Introduction/` and all its
 **CreateThread**
 - [Samples/0_Introduction/simpleCallback/multithreading.cpp](simpleCallback/multithreading.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/c_cpp_properties.json](UnifiedMemoryStreams/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/c_cpp_properties.json](asyncAPI/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/c_cpp_properties.json](clock/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/0_Introduction/clock_nvrtc/.vscode/c_cpp_properties.json](clock_nvrtc/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/0_Introduction/cudaOpenMP/.vscode/c_cpp_properties.json](cudaOpenMP/.vscode/c_cpp_properties.json_docs.md)
+- *(and 41 more files)*
+
 **call**
 - [Samples/0_Introduction/simpleTextureDrv/simpleTextureDrv.cpp](simpleTextureDrv/simpleTextureDrv.cpp_docs.md)
 
@@ -518,9 +526,6 @@ This keyword index covers all files within `Samples/0_Introduction/` and all its
 - [Samples/0_Introduction/simpleTexture/simpleTexture.cu](simpleTexture/simpleTexture.cu_docs.md)
 - [Samples/0_Introduction/simpleTextureDrv/simpleTextureDrv.cpp](simpleTextureDrv/simpleTextureDrv.cpp_docs.md)
 
-**correctResult**
-- [Samples/0_Introduction/cudaOpenMP/cudaOpenMP.cu](cudaOpenMP/cudaOpenMP.cu_docs.md)
-
 
 ### D
 
@@ -638,6 +643,14 @@ This keyword index covers all files within `Samples/0_Introduction/` and all its
 **exit**
 - [Samples/0_Introduction/cudaOpenMP/cudaOpenMP.cu](cudaOpenMP/cudaOpenMP.cu_docs.md)
 - [Samples/0_Introduction/simpleMultiCopy/simpleMultiCopy.cu](simpleMultiCopy/simpleMultiCopy.cu_docs.md)
+
+**extensions**
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/extensions.json](UnifiedMemoryStreams/.vscode/extensions.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/extensions.json](asyncAPI/.vscode/extensions.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/extensions.json](clock/.vscode/extensions.json_docs.md)
+- [Samples/0_Introduction/clock_nvrtc/.vscode/extensions.json](clock_nvrtc/.vscode/extensions.json_docs.md)
+- [Samples/0_Introduction/cudaOpenMP/.vscode/extensions.json](cudaOpenMP/.vscode/extensions.json_docs.md)
+- *(and 41 more files)*
 
 
 ### F
@@ -1082,7 +1095,12 @@ This keyword index covers all files within `Samples/0_Introduction/` and all its
 - [Samples/0_Introduction/matrixMulDynlinkJIT/matrixMulDynlinkJIT.cpp](matrixMulDynlinkJIT/matrixMulDynlinkJIT.cpp_docs.md)
 
 **launch**
-- [Samples/0_Introduction/simpleCallback/simpleCallback.cu](simpleCallback/simpleCallback.cu_docs.md)
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/launch.json](UnifiedMemoryStreams/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/launch.json](asyncAPI/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/launch.json](clock/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock_nvrtc/.vscode/launch.json](clock_nvrtc/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/cudaOpenMP/.vscode/launch.json](cudaOpenMP/.vscode/launch.json_docs.md)
+- *(and 42 more files)*
 
 **launchConfig**
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](simpleOccupancy/simpleOccupancy.cu_docs.md)
@@ -2272,35 +2290,35 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### UnifiedMemoryStreams/
 
-`CMakeLists`, `DAMAGES`, `README`, `Task`, `UnifiedMemoryStreams`, `allocate`, `checkCudaErrors`, `cudaDeviceSynchronize`, `cudaFree`, `cudaMalloc`, `defined`, `device`, `double`, `drand48`, `execute`, `for`, `fprintf`, `gemv`, `host`, `initialise_tasks`, `main`, `omp_set_num_threads`, `printf`, `schedule`, `srand48`, `thread`, `threadData_t`
+`CMakeLists`, `DAMAGES`, `README`, `Task`, `UnifiedMemoryStreams`, `allocate`, `c_cpp_properties`, `checkCudaErrors`, `cudaDeviceSynchronize`, `cudaFree`, `cudaMalloc`, `defined`, `device`, `double`, `drand48`, `execute`, `extensions`, `for`, `fprintf`, `gemv`, `host`, `initialise_tasks`, `launch`, `main`, `omp_set_num_threads`, `printf`, `schedule`, `srand48`, `thread`, `threadData_t`
 
 #### asyncAPI/
 
-`CMakeLists`, `DAMAGES`, `GPU`, `README`, `__global__`, `asyncAPI`, `block`, `checkCudaErrors`, `correct_output`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `executing`, `increment_kernel`, `kernel`, `main`, `printf`, `thread`
+`CMakeLists`, `DAMAGES`, `GPU`, `README`, `__global__`, `asyncAPI`, `block`, `c_cpp_properties`, `checkCudaErrors`, `correct_output`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `executing`, `extensions`, `increment_kernel`, `kernel`, `launch`, `main`, `printf`, `thread`
 
 #### clock/
 
-`CMakeLists`, `DAMAGES`, `NUM_BLOCKS`, `NUM_THREADS`, `README`, `__global__`, `__shared__`, `block`, `clock`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `grid`, `kernel`, `main`, `thread`, `timedReduction`
+`CMakeLists`, `DAMAGES`, `NUM_BLOCKS`, `NUM_THREADS`, `README`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `clock`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `grid`, `kernel`, `launch`, `main`, `thread`, `timedReduction`
 
 #### clock_nvrtc/
 
-`CMakeLists`, `DAMAGES`, `NUM_BLOCKS`, `NUM_THREADS`, `README`, `__global__`, `__shared__`, `block`, `clock`, `clock_kernel`, `clock_nvrtc`, `cudaBlockSize`, `cudaGridSize`, `grid`, `kernel`, `main`, `thread`, `timedReduction`
+`CMakeLists`, `DAMAGES`, `NUM_BLOCKS`, `NUM_THREADS`, `README`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `clock`, `clock_kernel`, `clock_nvrtc`, `cudaBlockSize`, `cudaGridSize`, `extensions`, `grid`, `kernel`, `launch`, `main`, `thread`, `timedReduction`
 
 #### cudaOpenMP/
 
-`CMakeLists`, `DAMAGES`, `README`, `__global__`, `block`, `checkCudaErrors`, `correctResult`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `cudaOpenMP`, `exit`, `gpu_blocks`, `gpu_threads`, `kernel`, `kernelAddConstant`, `main`, `omp_set_num_threads`, `printf`, `thread`
+`CMakeLists`, `DAMAGES`, `README`, `__global__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `correctResult`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `cudaOpenMP`, `exit`, `extensions`, `gpu_blocks`, `gpu_threads`, `kernel`, `kernelAddConstant`, `launch`, `main`, `omp_set_num_threads`, `printf`, `thread`
 
 #### fp16ScalarProduct/
 
-`CMakeLists`, `DAMAGES`, `NUM_OF_BLOCKS`, `NUM_OF_THREADS`, `README`, `__device__`, `__global__`, `__shared__`, `block`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `fp16ScalarProduct`, `generateInput`, `grid`, `main`, `reduceInShared_intrinsics`, `reduceInShared_native`, `scalarProductKernel_intrinsics`, `scalarProductKernel_native`, `thread`, `value`
+`CMakeLists`, `DAMAGES`, `NUM_OF_BLOCKS`, `NUM_OF_THREADS`, `README`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `fp16ScalarProduct`, `generateInput`, `grid`, `launch`, `main`, `reduceInShared_intrinsics`, `reduceInShared_native`, `scalarProductKernel_intrinsics`, `scalarProductKernel_native`, `thread`, `value`
 
 #### matrixMul/
 
-`CMakeLists`, `ConstantInit`, `DAMAGES`, `MatrixMulCUDA`, `MatrixMultiply`, `README`, `Supercomputing`, `__global__`, `__shared__`, `__syncthreads`, `block`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dimsA`, `dimsB`, `dimsC`, `for`, `grid`, `kernel`, `main`, `matrixMul`, `multiplication`, `printf`, `thread`, `threads`
+`CMakeLists`, `ConstantInit`, `DAMAGES`, `MatrixMulCUDA`, `MatrixMultiply`, `README`, `Supercomputing`, `__global__`, `__shared__`, `__syncthreads`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dimsA`, `dimsB`, `dimsC`, `extensions`, `for`, `grid`, `kernel`, `launch`, `main`, `matrixMul`, `multiplication`, `printf`, `thread`, `threads`
 
 #### matrixMulDrv/
 
-`AS`, `BS`, `CMakeLists`, `DAMAGES`, `FATBIN_FILE`, `HA`, `HB`, `HC`, `README`, `Supercomputing`, `WA`, `WB`, `WC`, `_MATRIXMUL_H_`, `_MATRIXMUL_KERNEL_H_`, `__device__`, `__global__`, `__shared__`, `__syncthreads`, `block`, `checkCudaErrors`, `computeGold`, `constantInit`, `file`, `for`, `free`, `grid`, `initCUDA`, `kernel`, `main`
+`AS`, `BS`, `CMakeLists`, `DAMAGES`, `FATBIN_FILE`, `HA`, `HB`, `HC`, `README`, `Supercomputing`, `WA`, `WB`, `WC`, `_MATRIXMUL_H_`, `_MATRIXMUL_KERNEL_H_`, `__device__`, `__global__`, `__shared__`, `__syncthreads`, `block`, `c_cpp_properties`, `checkCudaErrors`, `computeGold`, `constantInit`, `extensions`, `file`, `for`, `free`, `grid`, `initCUDA`
 
 #### matrixMulDynlinkJIT/
 
@@ -2308,39 +2326,39 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### matrixMul_nvrtc/
 
-`CMakeLists`, `DAMAGES`, `README`, `Supercomputing`, `__device__`, `__global__`, `__shared__`, `block`, `checkCudaErrors`, `constantInit`, `dimsA`, `dimsB`, `dimsC`, `for`, `free`, `grid`, `kernel`, `main`, `matrixMul`, `matrixMulCUDA`, `matrixMulCUDA_block16`, `matrixMulCUDA_block32`, `matrixMul_kernel`, `matrixMul_nvrtc`, `matrixMultiply`, `multiplication`, `printf`, `thread`, `threads`
+`CMakeLists`, `DAMAGES`, `README`, `Supercomputing`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `constantInit`, `dimsA`, `dimsB`, `dimsC`, `extensions`, `for`, `free`, `grid`, `kernel`, `launch`, `main`, `matrixMul`, `matrixMulCUDA`, `matrixMulCUDA_block16`, `matrixMulCUDA_block32`, `matrixMul_kernel`, `matrixMul_nvrtc`, `matrixMultiply`, `multiplication`, `printf`
 
 #### mergeSort/
 
-`CMakeLists`, `Comparator`, `ComparatorExtended`, `DAMAGES`, `README`, `SAMPLE_STRIDE`, `SHARED_SIZE_LIMIT`, `W`, `__device__`, `__global__`, `__host__`, `__shared__`, `array`, `binarySearchExclusive`, `binarySearchInclusive`, `bitonic`, `bitonicMergeElementaryIntervals`, `bitonicMergeElementaryIntervalsKernel`, `bitonicSortShared`, `bitonicSortSharedKernel`, `block`, `bubbleSort`, `checkCudaErrors`, `checkOrder`, `closeMergeSort`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `factorRadix2`, `fillValues`
+`CMakeLists`, `Comparator`, `ComparatorExtended`, `DAMAGES`, `README`, `SAMPLE_STRIDE`, `SHARED_SIZE_LIMIT`, `W`, `__device__`, `__global__`, `__host__`, `__shared__`, `array`, `binarySearchExclusive`, `binarySearchInclusive`, `bitonic`, `bitonicMergeElementaryIntervals`, `bitonicMergeElementaryIntervalsKernel`, `bitonicSortShared`, `bitonicSortSharedKernel`, `block`, `bubbleSort`, `c_cpp_properties`, `checkCudaErrors`, `checkOrder`, `closeMergeSort`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`
 
 #### simpleAWBarrier/
 
-`CMakeLists`, `DAMAGES`, `GPU`, `README`, `Volta`, `__device__`, `__global__`, `__shared__`, `block`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dimGrid`, `for`, `grid`, `kernel`, `main`, `normVecByDotProductAWBarrier`, `reduceBlockData`, `runNormVecByDotProductAWBarrier`, `simpleAWBarrier`, `thread`, `warp`
+`CMakeLists`, `DAMAGES`, `GPU`, `README`, `Volta`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dimGrid`, `extensions`, `for`, `grid`, `kernel`, `launch`, `main`, `normVecByDotProductAWBarrier`, `reduceBlockData`, `runNormVecByDotProductAWBarrier`, `simpleAWBarrier`, `thread`, `warp`
 
 #### simpleAssert/
 
-`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `block`, `dimBlock`, `dimGrid`, `findCudaDevice`, `grid`, `kernel`, `main`, `runTest`, `simpleAssert`, `testKernel`, `thread`
+`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `block`, `c_cpp_properties`, `dimBlock`, `dimGrid`, `extensions`, `findCudaDevice`, `grid`, `kernel`, `launch`, `main`, `runTest`, `simpleAssert`, `testKernel`, `thread`
 
 #### simpleAssert_nvrtc/
 
-`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `block`, `dimBlock`, `dimGrid`, `grid`, `kernel`, `main`, `runTest`, `simpleAssert`, `simpleAssert_kernel`, `simpleAssert_nvrtc`, `testKernel`, `thread`
+`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `__global__`, `block`, `c_cpp_properties`, `dimBlock`, `dimGrid`, `extensions`, `grid`, `kernel`, `launch`, `main`, `runTest`, `simpleAssert`, `simpleAssert_kernel`, `simpleAssert_nvrtc`, `testKernel`, `thread`
 
 #### simpleAtomicIntrinsics/
 
-`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `_SIMPLEATOMICS_KERNEL_H_`, `__global__`, `atomicAdd`, `atomicAnd`, `atomicCAS`, `atomicDec`, `atomicExch`, `atomicMax`, `atomicMin`, `atomicOr`, `atomicXor`, `block`, `checkCudaErrors`, `computeGold`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `findCudaDevice`, `for`, `functions`, `increment`, `kernel`, `main`, `max`, `min`
+`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `_SIMPLEATOMICS_KERNEL_H_`, `__global__`, `atomicAdd`, `atomicAnd`, `atomicCAS`, `atomicDec`, `atomicExch`, `atomicMax`, `atomicMin`, `atomicOr`, `atomicXor`, `block`, `c_cpp_properties`, `checkCudaErrors`, `computeGold`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `findCudaDevice`, `for`, `functions`, `increment`, `kernel`, `launch`
 
 #### simpleAtomicIntrinsics_nvrtc/
 
-`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `_SIMPLEATOMICS_KERNEL_H_`, `__global__`, `atomicAdd`, `atomicAnd`, `atomicCAS`, `atomicDec`, `atomicExch`, `atomicMax`, `atomicMin`, `atomicOr`, `atomicXor`, `block`, `computeGold`, `cudaBlockSize`, `cudaGridSize`, `for`, `free`, `functions`, `grid`, `increment`, `kernel`, `main`, `max`, `min`, `runTest`
+`CMakeLists`, `DAMAGES`, `NOMINMAX`, `README`, `WINDOWS_LEAN_AND_MEAN`, `_SIMPLEATOMICS_KERNEL_H_`, `__global__`, `atomicAdd`, `atomicAnd`, `atomicCAS`, `atomicDec`, `atomicExch`, `atomicMax`, `atomicMin`, `atomicOr`, `atomicXor`, `block`, `c_cpp_properties`, `computeGold`, `cudaBlockSize`, `cudaGridSize`, `extensions`, `for`, `free`, `functions`, `grid`, `increment`, `kernel`, `launch`, `main`
 
 #### simpleAttributes/
 
-`CMakeLists`, `DAMAGES`, `README`, `__global__`, `__shared__`, `block`, `blocks`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `getLastCudaError`, `initAccessPolicyWindow`, `kernCacheSegmentTest`, `kernel`, `main`, `runTest`, `simpleAttributes`, `thread`, `threads`
+`CMakeLists`, `DAMAGES`, `README`, `__global__`, `__shared__`, `block`, `blocks`, `c_cpp_properties`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `getLastCudaError`, `initAccessPolicyWindow`, `kernCacheSegmentTest`, `kernel`, `launch`, `main`, `runTest`, `simpleAttributes`, `thread`, `threads`
 
 #### simpleCUDA2GL/
 
-`CMakeLists`, `CheckBackBuffer`, `Cleanup`, `DAMAGES`, `FreeResource`, `MAX_EPSILON`, `NOMINMAX`, `Processing`, `README`, `REFRESH_DELAY`, `SDK_CHECK_ERROR_GL`, `USE_TEXSUBIMAGE2D`, `WINDOWS_LEAN_AND_MEAN`, `__device__`, `__global__`, `__shared__`, `block`, `checkCudaErrors`, `clamp`, `compileGLSLprogram`, `context`, `createPBO`, `createTextureDst`, `cudaDeviceSynchronize`, `cudaFree`, `cudaGraphicsResource`, `cudaMalloc`, `cudaMemcpy`, `cudaProcess`, `defined`
+`CMakeLists`, `CheckBackBuffer`, `Cleanup`, `DAMAGES`, `FreeResource`, `MAX_EPSILON`, `NOMINMAX`, `Processing`, `README`, `REFRESH_DELAY`, `SDK_CHECK_ERROR_GL`, `USE_TEXSUBIMAGE2D`, `WINDOWS_LEAN_AND_MEAN`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `clamp`, `compileGLSLprogram`, `context`, `createPBO`, `createTextureDst`, `cudaDeviceSynchronize`, `cudaFree`, `cudaGraphicsResource`, `cudaMalloc`, `cudaMemcpy`, `cudaProcess`
 
 
 ---

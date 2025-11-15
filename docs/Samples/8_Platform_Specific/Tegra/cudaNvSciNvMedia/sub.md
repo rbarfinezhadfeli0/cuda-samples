@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 22
-- **Unique Keywords**: 118
+- **Files Indexed**: 25
+- **Unique Keywords**: 121
 
 ## Keywords A-Z
 
@@ -63,6 +63,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 **ConfigParser_ValidateParams**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/config_parser.cpp](nvmedia_utils/config_parser.cpp_docs.md)
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/config_parser.h](nvmedia_utils/config_parser.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/cuda_consumer.cu](cuda_consumer.cu_docs.md)
@@ -168,6 +171,12 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_producer.cpp](nvmedia_producer.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **FILE_NAME_SIZE**
@@ -250,6 +259,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 **LogLevelMessage**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.cpp](nvmedia_utils/log_utils.cpp_docs.md)
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.h](nvmedia_utils/log_utils.h_docs.md)
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **log_utils**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciNvMedia/nvmedia_utils/log_utils.cpp](nvmedia_utils/log_utils.cpp_docs.md)
@@ -447,6 +459,10 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

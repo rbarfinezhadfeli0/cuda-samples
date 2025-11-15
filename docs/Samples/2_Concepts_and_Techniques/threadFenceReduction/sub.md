@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/threadFenceReduction/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 57
+- **Files Indexed**: 8
+- **Unique Keywords**: 59
 
 ## Keywords A-Z
 
@@ -39,6 +39,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/th
 
 **CSV**
 - [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](threadFenceReduction.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/threadFenceReduction/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](threadFenceReduction.cu_docs.md)
@@ -79,6 +82,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/th
 **exit**
 - [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](threadFenceReduction.cu_docs.md)
 
+**extensions**
+- [Samples/2_Concepts_and_Techniques/threadFenceReduction/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### G
 
@@ -111,6 +117,7 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/th
 ### L
 
 **launch**
+- [Samples/2_Concepts_and_Techniques/threadFenceReduction/.vscode/launch.json](.vscode/launch.json_docs.md)
 - [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](threadFenceReduction.cu_docs.md)
 
 **log**
@@ -232,6 +239,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/th
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

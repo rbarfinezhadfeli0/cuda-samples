@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/imageDenoising/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 20
-- **Unique Keywords**: 87
+- **Files Indexed**: 23
+- **Unique Keywords**: 90
 
 ## Keywords A-Z
 
@@ -49,6 +49,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/im
 
 **Copy**
 - [Samples/2_Concepts_and_Techniques/imageDenoising/imageDenoising_copy_kernel.cuh](imageDenoising_copy_kernel.cuh_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/imageDenoising/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cleanup**
 - [Samples/2_Concepts_and_Techniques/imageDenoising/imageDenoisingGL.cpp](imageDenoisingGL.cpp_docs.md)
@@ -122,6 +125,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/im
 
 **displayFunc**
 - [Samples/2_Concepts_and_Techniques/imageDenoising/imageDenoisingGL.cpp](imageDenoisingGL.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/imageDenoising/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -235,6 +244,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/im
 **LoadBMPFile**
 - [Samples/2_Concepts_and_Techniques/imageDenoising/bmploader.cpp](bmploader.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/imageDenoising/imageDenoising.h](imageDenoising.h_docs.md)
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/imageDenoising/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **lerpf**
 - [Samples/2_Concepts_and_Techniques/imageDenoising/imageDenoising.cu](imageDenoising.cu_docs.md)
@@ -356,6 +368,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/im
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

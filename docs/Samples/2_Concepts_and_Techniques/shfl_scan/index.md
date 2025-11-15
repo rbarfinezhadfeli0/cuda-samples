@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `shfl_scan`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/2_Concepts_and_Techniques/shfl_scan/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (5)
 
 | Filename | Type | Documentation | Keywords |

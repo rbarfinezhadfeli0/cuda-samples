@@ -6,7 +6,14 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `smokeParticles`
 
-## Subfolders (2)
+## Subfolders (3)
+
+### .vscode/
+
+- **Path**: `Samples/5_Domain_Specific/smokeParticles/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
 
 ### data/
 

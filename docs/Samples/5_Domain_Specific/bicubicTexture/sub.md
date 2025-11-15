@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/bicubicTexture/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 11
-- **Unique Keywords**: 92
+- **Files Indexed**: 14
+- **Unique Keywords**: 95
 
 ## Keywords A-Z
 
@@ -47,6 +47,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bicubicTex
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/bicubicTexture/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/bicubicTexture/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **catRomFilter**
 - [Samples/5_Domain_Specific/bicubicTexture/bicubicTexture_kernel.cuh](bicubicTexture_kernel.cuh_docs.md)
@@ -118,6 +121,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bicubicTex
 
 **display**
 - [Samples/5_Domain_Specific/bicubicTexture/bicubicTexture.cpp](bicubicTexture.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/bicubicTexture/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -206,6 +215,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bicubicTex
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/bicubicTexture/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **lerp**
 - [Samples/5_Domain_Specific/bicubicTexture/bicubicTexture_kernel.cuh](bicubicTexture_kernel.cuh_docs.md)
@@ -339,6 +351,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/bicubicTex
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

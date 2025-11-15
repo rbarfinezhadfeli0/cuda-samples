@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sortingNetworks/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 8
-- **Unique Keywords**: 40
+- **Files Indexed**: 11
+- **Unique Keywords**: 43
 
 ## Keywords A-Z
 
@@ -51,6 +51,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/so
 **Comparator**
 - [Samples/2_Concepts_and_Techniques/sortingNetworks/sortingNetworks_common.cuh](sortingNetworks_common.cuh_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/sortingNetworks/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **cudaFree**
 - [Samples/2_Concepts_and_Techniques/sortingNetworks/main.cpp](main.cpp_docs.md)
 
@@ -72,6 +75,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/so
 - *(and 1 more files)*
 
 
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/sortingNetworks/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **factorRadix2**
@@ -90,6 +99,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/so
 **kernel**
 - [Samples/2_Concepts_and_Techniques/sortingNetworks/bitonicSort.cu](bitonicSort.cu_docs.md)
 - [Samples/2_Concepts_and_Techniques/sortingNetworks/oddEvenMergeSort.cu](oddEvenMergeSort.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/sortingNetworks/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -183,6 +198,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/so
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

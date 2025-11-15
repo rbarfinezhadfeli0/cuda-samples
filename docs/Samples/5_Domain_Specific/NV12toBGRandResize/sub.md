@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/NV12toBGRandResize/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 12
-- **Unique Keywords**: 55
+- **Files Indexed**: 15
+- **Unique Keywords**: 58
 
 ## Keywords A-Z
 
@@ -38,6 +38,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/NV12toBGRa
 
 **CONV_THREADS_Y**
 - [Samples/5_Domain_Specific/NV12toBGRandResize/nv12_to_bgr_planar.cu](nv12_to_bgr_planar.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/NV12toBGRandResize/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/NV12toBGRandResize/resize_convert_main.cpp](resize_convert_main.cpp_docs.md)
@@ -81,6 +84,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/NV12toBGRa
 - [Samples/5_Domain_Specific/NV12toBGRandResize/utils.h](utils.h_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/NV12toBGRandResize/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **floatPlanarToChar**
@@ -102,6 +111,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/NV12toBGRa
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/NV12toBGRandResize/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadNV12Frame**
 - [Samples/5_Domain_Specific/NV12toBGRandResize/resize_convert_main.cpp](resize_convert_main.cpp_docs.md)
@@ -226,6 +238,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/NV12toBGRa
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

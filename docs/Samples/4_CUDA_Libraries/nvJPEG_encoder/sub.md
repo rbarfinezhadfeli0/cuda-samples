@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/nvJPEG_encoder/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 19
-- **Unique Keywords**: 22
+- **Files Indexed**: 22
+- **Unique Keywords**: 25
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/nvJPEG_enco
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/nvJPEG_encoder/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/nvJPEG_encoder/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/nvJPEG_encoder/nvJPEG_encoder.cpp](nvJPEG_encoder.cpp_docs.md)
@@ -45,6 +48,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/nvJPEG_enco
 **encode_params_t**
 - [Samples/4_CUDA_Libraries/nvJPEG_encoder/nvJPEG_encoder.cpp](nvJPEG_encoder.cpp_docs.md)
 
+**extensions**
+- [Samples/4_CUDA_Libraries/nvJPEG_encoder/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -56,6 +62,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/nvJPEG_enco
 
 **is_interleaved**
 - [Samples/4_CUDA_Libraries/nvJPEG_encoder/nvJPEG_encoder.cpp](nvJPEG_encoder.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/nvJPEG_encoder/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -117,6 +129,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/nvJPEG_enco
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

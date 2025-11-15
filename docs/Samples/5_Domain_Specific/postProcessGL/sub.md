@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/postProcessGL/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 11
-- **Unique Keywords**: 94
+- **Files Indexed**: 14
+- **Unique Keywords**: 97
 
 ## Keywords A-Z
 
@@ -33,6 +33,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/postProces
 
 **Cleanup**
 - [Samples/5_Domain_Specific/postProcessGL/main.cpp](main.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/postProcessGL/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/postProcessGL/main.cpp](main.cpp_docs.md)
@@ -106,6 +109,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/postProces
 
 **displayImage**
 - [Samples/5_Domain_Specific/postProcessGL/main.cpp](main.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/postProcessGL/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -229,6 +238,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/postProces
 
 ### L
 
+**launch**
+- [Samples/5_Domain_Specific/postProcessGL/.vscode/launch.json](.vscode/launch.json_docs.md)
+
 **launch_cudaProcess**
 - [Samples/5_Domain_Specific/postProcessGL/main.cpp](main.cpp_docs.md)
 - [Samples/5_Domain_Specific/postProcessGL/postProcessGL.cu](postProcessGL.cu_docs.md)
@@ -348,6 +360,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/postProces
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

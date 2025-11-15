@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 7
-- **Unique Keywords**: 46
+- **Files Indexed**: 10
+- **Unique Keywords**: 49
 
 ## Keywords A-Z
 
@@ -27,6 +27,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **case**
 - [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/quasirandomGenerator_gold.cpp](quasirandomGenerator_gold.cpp_docs.md)
@@ -54,6 +57,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 **dimension**
 - [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/quasirandomGenerator_gold.cpp](quasirandomGenerator_gold.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -113,6 +122,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 - [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/quasirandomGenerator.cpp](quasirandomGenerator.cpp_docs.md)
 - [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/quasirandomGenerator_gpu.cuh](quasirandomGenerator_gpu.cuh_docs.md)
 - [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/quasirandomGenerator_kernel.cu](quasirandomGenerator_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -209,6 +224,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

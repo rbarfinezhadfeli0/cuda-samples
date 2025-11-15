@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleDrvRuntime/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 23
+- **Files Indexed**: 7
+- **Unique Keywords**: 26
 
 ## Keywords A-Z
 
@@ -24,6 +24,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleDrvRunt
 
 **CleanupNoFailure**
 - [Samples/0_Introduction/simpleDrvRuntime/simpleDrvRuntime.cpp](simpleDrvRuntime.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleDrvRuntime/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **check**
 - [Samples/0_Introduction/simpleDrvRuntime/simpleDrvRuntime.cpp](simpleDrvRuntime.cpp_docs.md)
@@ -51,6 +54,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleDrvRunt
 - [Samples/0_Introduction/simpleDrvRuntime/vectorAdd_kernel.cu](vectorAdd_kernel.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleDrvRuntime/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **FATBIN_FILE**
@@ -71,6 +80,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleDrvRunt
 **kernel**
 - [Samples/0_Introduction/simpleDrvRuntime/simpleDrvRuntime.cpp](simpleDrvRuntime.cpp_docs.md)
 - [Samples/0_Introduction/simpleDrvRuntime/vectorAdd_kernel.cu](vectorAdd_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleDrvRuntime/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -118,6 +133,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleDrvRunt
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -34,7 +34,7 @@ class RepoDocGenerator:
     def should_skip_path(self, path: Path) -> bool:
         """Check if a path should be skipped"""
         parts = path.parts
-        skip_dirs = {'.git', 'docs', '__pycache__', '.vscode', 'build', 'bin'}
+        skip_dirs = {'.git', 'docs', '__pycache__', 'build', 'bin'}
         return any(part in skip_dirs for part in parts)
 
     def scan_repository(self):

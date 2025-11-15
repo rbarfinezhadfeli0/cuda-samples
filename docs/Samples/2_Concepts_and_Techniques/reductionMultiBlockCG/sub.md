@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 37
+- **Files Indexed**: 6
+- **Unique Keywords**: 39
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **call_reduceSinglePassMultiBlockCG**
 - [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](reductionMultiBlockCG.cu_docs.md)
@@ -61,6 +64,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 - [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](reductionMultiBlockCG.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **GPU**
@@ -85,6 +94,7 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 ### L
 
 **launch**
+- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/.vscode/launch.json](.vscode/launch.json_docs.md)
 - [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](reductionMultiBlockCG.cu_docs.md)
 
 **log**
@@ -156,6 +166,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/convolutionFFT2D/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 7
-- **Unique Keywords**: 57
+- **Files Indexed**: 10
+- **Unique Keywords**: 60
 
 ## Keywords A-Z
 
@@ -23,6 +23,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/convolutio
 
 **CONVOLUTIONFFT2D_COMMON_H**
 - [Samples/5_Domain_Specific/convolutionFFT2D/convolutionFFT2D_common.h](convolutionFFT2D_common.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/convolutionFFT2D/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **convolutionClampToBorderCPU**
 - [Samples/5_Domain_Specific/convolutionFFT2D/convolutionFFT2D_common.h](convolutionFFT2D_common.h_docs.md)
@@ -57,6 +60,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/convolutio
 - [Samples/5_Domain_Specific/convolutionFFT2D/convolutionFFT2D_common.h](convolutionFFT2D_common.h_docs.md)
 - [Samples/5_Domain_Specific/convolutionFFT2D/convolutionFFT2D_gold.cpp](convolutionFFT2D_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/convolutionFFT2D/main.cpp](main.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/convolutionFFT2D/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -113,6 +122,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/convolutio
 
 **LOAD_FLOAT**
 - [Samples/5_Domain_Specific/convolutionFFT2D/convolutionFFT2D.cuh](convolutionFFT2D.cuh_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/convolutionFFT2D/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -244,6 +256,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/convolutio
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

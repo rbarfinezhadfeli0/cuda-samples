@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 9
-- **Unique Keywords**: 73
+- **Files Indexed**: 12
+- **Unique Keywords**: 76
 
 ## Keywords A-Z
 
@@ -48,6 +48,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 **CUDASHAREDMEM_H**
 - [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **computeValue**
 - [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/src/pricingengine.cu](src/pricingengine.cu_docs.md)
@@ -102,6 +105,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 **expf**
 - [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/src/pricingengine.cu](src/pricingengine.cu_docs.md)
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -168,6 +174,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 
 ### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **line**
 - [Samples/2_Concepts_and_Techniques/MC_SingleAsianOptionP/src/main.cpp](src/main.cpp_docs.md)
@@ -294,6 +303,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

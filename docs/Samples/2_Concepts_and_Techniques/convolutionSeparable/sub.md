@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/convolutionSeparable/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 9
-- **Unique Keywords**: 39
+- **Files Indexed**: 12
+- **Unique Keywords**: 42
 
 ## Keywords A-Z
 
@@ -38,6 +38,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/co
 
 **CONVOLUTIONSEPARABLE_COMMON_H**
 - [Samples/2_Concepts_and_Techniques/convolutionSeparable/convolutionSeparable_common.h](convolutionSeparable_common.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/convolutionSeparable/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **convolution**
 - [Samples/2_Concepts_and_Techniques/convolutionSeparable/main.cpp](main.cpp_docs.md)
@@ -98,6 +101,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/co
 - [Samples/2_Concepts_and_Techniques/convolutionSeparable/main.cpp](main.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/convolutionSeparable/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **findCudaDevice**
@@ -120,6 +129,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/co
 - [Samples/2_Concepts_and_Techniques/convolutionSeparable/convolutionSeparable_common.h](convolutionSeparable_common.h_docs.md)
 - [Samples/2_Concepts_and_Techniques/convolutionSeparable/convolutionSeparable_gold.cpp](convolutionSeparable_gold.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/convolutionSeparable/main.cpp](main.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/convolutionSeparable/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -175,6 +190,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/co
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

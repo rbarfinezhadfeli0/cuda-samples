@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/newdelete/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 37
+- **Files Indexed**: 7
+- **Unique Keywords**: 40
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/newdelete/` 
 
 **Container**
 - [Samples/3_CUDA_Features/newdelete/container.hpp](container.hpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/newdelete/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/3_CUDA_Features/newdelete/newdelete.cu](newdelete.cu_docs.md)
@@ -68,6 +71,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/newdelete/` 
 - [Samples/3_CUDA_Features/newdelete/container.hpp](container.hpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/newdelete/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **findCudaDevice**
@@ -78,6 +87,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/newdelete/` 
 
 **grid**
 - [Samples/3_CUDA_Features/newdelete/newdelete.cu](newdelete.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/newdelete/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -155,6 +170,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/newdelete/` 
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

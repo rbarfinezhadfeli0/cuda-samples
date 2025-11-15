@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/interval/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 110
-- **Unique Keywords**: 746
+- **Files Indexed**: 113
+- **Unique Keywords**: 749
 
 ## Keywords A-Z
 
@@ -527,6 +527,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/in
 **c99sub_rounding_control**
 - [Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/detail/c99sub_rounding_control.hpp](boost/numeric/interval/detail/c99sub_rounding_control.hpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/interval/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **calls**
 - [Samples/2_Concepts_and_Techniques/interval/interval.cu](interval.cu_docs.md)
 
@@ -794,6 +797,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/in
 **explicit**
 - [Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/compare/explicit.hpp](boost/numeric/interval/compare/explicit.hpp_docs.md)
 
+**extensions**
+- [Samples/2_Concepts_and_Techniques/interval/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -1016,6 +1022,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/in
 
 **Library**
 - [Samples/2_Concepts_and_Techniques/interval/boost/config/select_stdlib_config.hpp](boost/config/select_stdlib_config.hpp_docs.md)
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/interval/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **layout**
 - [Samples/2_Concepts_and_Techniques/interval/boost/config/abi/borland_prefix.hpp](boost/config/abi/borland_prefix.hpp_docs.md)
@@ -1785,6 +1794,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/in
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

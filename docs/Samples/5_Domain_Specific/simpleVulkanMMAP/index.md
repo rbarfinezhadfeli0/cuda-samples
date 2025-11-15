@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `simpleVulkanMMAP`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/5_Domain_Specific/simpleVulkanMMAP/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (13)
 
 | Filename | Type | Documentation | Keywords |

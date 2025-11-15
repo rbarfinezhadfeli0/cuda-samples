@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleHyperQ/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 27
+- **Files Indexed**: 8
+- **Unique Keywords**: 30
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleHyperQ/
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleHyperQ/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleHyperQ/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleHyperQ/simpleHyperQ.cu](simpleHyperQ.cu_docs.md)
@@ -51,6 +54,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleHyperQ/
 **execution**
 - [Samples/0_Introduction/simpleHyperQ/simpleHyperQ.cu](simpleHyperQ.cu_docs.md)
 
+**extensions**
+- [Samples/0_Introduction/simpleHyperQ/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -68,6 +74,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleHyperQ/
 
 **kernel_B**
 - [Samples/0_Introduction/simpleHyperQ/simpleHyperQ.cu](simpleHyperQ.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleHyperQ/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -126,6 +138,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleHyperQ/
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

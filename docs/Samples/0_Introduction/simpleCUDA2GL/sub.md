@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleCUDA2GL/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 75
+- **Files Indexed**: 8
+- **Unique Keywords**: 78
 
 ## Keywords A-Z
 
@@ -27,6 +27,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCUDA2GL
 
 **Cleanup**
 - [Samples/0_Introduction/simpleCUDA2GL/main.cpp](main.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleCUDA2GL/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleCUDA2GL/main.cpp](main.cpp_docs.md)
@@ -85,6 +88,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCUDA2GL
 
 **displayImage**
 - [Samples/0_Introduction/simpleCUDA2GL/main.cpp](main.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleCUDA2GL/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -182,6 +191,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCUDA2GL
 
 
 ### L
+
+**launch**
+- [Samples/0_Introduction/simpleCUDA2GL/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launch_cudaProcess**
 - [Samples/0_Introduction/simpleCUDA2GL/main.cpp](main.cpp_docs.md)
@@ -289,6 +301,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleCUDA2GL
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

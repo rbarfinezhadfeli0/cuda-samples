@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/globalToShmemAsyncCopy/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 40
+- **Files Indexed**: 6
+- **Unique Keywords**: 43
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/globalToShme
 
 **ConstantInit**
 - [Samples/3_CUDA_Features/globalToShmemAsyncCopy/globalToShmemAsyncCopy.cu](globalToShmemAsyncCopy.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/globalToShmemAsyncCopy/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/3_CUDA_Features/globalToShmemAsyncCopy/globalToShmemAsyncCopy.cu](globalToShmemAsyncCopy.cu_docs.md)
@@ -61,6 +64,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/globalToShme
 - [Samples/3_CUDA_Features/globalToShmemAsyncCopy/globalToShmemAsyncCopy.cu](globalToShmemAsyncCopy.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/globalToShmemAsyncCopy/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -84,6 +93,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/globalToShme
 
 **kernel**
 - [Samples/3_CUDA_Features/globalToShmemAsyncCopy/globalToShmemAsyncCopy.cu](globalToShmemAsyncCopy.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/globalToShmemAsyncCopy/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -168,6 +183,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/globalToShme
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

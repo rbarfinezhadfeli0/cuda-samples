@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleMultiGPU/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 24
+- **Files Indexed**: 7
+- **Unique Keywords**: 27
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiGP
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleMultiGPU/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleMultiGPU/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleMultiGPU/simpleMultiGPU.cu](simpleMultiGPU.cu_docs.md)
@@ -44,6 +47,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiGP
 - [Samples/0_Introduction/simpleMultiGPU/simpleMultiGPU.h](simpleMultiGPU.h_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleMultiGPU/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -66,6 +75,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiGP
 
 
 ### L
+
+**launch**
+- [Samples/0_Introduction/simpleMultiGPU/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launch_reduceKernel**
 - [Samples/0_Introduction/simpleMultiGPU/simpleMultiGPU.h](simpleMultiGPU.h_docs.md)
@@ -125,6 +137,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleMultiGP
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/scalarProd/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 26
+- **Files Indexed**: 8
+- **Unique Keywords**: 29
 
 ## Keywords A-Z
 
@@ -27,6 +27,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sc
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/scalarProd/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/scalarProd/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/2_Concepts_and_Techniques/scalarProd/scalarProd.cu](scalarProd.cu_docs.md)
 
@@ -46,6 +49,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sc
 - [Samples/2_Concepts_and_Techniques/scalarProd/scalarProd.cu](scalarProd.cu_docs.md)
 - [Samples/2_Concepts_and_Techniques/scalarProd/scalarProd_cpu.cpp](scalarProd_cpu.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/scalarProd/scalarProd_kernel.cuh](scalarProd_kernel.cuh_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/scalarProd/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -79,6 +88,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sc
 
 **kernel**
 - [Samples/2_Concepts_and_Techniques/scalarProd/scalarProd.cu](scalarProd.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/scalarProd/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -136,6 +151,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/sc
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

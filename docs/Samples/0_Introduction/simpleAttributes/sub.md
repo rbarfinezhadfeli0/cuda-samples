@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleAttributes/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 20
+- **Files Indexed**: 6
+- **Unique Keywords**: 23
 
 ## Keywords A-Z
 
@@ -24,6 +24,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAttribu
 **CMakeLists**
 - [Samples/0_Introduction/simpleAttributes/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleAttributes/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleAttributes/simpleAttributes.cu](simpleAttributes.cu_docs.md)
 
@@ -41,6 +44,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAttribu
 
 **DAMAGES**
 - [Samples/0_Introduction/simpleAttributes/simpleAttributes.cu](simpleAttributes.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleAttributes/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### G
@@ -62,6 +71,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAttribu
 
 **kernel**
 - [Samples/0_Introduction/simpleAttributes/simpleAttributes.cu](simpleAttributes.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleAttributes/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -102,6 +117,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAttribu
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

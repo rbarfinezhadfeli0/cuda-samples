@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 8
-- **Unique Keywords**: 110
+- **Files Indexed**: 11
+- **Unique Keywords**: 113
 
 ## Keywords A-Z
 
@@ -17,6 +17,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverDn_
 
 **CSR**
 - [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/cuSolverDn_LinearSolver.cpp](cuSolverDn_LinearSolver.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/cuSolverDn_LinearSolver.cpp](cuSolverDn_LinearSolver.cpp_docs.md)
@@ -64,6 +67,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverDn_
 - [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/mmio_wrapper.cpp](mmio_wrapper.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **float**
@@ -98,6 +107,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverDn_
 
 **lap3D_7pt_n20**
 - [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/lap3D_7pt_n20.mtx](lap3D_7pt_n20.mtx_docs.md)
+
+**launch**
+- [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **linearSolverCHOL**
 - [Samples/4_CUDA_Libraries/cuSolverDn_LinearSolver/cuSolverDn_LinearSolver.cpp](cuSolverDn_LinearSolver.cpp_docs.md)
@@ -401,6 +413,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverDn_
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

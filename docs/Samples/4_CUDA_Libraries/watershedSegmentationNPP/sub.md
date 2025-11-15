@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/watershedSegmentationNPP/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 16
+- **Files Indexed**: 6
+- **Unique Keywords**: 19
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/watershedSe
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/watershedSegmentationNPP/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/watershedSegmentationNPP/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaFree**
 - [Samples/4_CUDA_Libraries/watershedSegmentationNPP/watershedSegmentationNPP.cpp](watershedSegmentationNPP.cpp_docs.md)
@@ -34,6 +37,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/watershedSe
 - [Samples/4_CUDA_Libraries/watershedSegmentationNPP/watershedSegmentationNPP.cpp](watershedSegmentationNPP.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/watershedSegmentationNPP/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -41,6 +50,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/watershedSe
 
 
 ### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/watershedSegmentationNPP/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadRaw8BitImage**
 - [Samples/4_CUDA_Libraries/watershedSegmentationNPP/watershedSegmentationNPP.cpp](watershedSegmentationNPP.cpp_docs.md)
@@ -93,6 +105,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/watershedSe
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

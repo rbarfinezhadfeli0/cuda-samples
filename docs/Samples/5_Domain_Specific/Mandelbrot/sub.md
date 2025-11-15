@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/Mandelbrot/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 16
-- **Unique Keywords**: 99
+- **Files Indexed**: 19
+- **Unique Keywords**: 102
 
 ## Keywords A-Z
 
@@ -55,6 +55,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/Mandelbrot
 **CheckColors**
 - [Samples/5_Domain_Specific/Mandelbrot/Mandelbrot_gold.cpp](Mandelbrot_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/Mandelbrot/Mandelbrot_kernel.cuh](Mandelbrot_kernel.cuh_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/Mandelbrot/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cleanup**
 - [Samples/5_Domain_Specific/Mandelbrot/Mandelbrot.cpp](Mandelbrot.cpp_docs.md)
@@ -127,6 +130,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/Mandelbrot
 - [Samples/5_Domain_Specific/Mandelbrot/Mandelbrot_kernel.cuh](Mandelbrot_kernel.cuh_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/Mandelbrot/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **findCudaDevice**
@@ -192,6 +201,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/Mandelbrot
 
 **keyboardFunc**
 - [Samples/5_Domain_Specific/Mandelbrot/Mandelbrot.cpp](Mandelbrot.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/Mandelbrot/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -369,6 +384,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/Mandelbrot
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

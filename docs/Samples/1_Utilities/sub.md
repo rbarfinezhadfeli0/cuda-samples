@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/1_Utilities/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 11
-- **Unique Keywords**: 30
+- **Files Indexed**: 20
+- **Unique Keywords**: 33
 
 ## Keywords A-Z
 
@@ -31,6 +31,11 @@ This keyword index covers all files within `Samples/1_Utilities/` and all its su
 - [Samples/1_Utilities/deviceQuery/CMakeLists.txt](deviceQuery/CMakeLists.txt_docs.md)
 - [Samples/1_Utilities/deviceQueryDrv/CMakeLists.txt](deviceQueryDrv/CMakeLists.txt_docs.md)
 - [Samples/1_Utilities/topologyQuery/CMakeLists.txt](topologyQuery/CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/1_Utilities/deviceQuery/.vscode/c_cpp_properties.json](deviceQuery/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/1_Utilities/deviceQueryDrv/.vscode/c_cpp_properties.json](deviceQueryDrv/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/1_Utilities/topologyQuery/.vscode/c_cpp_properties.json](topologyQuery/.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/1_Utilities/deviceQuery/deviceQuery.cpp](deviceQuery/deviceQuery.cpp_docs.md)
@@ -68,6 +73,11 @@ This keyword index covers all files within `Samples/1_Utilities/` and all its su
 **exit**
 - [Samples/1_Utilities/deviceQuery/deviceQuery.cpp](deviceQuery/deviceQuery.cpp_docs.md)
 
+**extensions**
+- [Samples/1_Utilities/deviceQuery/.vscode/extensions.json](deviceQuery/.vscode/extensions.json_docs.md)
+- [Samples/1_Utilities/deviceQueryDrv/.vscode/extensions.json](deviceQueryDrv/.vscode/extensions.json_docs.md)
+- [Samples/1_Utilities/topologyQuery/.vscode/extensions.json](topologyQuery/.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -90,6 +100,14 @@ This keyword index covers all files within `Samples/1_Utilities/` and all its su
 **kernel**
 - [Samples/1_Utilities/deviceQuery/deviceQuery.cpp](deviceQuery/deviceQuery.cpp_docs.md)
 - [Samples/1_Utilities/deviceQueryDrv/deviceQueryDrv.cpp](deviceQueryDrv/deviceQueryDrv.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/1_Utilities/deviceQuery/.vscode/launch.json](deviceQuery/.vscode/launch.json_docs.md)
+- [Samples/1_Utilities/deviceQueryDrv/.vscode/launch.json](deviceQueryDrv/.vscode/launch.json_docs.md)
+- [Samples/1_Utilities/topologyQuery/.vscode/launch.json](topologyQuery/.vscode/launch.json_docs.md)
 
 
 ### M
@@ -191,15 +209,15 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### deviceQuery/
 
-`Addressing`, `CMakeLists`, `DAMAGES`, `MHz`, `Mode`, `Process`, `Query`, `README`, `Size`, `T`, `Windows`, `block`, `checkCudaErrors`, `cudaDriverGetVersion`, `defined`, `device`, `deviceQuery`, `exit`, `getCudaAttribute`, `grid`, `kernel`, `main`, `printf`, `size`, `snprintf`, `thread`, `warp`
+`Addressing`, `CMakeLists`, `DAMAGES`, `MHz`, `Mode`, `Process`, `Query`, `README`, `Size`, `T`, `Windows`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cudaDriverGetVersion`, `defined`, `device`, `deviceQuery`, `exit`, `extensions`, `getCudaAttribute`, `grid`, `kernel`, `launch`, `main`, `printf`, `size`, `snprintf`, `thread`, `warp`
 
 #### deviceQueryDrv/
 
-`Addressing`, `CMakeLists`, `DAMAGES`, `MHz`, `Mode`, `Process`, `Query`, `README`, `Windows`, `block`, `defined`, `device`, `deviceQueryDrv`, `grid`, `kernel`, `main`, `printf`, `size`, `thread`, `warp`
+`Addressing`, `CMakeLists`, `DAMAGES`, `MHz`, `Mode`, `Process`, `Query`, `README`, `Windows`, `block`, `c_cpp_properties`, `defined`, `device`, `deviceQueryDrv`, `extensions`, `grid`, `kernel`, `launch`, `main`, `printf`, `size`, `thread`, `warp`
 
 #### topologyQuery/
 
-`CMakeLists`, `DAMAGES`, `README`, `for`, `main`, `topologyQuery`
+`CMakeLists`, `DAMAGES`, `README`, `c_cpp_properties`, `extensions`, `for`, `launch`, `main`, `topologyQuery`
 
 
 ---

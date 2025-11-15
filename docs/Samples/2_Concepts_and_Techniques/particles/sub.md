@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/particles/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 19
-- **Unique Keywords**: 146
+- **Files Indexed**: 22
+- **Unique Keywords**: 149
 
 ## Keywords A-Z
 
@@ -39,6 +39,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/pa
 
 **CUDART_PI_F**
 - [Samples/2_Concepts_and_Techniques/particles/particleSystem.cpp](particleSystem.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/particles/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calcGridHash**
 - [Samples/2_Concepts_and_Techniques/particles/particles_kernel_impl.cuh](particles_kernel_impl.cuh_docs.md)
@@ -157,6 +160,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/pa
 
 **dumpParticles**
 - [Samples/2_Concepts_and_Techniques/particles/particleSystem.h](particleSystem.h_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/particles/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -296,6 +305,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/pa
 
 
 ### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/particles/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **lerp**
 - [Samples/2_Concepts_and_Techniques/particles/particleSystem.cpp](particleSystem.cpp_docs.md)
@@ -536,6 +548,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/pa
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

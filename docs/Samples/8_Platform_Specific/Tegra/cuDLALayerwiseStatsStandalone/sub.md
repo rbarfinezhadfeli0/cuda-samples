@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 15
+- **Files Indexed**: 6
+- **Unique Keywords**: 18
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 **CMakeLists**
 - [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cleanUp**
 - [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/main.cpp](main.cpp_docs.md)
@@ -34,6 +37,12 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 - [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/main.cpp](main.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **fillCpuWaiterAttrList**
@@ -41,6 +50,12 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 **for**
 - [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/main.cpp](main.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/cuDLALayerwiseStatsStandalone/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -86,6 +101,10 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/p2pBandwidthLatencyTest/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 29
+- **Files Indexed**: 6
+- **Unique Keywords**: 32
 
 ## Keywords A-Z
 
@@ -23,6 +23,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/p2pBandwid
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkP2Paccess**
 - [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/p2pBandwidthLatencyTest.cu](p2pBandwidthLatencyTest.cu_docs.md)
@@ -55,6 +58,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/p2pBandwid
 - [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/p2pBandwidthLatencyTest.cu](p2pBandwidthLatencyTest.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -77,6 +86,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/p2pBandwid
 
 **Latency**
 - [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/p2pBandwidthLatencyTest.cu](p2pBandwidthLatencyTest.cu_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/p2pBandwidthLatencyTest/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -141,6 +153,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/p2pBandwid
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

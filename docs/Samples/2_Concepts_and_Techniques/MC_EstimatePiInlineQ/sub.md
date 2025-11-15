@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 8
-- **Unique Keywords**: 67
+- **Files Indexed**: 11
+- **Unique Keywords**: 70
 
 ## Keywords A-Z
 
@@ -39,6 +39,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 **CUDASHAREDMEM_H**
 - [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/inc/cudasharedmem.h](inc/cudasharedmem.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **computeValue**
 - [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
@@ -84,6 +87,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 **exit**
 - [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -147,6 +153,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 **L**
 - [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/piestimator.cu](src/piestimator.cu_docs.md)
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **line**
 - [Samples/2_Concepts_and_Techniques/MC_EstimatePiInlineQ/src/main.cpp](src/main.cpp_docs.md)
@@ -279,6 +288,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/MC
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

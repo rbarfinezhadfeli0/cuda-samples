@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/HSOpticalFlow/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 20
-- **Unique Keywords**: 64
+- **Files Indexed**: 23
+- **Unique Keywords**: 67
 
 ## Keywords A-Z
 
@@ -68,6 +68,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/HSOpticalF
 - [Samples/5_Domain_Specific/HSOpticalFlow/flowGold.cpp](flowGold.cpp_docs.md)
 - [Samples/5_Domain_Specific/HSOpticalFlow/flowGold.h](flowGold.h_docs.md)
 
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/HSOpticalFlow/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/HSOpticalFlow/flowCUDA.cu](flowCUDA.cu_docs.md)
 
@@ -112,6 +115,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/HSOpticalF
 
 **exit**
 - [Samples/5_Domain_Specific/HSOpticalFlow/main.cpp](main.cpp_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/HSOpticalFlow/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -199,6 +205,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/HSOpticalF
 
 **LoadImageAsFP32**
 - [Samples/5_Domain_Specific/HSOpticalFlow/main.cpp](main.cpp_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/HSOpticalFlow/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -311,6 +320,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/HSOpticalF
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

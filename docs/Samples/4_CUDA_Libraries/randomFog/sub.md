@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/randomFog/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 6
-- **Unique Keywords**: 59
+- **Files Indexed**: 9
+- **Unique Keywords**: 62
 
 ## Keywords A-Z
 
@@ -17,6 +17,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/randomFog/`
 
 **CheckBackBuffer**
 - [Samples/4_CUDA_Libraries/randomFog/randomFog.cpp](randomFog.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/randomFog/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cleanup**
 - [Samples/4_CUDA_Libraries/randomFog/randomFog.cpp](randomFog.cpp_docs.md)
@@ -67,6 +70,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/randomFog/`
 
 **error**
 - [Samples/4_CUDA_Libraries/randomFog/randomFog.cpp](randomFog.cpp_docs.md)
+
+**extensions**
+- [Samples/4_CUDA_Libraries/randomFog/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -142,6 +148,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/randomFog/`
 
 **keyboard**
 - [Samples/4_CUDA_Libraries/randomFog/randomFog.cpp](randomFog.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/randomFog/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -245,6 +257,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/randomFog/`
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

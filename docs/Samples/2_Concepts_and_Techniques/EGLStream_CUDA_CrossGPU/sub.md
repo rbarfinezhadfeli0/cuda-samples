@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 11
-- **Unique Keywords**: 85
+- **Files Indexed**: 14
+- **Unique Keywords**: 88
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 
 **CONS_DATA**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/eglstrm_common.h](eglstrm_common.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkConsumerDataGPU**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/kernel.cu](kernel.cu_docs.md)
@@ -187,6 +190,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/eglstrm_common.cpp](eglstrm_common.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/eglstrm_common.h](eglstrm_common.h_docs.md)
 
+**extensions**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### G
 
@@ -224,6 +230,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 
 
 ### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launchProducer**
 - [Samples/2_Concepts_and_Techniques/EGLStream_CUDA_CrossGPU/helper.h](helper.h_docs.md)
@@ -341,6 +350,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/EG
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

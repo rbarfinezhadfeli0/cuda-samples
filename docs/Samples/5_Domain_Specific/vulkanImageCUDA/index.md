@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `vulkanImageCUDA`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/5_Domain_Specific/vulkanImageCUDA/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (10)
 
 | Filename | Type | Documentation | Keywords |

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/marchingCubes/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 14
-- **Unique Keywords**: 94
+- **Files Indexed**: 17
+- **Unique Keywords**: 97
 
 ## Keywords A-Z
 
@@ -30,6 +30,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/marchingCu
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/marchingCubes/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/marchingCubes/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **calcGridPos**
 - [Samples/5_Domain_Specific/marchingCubes/marchingCubes_kernel.cu](marchingCubes_kernel.cu_docs.md)
@@ -119,6 +122,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/marchingCu
 **EPSILON**
 - [Samples/5_Domain_Specific/marchingCubes/marchingCubes.cpp](marchingCubes.cpp_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/marchingCubes/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -194,6 +200,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/marchingCu
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/marchingCubes/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launch_classifyVoxel**
 - [Samples/5_Domain_Specific/marchingCubes/marchingCubes.cpp](marchingCubes.cpp_docs.md)
@@ -361,6 +370,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/marchingCu
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

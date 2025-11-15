@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleTemplates/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 38
+- **Files Indexed**: 7
+- **Unique Keywords**: 41
 
 ## Keywords A-Z
 
@@ -32,6 +32,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleTemplat
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleTemplates/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleTemplates/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/simpleTemplates/simpleTemplates.cu](simpleTemplates.cu_docs.md)
@@ -67,6 +70,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleTemplat
 **error**
 - [Samples/0_Introduction/simpleTemplates/sharedmem.cuh](sharedmem.cuh_docs.md)
 
+**extensions**
+- [Samples/0_Introduction/simpleTemplates/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -90,6 +96,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleTemplat
 
 **kernel**
 - [Samples/0_Introduction/simpleTemplates/simpleTemplates.cu](simpleTemplates.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleTemplates/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -161,6 +173,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleTemplat
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

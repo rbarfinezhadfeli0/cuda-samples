@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/jacobiCudaGraphs/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 35
+- **Files Indexed**: 8
+- **Unique Keywords**: 38
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/jacobiCudaGr
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/jacobiCudaGraphs/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/jacobiCudaGraphs/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **createLinearSystem**
 - [Samples/3_CUDA_Features/jacobiCudaGraphs/main.cpp](main.cpp_docs.md)
@@ -52,6 +55,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/jacobiCudaGr
 - [Samples/3_CUDA_Features/jacobiCudaGraphs/jacobi.cu](jacobi.cu_docs.md)
 - [Samples/3_CUDA_Features/jacobiCudaGraphs/jacobi.h](jacobi.h_docs.md)
 - [Samples/3_CUDA_Features/jacobiCudaGraphs/main.cpp](main.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/jacobiCudaGraphs/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -104,6 +113,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/jacobiCudaGr
 
 **kernel**
 - [Samples/3_CUDA_Features/jacobiCudaGraphs/jacobi.cu](jacobi.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/jacobiCudaGraphs/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -161,6 +176,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/jacobiCudaGr
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

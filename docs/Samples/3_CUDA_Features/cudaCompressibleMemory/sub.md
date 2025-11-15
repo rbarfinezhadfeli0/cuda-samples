@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/cudaCompressibleMemory/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 20
+- **Files Indexed**: 8
+- **Unique Keywords**: 23
 
 ## Keywords A-Z
 
@@ -34,6 +34,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cudaCompress
 **CUDA_DRIVER_API**
 - [Samples/3_CUDA_Features/cudaCompressibleMemory/saxpy.cu](saxpy.cu_docs.md)
 
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/cudaCompressibleMemory/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/3_CUDA_Features/cudaCompressibleMemory/saxpy.cu](saxpy.cu_docs.md)
 
@@ -56,6 +59,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cudaCompress
 - [Samples/3_CUDA_Features/cudaCompressibleMemory/saxpy.cu](saxpy.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/cudaCompressibleMemory/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **freeCompressible**
@@ -76,6 +85,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cudaCompress
 
 
 ### L
+
+**launch**
+- [Samples/3_CUDA_Features/cudaCompressibleMemory/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launchSaxpy**
 - [Samples/3_CUDA_Features/cudaCompressibleMemory/saxpy.cu](saxpy.cu_docs.md)
@@ -115,6 +127,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cudaCompress
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/matrixMulDynlinkJIT/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 17
-- **Unique Keywords**: 297
+- **Files Indexed**: 20
+- **Unique Keywords**: 300
 
 ## Keywords A-Z
 
@@ -194,6 +194,9 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMulDynl
 **CUuuid_st**
 - [Samples/0_Introduction/matrixMulDynlinkJIT/cuda_drvapi_dynlink_cuda.h](cuda_drvapi_dynlink_cuda.h_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/matrixMulDynlinkJIT/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaCapabilitiesDRV**
 - [Samples/0_Introduction/matrixMulDynlinkJIT/helper_cuda_drvapi.h](helper_cuda_drvapi.h_docs.md)
 
@@ -262,6 +265,9 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMulDynl
 
 **errors**
 - [Samples/0_Introduction/matrixMulDynlinkJIT/cuda_drvapi_dynlink_cuda.h](cuda_drvapi_dynlink_cuda.h_docs.md)
+
+**extensions**
+- [Samples/0_Introduction/matrixMulDynlinkJIT/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -397,6 +403,9 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMulDynl
 
 **Launching**
 - [Samples/0_Introduction/matrixMulDynlinkJIT/matrixMulDynlinkJIT.cpp](matrixMulDynlinkJIT.cpp_docs.md)
+
+**launch**
+- [Samples/0_Introduction/matrixMulDynlinkJIT/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -828,6 +837,10 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMulDynl
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

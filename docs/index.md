@@ -34,7 +34,7 @@ This is the **root directory** of the CUDA Samples repository, containing:
 - **Documentation**: [View Documentation](./cmake/doc.md)
 - **Keywords**: [View Keyword Index](./cmake/sub.md)
 
-## Files (11)
+## Files (12)
 
 | Filename | Type | Documentation | Keywords |
 |----------|------|---------------|----------|
@@ -46,6 +46,7 @@ This is the **root directory** of the CUDA Samples repository, containing:
 | CONTRIBUTING.md | .md | [docs](./CONTRIBUTING.md_docs.md) | [keywords](./CONTRIBUTING.md_kw.md) |
 | LICENSE | (none) | [docs](./LICENSE_docs.md) | [keywords](./LICENSE_kw.md) |
 | README.md | .md | [docs](./README.md_docs.md) | [keywords](./README.md_kw.md) |
+| generate_comprehensive_book.py | .py | [docs](./generate_comprehensive_book.py_docs.md) | [keywords](./generate_comprehensive_book.py_kw.md) |
 | generate_docs.py | .py | [docs](./generate_docs.py_docs.md) | [keywords](./generate_docs.py_kw.md) |
 | run_tests.py | .py | [docs](./run_tests.py_docs.md) | [keywords](./run_tests.py_kw.md) |
 | test_args.json | .json | [docs](./test_args.json_docs.md) | [keywords](./test_args.json_kw.md) |

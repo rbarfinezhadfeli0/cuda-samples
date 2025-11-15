@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/memMapIPCDrv/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 36
+- **Files Indexed**: 7
+- **Unique Keywords**: 39
 
 ## Keywords A-Z
 
@@ -24,6 +24,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/memMapIPCDrv
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/memMapIPCDrv/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/memMapIPCDrv/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/3_CUDA_Features/memMapIPCDrv/memMapIpc.cpp](memMapIpc.cpp_docs.md)
@@ -55,6 +58,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/memMapIPCDrv
 
 **exec**
 - [Samples/3_CUDA_Features/memMapIPCDrv/memMapIpc.cpp](memMapIpc.cpp_docs.md)
+
+**extensions**
+- [Samples/3_CUDA_Features/memMapIPCDrv/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -89,6 +95,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/memMapIPCDrv
 **kernel**
 - [Samples/3_CUDA_Features/memMapIPCDrv/memMapIpc.cpp](memMapIpc.cpp_docs.md)
 - [Samples/3_CUDA_Features/memMapIPCDrv/memMapIpc_kernel.cu](memMapIpc_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/3_CUDA_Features/memMapIPCDrv/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -162,6 +174,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/memMapIPCDrv
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

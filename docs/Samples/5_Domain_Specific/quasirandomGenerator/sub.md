@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/quasirandomGenerator/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 6
-- **Unique Keywords**: 45
+- **Files Indexed**: 9
+- **Unique Keywords**: 48
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/quasirandomGenerator/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/quasirandomGenerator/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **case**
 - [Samples/5_Domain_Specific/quasirandomGenerator/quasirandomGenerator_gold.cpp](quasirandomGenerator_gold.cpp_docs.md)
@@ -59,6 +62,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 **dimension**
 - [Samples/5_Domain_Specific/quasirandomGenerator/quasirandomGenerator_gold.cpp](quasirandomGenerator_gold.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/quasirandomGenerator/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -116,6 +125,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 **kernel**
 - [Samples/5_Domain_Specific/quasirandomGenerator/quasirandomGenerator_kernel.cu](quasirandomGenerator_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/quasirandomGenerator/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -203,6 +218,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/quasirando
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

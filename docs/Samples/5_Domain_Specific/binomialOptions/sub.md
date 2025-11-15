@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/binomialOptions/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 9
-- **Unique Keywords**: 32
+- **Files Indexed**: 12
+- **Unique Keywords**: 35
 
 ## Keywords A-Z
 
@@ -56,6 +56,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 **CND**
 - [Samples/5_Domain_Specific/binomialOptions/binomialOptions_gold.cpp](binomialOptions_gold.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/binomialOptions/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **cudaMemcpy**
 - [Samples/5_Domain_Specific/binomialOptions/binomialOptions_kernel.cu](binomialOptions_kernel.cu_docs.md)
 
@@ -82,6 +85,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 - [Samples/5_Domain_Specific/binomialOptions/binomialOptions_gold.cpp](binomialOptions_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/binomialOptions/binomialOptions_kernel.cu](binomialOptions_kernel.cu_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/binomialOptions/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -93,6 +99,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 
 **kernel**
 - [Samples/5_Domain_Specific/binomialOptions/binomialOptions_kernel.cu](binomialOptions_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/binomialOptions/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -147,6 +159,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/binomialOp
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

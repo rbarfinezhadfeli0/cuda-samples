@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 38
+- **Files Indexed**: 8
+- **Unique Keywords**: 41
 
 ## Keywords A-Z
 
@@ -52,6 +52,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAtomicI
 **CMakeLists**
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **computeGold**
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics.cpp](simpleAtomicIntrinsics.cpp_docs.md)
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics_cpu.cpp](simpleAtomicIntrinsics_cpu.cpp_docs.md)
@@ -69,6 +72,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAtomicI
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics.cpp](simpleAtomicIntrinsics.cpp_docs.md)
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics_cpu.cpp](simpleAtomicIntrinsics_cpu.cpp_docs.md)
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics_kernel.cuh](simpleAtomicIntrinsics_kernel.cuh_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -100,6 +109,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAtomicI
 **kernel**
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics.cpp](simpleAtomicIntrinsics.cpp_docs.md)
 - [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/simpleAtomicIntrinsics_kernel.cuh](simpleAtomicIntrinsics_kernel.cuh_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/simpleAtomicIntrinsics_nvrtc/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -173,6 +188,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleAtomicI
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulkanMMAP/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 13
-- **Unique Keywords**: 119
+- **Files Indexed**: 16
+- **Unique Keywords**: 122
 
 ## Keywords A-Z
 
@@ -37,6 +37,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 **CUDA_DRIVER_API**
 - [Samples/5_Domain_Specific/simpleVulkanMMAP/MonteCarloPi.cu](MonteCarloPi.cu_docs.md)
 - [Samples/5_Domain_Specific/simpleVulkanMMAP/VulkanCudaInterop.h](VulkanCudaInterop.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/simpleVulkanMMAP/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **center**
 - [Samples/5_Domain_Specific/simpleVulkanMMAP/MonteCarloPi.cu](MonteCarloPi.cu_docs.md)
@@ -180,6 +183,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 **endSingleTimeCommands**
 - [Samples/5_Domain_Specific/simpleVulkanMMAP/VulkanBaseApp.h](VulkanBaseApp.h_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/simpleVulkanMMAP/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -315,6 +321,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 - [Samples/5_Domain_Specific/simpleVulkanMMAP/MonteCarloPi.h](MonteCarloPi.h_docs.md)
 
 
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/simpleVulkanMMAP/.vscode/launch.json](.vscode/launch.json_docs.md)
+
+
 ### M
 
 **MonteCarloPi**
@@ -442,6 +454,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### Build_instructions.txt/
 

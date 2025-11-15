@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/MonteCarloMultiGPU/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 12
-- **Unique Keywords**: 73
+- **Files Indexed**: 15
+- **Unique Keywords**: 76
 
 ## Keywords A-Z
 
@@ -61,6 +61,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/MonteCarlo
 
 **CreateThread**
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/multithreading.cpp](multithreading.cpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/MonteCarloMultiGPU/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/MonteCarloMultiGPU.cpp](MonteCarloMultiGPU.cpp_docs.md)
@@ -123,6 +126,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/MonteCarlo
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/MonteCarlo_gold.cpp](MonteCarlo_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/MonteCarlo_kernel.cu](MonteCarlo_kernel.cu_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/MonteCarloMultiGPU/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -159,6 +165,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/MonteCarlo
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/MonteCarlo_common.h](MonteCarlo_common.h_docs.md)
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/MonteCarlo_gold.cpp](MonteCarlo_gold.cpp_docs.md)
 - [Samples/5_Domain_Specific/MonteCarloMultiGPU/MonteCarlo_kernel.cu](MonteCarlo_kernel.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/5_Domain_Specific/MonteCarloMultiGPU/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -303,6 +315,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/MonteCarlo
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

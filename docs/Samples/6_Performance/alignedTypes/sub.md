@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/6_Performance/alignedTypes/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 25
+- **Files Indexed**: 7
+- **Unique Keywords**: 28
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/6_Performance/alignedTypes/`
 **CMakeLists**
 - [Samples/6_Performance/alignedTypes/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/6_Performance/alignedTypes/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **checkCudaErrors**
 - [Samples/6_Performance/alignedTypes/alignedTypes.cu](alignedTypes.cu_docs.md)
 
@@ -46,6 +49,12 @@ This keyword index covers all files within `Samples/6_Performance/alignedTypes/`
 
 **DAMAGES**
 - [Samples/6_Performance/alignedTypes/alignedTypes.cu](alignedTypes.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/6_Performance/alignedTypes/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### G
@@ -79,6 +88,12 @@ This keyword index covers all files within `Samples/6_Performance/alignedTypes/`
 
 **kernel**
 - [Samples/6_Performance/alignedTypes/alignedTypes.cu](alignedTypes.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/6_Performance/alignedTypes/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -124,6 +139,10 @@ This keyword index covers all files within `Samples/6_Performance/alignedTypes/`
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

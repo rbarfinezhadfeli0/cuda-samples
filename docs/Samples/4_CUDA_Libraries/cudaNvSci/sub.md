@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/cudaNvSci/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 7
-- **Unique Keywords**: 56
+- **Files Indexed**: 10
+- **Unique Keywords**: 59
 
 ## Keywords A-Z
 
@@ -23,6 +23,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cudaNvSci/`
 
 **CUDANVSCI_H**
 - [Samples/4_CUDA_Libraries/cudaNvSci/cudaNvSci.h](cudaNvSci.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/cudaNvSci/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/cudaNvSci/cudaNvSci.cpp](cudaNvSci.cpp_docs.md)
@@ -95,6 +98,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cudaNvSci/`
 - [Samples/4_CUDA_Libraries/cudaNvSci/imageKernels.cu](imageKernels.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/cudaNvSci/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **getNvSciImageBufAttrList**
@@ -129,6 +138,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cudaNvSci/`
 
 
 ### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/cudaNvSci/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launchGrayScaleKernel**
 - [Samples/4_CUDA_Libraries/cudaNvSci/cudaNvSci.h](cudaNvSci.h_docs.md)
@@ -225,6 +237,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cudaNvSci/`
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

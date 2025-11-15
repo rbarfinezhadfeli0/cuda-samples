@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 9
-- **Unique Keywords**: 106
+- **Files Indexed**: 12
+- **Unique Keywords**: 109
 
 ## Keywords A-Z
 
@@ -14,6 +14,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverSp_
 
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/cuSolverSp_LowlevelQR.cpp](cuSolverSp_LowlevelQR.cpp_docs.md)
@@ -62,6 +65,12 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverSp_
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/mmio_wrapper.cpp](mmio_wrapper.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **float**
@@ -96,6 +105,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverSp_
 
 **lap3D_7pt_n20**
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx](lap3D_7pt_n20.mtx_docs.md)
+
+**launch**
+- [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadMMSparseMatrix**
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/cuSolverSp_LowlevelQR.cpp](cuSolverSp_LowlevelQR.cpp_docs.md)
@@ -387,6 +399,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/cuSolverSp_
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

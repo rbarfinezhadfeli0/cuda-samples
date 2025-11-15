@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 7
-- **Unique Keywords**: 43
+- **Files Indexed**: 10
+- **Unique Keywords**: 46
 
 ## Keywords A-Z
 
@@ -32,6 +32,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 **Caller**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.h](cudaNvSciBufMultiplanar.h_docs.md)
+
+**c_cpp_properties**
+- [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaDrvErrors**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.h](cudaNvSciBufMultiplanar.h_docs.md)
@@ -82,6 +85,12 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.h](cudaNvSciBufMultiplanar.h_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **flipBits**
@@ -111,6 +120,9 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 
 ### L
+
+**launch**
+- [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launchFlipSurfaceBitsKernel**
 - [Samples/8_Platform_Specific/Tegra/cudaNvSciBufMultiplanar/cudaNvSciBufMultiplanar.cpp](cudaNvSciBufMultiplanar.cpp_docs.md)
@@ -199,6 +211,10 @@ This keyword index covers all files within `Samples/8_Platform_Specific/Tegra/cu
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

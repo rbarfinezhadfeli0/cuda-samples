@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/4_CUDA_Libraries/boxFilterNPP/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 4
-- **Unique Keywords**: 15
+- **Files Indexed**: 7
+- **Unique Keywords**: 18
 
 ## Keywords A-Z
 
@@ -22,6 +22,9 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/boxFilterNP
 **CMakeLists**
 - [Samples/4_CUDA_Libraries/boxFilterNPP/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/4_CUDA_Libraries/boxFilterNPP/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 
 ### D
 
@@ -32,10 +35,22 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/boxFilterNP
 - [Samples/4_CUDA_Libraries/boxFilterNPP/boxFilterNPP.cpp](boxFilterNPP.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/4_CUDA_Libraries/boxFilterNPP/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### I
 
 **infile**
 - [Samples/4_CUDA_Libraries/boxFilterNPP/boxFilterNPP.cpp](boxFilterNPP.cpp_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/4_CUDA_Libraries/boxFilterNPP/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -90,6 +105,10 @@ This keyword index covers all files within `Samples/4_CUDA_Libraries/boxFilterNP
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

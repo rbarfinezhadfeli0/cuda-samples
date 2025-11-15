@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/eigenvalues/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 24
-- **Unique Keywords**: 131
+- **Files Indexed**: 27
+- **Unique Keywords**: 134
 
 ## Keywords A-Z
 
@@ -77,6 +77,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ei
 
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/eigenvalues/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/eigenvalues/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **ceilPow2**
 - [Samples/2_Concepts_and_Techniques/eigenvalues/bisect_util.cu](bisect_util.cu_docs.md)
@@ -188,6 +191,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ei
 - [Samples/2_Concepts_and_Techniques/eigenvalues/bisect_kernel_large.cuh](bisect_kernel_large.cuh_docs.md)
 - [Samples/2_Concepts_and_Techniques/eigenvalues/bisect_kernel_small.cuh](bisect_kernel_small.cuh_docs.md)
 
+**extensions**
+- [Samples/2_Concepts_and_Techniques/eigenvalues/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -282,6 +288,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ei
 
 
 ### L
+
+**launch**
+- [Samples/2_Concepts_and_Techniques/eigenvalues/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **levels**
 - [Samples/2_Concepts_and_Techniques/eigenvalues/bisect_kernel_large.cuh](bisect_kernel_large.cuh_docs.md)
@@ -489,6 +498,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/ei
 This section maps major keywords to the folders where they are most prevalent.
 
 
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
+
 #### CMakeLists.txt/
 
 `CMakeLists`, `eigenvalues`
@@ -564,10 +577,6 @@ This section maps major keywords to the folders where they are most prevalent.
 #### matlab.h/
 
 `DAMAGES`, `S`, `T`, `_MATLAB_H_`, `matlab`, `matrix`, `the`, `writeMatrixMatlab`, `writeTridiagSymMatlab`, `writeVectorMatlab`
-
-#### structs.h/
-
-`DAMAGES`, `InputData`, `ResultDataLarge`, `ResultDataSmall`, `_STRUCTS_H_`, `block`, `indices`, `structs`, `thread`
 
 
 ---

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/SobolQRNG/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 10
-- **Unique Keywords**: 51
+- **Files Indexed**: 13
+- **Unique Keywords**: 54
 
 ## Keywords A-Z
 
@@ -28,6 +28,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobolQRNG/
 - [Samples/5_Domain_Specific/SobolQRNG/sobol_gold.h](sobol_gold.h_docs.md)
 - [Samples/5_Domain_Specific/SobolQRNG/sobol_gpu.cu](sobol_gpu.cu_docs.md)
 - *(and 3 more files)*
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/SobolQRNG/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaFree**
 - [Samples/5_Domain_Specific/SobolQRNG/sobol.cpp](sobol.cpp_docs.md)
@@ -65,6 +68,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobolQRNG/
 
 **exit**
 - [Samples/5_Domain_Specific/SobolQRNG/sobol.cpp](sobol.cpp_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/SobolQRNG/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -109,6 +115,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobolQRNG/
 
 **L1ERROR_TOLERANCE**
 - [Samples/5_Domain_Specific/SobolQRNG/sobol.cpp](sobol.cpp_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/SobolQRNG/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **log2**
 - [Samples/5_Domain_Specific/SobolQRNG/sobol_gpu.cu](sobol_gpu.cu_docs.md)
@@ -243,6 +252,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobolQRNG/
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

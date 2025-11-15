@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 1398
-- **Unique Keywords**: 4706
+- **Files Indexed**: 1965
+- **Unique Keywords**: 4708
 
 ## Keywords A-Z
 
@@ -3588,10 +3588,12 @@ This keyword index covers all files within `Samples/` and all its subdirectories
 - [Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx](4_CUDA_Libraries/cuSolverSp_LowlevelQR/lap3D_7pt_n20.mtx_docs.md)
 
 **launch**
-- [Samples/0_Introduction/simpleCallback/simpleCallback.cu](0_Introduction/simpleCallback/simpleCallback.cu_docs.md)
-- [Samples/2_Concepts_and_Techniques/reduction/reduction.cpp](2_Concepts_and_Techniques/reduction/reduction.cpp_docs.md)
-- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu_docs.md)
-- [Samples/2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu](2_Concepts_and_Techniques/threadFenceReduction/threadFenceReduction.cu_docs.md)
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/launch.json](0_Introduction/UnifiedMemoryStreams/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/launch.json](0_Introduction/asyncAPI/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/launch.json](0_Introduction/clock/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock_nvrtc/.vscode/launch.json](0_Introduction/clock_nvrtc/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/cudaOpenMP/.vscode/launch.json](0_Introduction/cudaOpenMP/.vscode/launch.json_docs.md)
+- *(and 188 more files)*
 
 **launchConfig**
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](0_Introduction/simpleOccupancy/simpleOccupancy.cu_docs.md)
@@ -7557,7 +7559,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### 1_Utilities/
 
-`Addressing`, `CMakeLists`, `DAMAGES`, `MHz`, `Mode`, `Process`, `Query`, `README`, `Size`, `T`, `Windows`, `block`, `checkCudaErrors`, `cudaDriverGetVersion`, `defined`, `device`, `deviceQuery`, `deviceQueryDrv`, `exit`, `for`, `getCudaAttribute`, `grid`, `kernel`, `main`, `printf`, `size`, `snprintf`, `thread`, `topologyQuery`, `warp`
+`Addressing`, `CMakeLists`, `DAMAGES`, `MHz`, `Mode`, `Process`, `Query`, `README`, `Size`, `T`, `Windows`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cudaDriverGetVersion`, `defined`, `device`, `deviceQuery`, `deviceQueryDrv`, `exit`, `extensions`, `for`, `getCudaAttribute`, `grid`, `kernel`, `launch`, `main`, `printf`, `size`, `snprintf`
 
 #### 2_Concepts_and_Techniques/
 

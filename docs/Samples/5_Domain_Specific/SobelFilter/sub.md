@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/SobelFilter/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 12
-- **Unique Keywords**: 57
+- **Files Indexed**: 15
+- **Unique Keywords**: 60
 
 ## Keywords A-Z
 
@@ -26,6 +26,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobelFilte
 
 **ComputeSobel**
 - [Samples/5_Domain_Specific/SobelFilter/SobelFilter_kernels.cu](SobelFilter_kernels.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/SobelFilter/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/SobelFilter/SobelFilter.cpp](SobelFilter.cpp_docs.md)
@@ -77,6 +80,12 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobelFilte
 - [Samples/5_Domain_Specific/SobelFilter/SobelFilter.cpp](SobelFilter.cpp_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/5_Domain_Specific/SobelFilter/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **glGenBuffers**
@@ -118,6 +127,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobelFilte
 
 
 ### L
+
+**launch**
+- [Samples/5_Domain_Specific/SobelFilter/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **loadDefaultImage**
 - [Samples/5_Domain_Specific/SobelFilter/SobelFilter.cpp](SobelFilter.cpp_docs.md)
@@ -224,6 +236,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/SobelFilte
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

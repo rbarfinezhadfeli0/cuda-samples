@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulkan/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 13
-- **Unique Keywords**: 162
+- **Files Indexed**: 16
+- **Unique Keywords**: 165
 
 ## Keywords A-Z
 
@@ -33,6 +33,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 
 **CMakeLists**
 - [Samples/5_Domain_Specific/simpleVulkan/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/simpleVulkan/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/5_Domain_Specific/simpleVulkan/SineWaveSimulation.cu](SineWaveSimulation.cu_docs.md)
@@ -153,6 +156,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 
 **endSingleTimeCommands**
 - [Samples/5_Domain_Specific/simpleVulkan/VulkanBaseApp.h](VulkanBaseApp.h_docs.md)
+
+**extensions**
+- [Samples/5_Domain_Specific/simpleVulkan/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -285,6 +291,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 
 **LINMATH_H**
 - [Samples/5_Domain_Specific/simpleVulkan/linmath.h](linmath.h_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/simpleVulkan/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **linmath**
 - [Samples/5_Domain_Specific/simpleVulkan/linmath.h](linmath.h_docs.md)
@@ -572,6 +581,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/simpleVulk
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### Build_instructions.txt/
 

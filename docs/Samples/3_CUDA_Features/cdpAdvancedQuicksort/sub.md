@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/cdpAdvancedQuicksort/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 53
+- **Files Indexed**: 8
+- **Unique Keywords**: 56
 
 ## Keywords A-Z
 
@@ -41,6 +41,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpAdvancedQ
 
 **CMakeLists**
 - [Samples/3_CUDA_Features/cdpAdvancedQuicksort/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/cdpAdvancedQuicksort/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **capabilities**
 - [Samples/3_CUDA_Features/cdpAdvancedQuicksort/cdpAdvancedQuicksort.cu](cdpAdvancedQuicksort.cu_docs.md)
@@ -85,6 +88,12 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpAdvancedQ
 - [Samples/3_CUDA_Features/cdpAdvancedQuicksort/cdpAdvancedQuicksort.cu](cdpAdvancedQuicksort.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/3_CUDA_Features/cdpAdvancedQuicksort/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -111,6 +120,9 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpAdvancedQ
 
 
 ### L
+
+**launch**
+- [Samples/3_CUDA_Features/cdpAdvancedQuicksort/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **level**
 - [Samples/3_CUDA_Features/cdpAdvancedQuicksort/cdpBitonicSort.cu](cdpBitonicSort.cu_docs.md)
@@ -223,6 +235,10 @@ This keyword index covers all files within `Samples/3_CUDA_Features/cdpAdvancedQ
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/reduction/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 5
-- **Unique Keywords**: 63
+- **Files Indexed**: 8
+- **Unique Keywords**: 65
 
 ## Keywords A-Z
 
@@ -41,6 +41,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 **CSV**
 - [Samples/2_Concepts_and_Techniques/reduction/reduction.cpp](reduction.cpp_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/reduction/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **cg_reduce**
 - [Samples/2_Concepts_and_Techniques/reduction/reduction_kernel.cu](reduction_kernel.cu_docs.md)
 
@@ -72,6 +75,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 
 **dimGrid**
 - [Samples/2_Concepts_and_Techniques/reduction/reduction_kernel.cu](reduction_kernel.cu_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/reduction/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -111,6 +120,7 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 ### L
 
 **launch**
+- [Samples/2_Concepts_and_Techniques/reduction/.vscode/launch.json](.vscode/launch.json_docs.md)
 - [Samples/2_Concepts_and_Techniques/reduction/reduction.cpp](reduction.cpp_docs.md)
 
 **log**
@@ -258,6 +268,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/re
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

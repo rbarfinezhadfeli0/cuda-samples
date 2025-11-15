@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/matrixMul/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 27
+- **Files Indexed**: 6
+- **Unique Keywords**: 30
 
 ## Keywords A-Z
 
@@ -23,6 +23,9 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul/` a
 
 **ConstantInit**
 - [Samples/0_Introduction/matrixMul/matrixMul.cu](matrixMul.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/matrixMul/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkCudaErrors**
 - [Samples/0_Introduction/matrixMul/matrixMul.cu](matrixMul.cu_docs.md)
@@ -52,6 +55,12 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul/` a
 - [Samples/0_Introduction/matrixMul/matrixMul.cu](matrixMul.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/matrixMul/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### F
 
 **for**
@@ -68,6 +77,12 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul/` a
 
 **kernel**
 - [Samples/0_Introduction/matrixMul/matrixMul.cu](matrixMul.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/matrixMul/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -123,6 +138,10 @@ This keyword index covers all files within `Samples/0_Introduction/matrixMul/` a
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

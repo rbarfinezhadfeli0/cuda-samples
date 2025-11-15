@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `quasirandomGenerator_nvrtc`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/5_Domain_Specific/quasirandomGenerator_nvrtc/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (7)
 
 | Filename | Type | Documentation | Keywords |

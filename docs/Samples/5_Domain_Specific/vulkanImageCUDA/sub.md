@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/5_Domain_Specific/vulkanImageCUDA/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 10
-- **Unique Keywords**: 165
+- **Files Indexed**: 13
+- **Unique Keywords**: 168
 
 ## Keywords A-Z
 
@@ -29,6 +29,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/vulkanImag
 
 **CreateDebugUtilsMessengerEXT**
 - [Samples/5_Domain_Specific/vulkanImageCUDA/vulkanImageCUDA.cu](vulkanImageCUDA.cu_docs.md)
+
+**c_cpp_properties**
+- [Samples/5_Domain_Specific/vulkanImageCUDA/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **checkDeviceExtensionSupport**
 - [Samples/5_Domain_Specific/vulkanImageCUDA/vulkanImageCUDA.cu](vulkanImageCUDA.cu_docs.md)
@@ -186,6 +189,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/vulkanImag
 **endSingleTimeCommands**
 - [Samples/5_Domain_Specific/vulkanImageCUDA/vulkanImageCUDA.cu](vulkanImageCUDA.cu_docs.md)
 
+**extensions**
+- [Samples/5_Domain_Specific/vulkanImageCUDA/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
 
 ### F
 
@@ -266,6 +272,9 @@ This keyword index covers all files within `Samples/5_Domain_Specific/vulkanImag
 
 **LINMATH_H**
 - [Samples/5_Domain_Specific/vulkanImageCUDA/linmath.h](linmath.h_docs.md)
+
+**launch**
+- [Samples/5_Domain_Specific/vulkanImageCUDA/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **linmath**
 - [Samples/5_Domain_Specific/vulkanImageCUDA/linmath.h](linmath.h_docs.md)
@@ -559,6 +568,10 @@ This keyword index covers all files within `Samples/5_Domain_Specific/vulkanImag
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### Build_instructions.txt/
 

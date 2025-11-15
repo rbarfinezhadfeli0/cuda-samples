@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/clock/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 17
+- **Files Indexed**: 6
+- **Unique Keywords**: 20
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/clock/` and a
 
 **CMakeLists**
 - [Samples/0_Introduction/clock/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/clock/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **clock**
 - [Samples/0_Introduction/clock/CMakeLists.txt](CMakeLists.txt_docs.md)
@@ -41,6 +44,12 @@ This keyword index covers all files within `Samples/0_Introduction/clock/` and a
 - [Samples/0_Introduction/clock/clock.cu](clock.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/clock/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **grid**
@@ -51,6 +60,12 @@ This keyword index covers all files within `Samples/0_Introduction/clock/` and a
 
 **kernel**
 - [Samples/0_Introduction/clock/clock.cu](clock.cu_docs.md)
+
+
+### L
+
+**launch**
+- [Samples/0_Introduction/clock/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 
 ### M
@@ -90,6 +105,10 @@ This keyword index covers all files within `Samples/0_Introduction/clock/` and a
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/0_Introduction/simpleOccupancy/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 3
-- **Unique Keywords**: 19
+- **Files Indexed**: 6
+- **Unique Keywords**: 22
 
 ## Keywords A-Z
 
@@ -20,6 +20,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleOccupan
 
 **CMakeLists**
 - [Samples/0_Introduction/simpleOccupancy/CMakeLists.txt](CMakeLists.txt_docs.md)
+
+**c_cpp_properties**
+- [Samples/0_Introduction/simpleOccupancy/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
 
 **cudaFree**
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](simpleOccupancy.cu_docs.md)
@@ -37,6 +40,12 @@ This keyword index covers all files within `Samples/0_Introduction/simpleOccupan
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](simpleOccupancy.cu_docs.md)
 
 
+### E
+
+**extensions**
+- [Samples/0_Introduction/simpleOccupancy/.vscode/extensions.json](.vscode/extensions.json_docs.md)
+
+
 ### G
 
 **grid**
@@ -50,6 +59,9 @@ This keyword index covers all files within `Samples/0_Introduction/simpleOccupan
 
 
 ### L
+
+**launch**
+- [Samples/0_Introduction/simpleOccupancy/.vscode/launch.json](.vscode/launch.json_docs.md)
 
 **launchConfig**
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](simpleOccupancy.cu_docs.md)
@@ -102,6 +114,10 @@ This keyword index covers all files within `Samples/0_Introduction/simpleOccupan
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/3_CUDA_Features/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 92
-- **Unique Keywords**: 421
+- **Files Indexed**: 164
+- **Unique Keywords**: 424
 
 ## Keywords A-Z
 
@@ -204,6 +204,14 @@ This keyword index covers all files within `Samples/3_CUDA_Features/` and all it
 
 **Container**
 - [Samples/3_CUDA_Features/newdelete/container.hpp](newdelete/container.hpp_docs.md)
+
+**c_cpp_properties**
+- [Samples/3_CUDA_Features/StreamPriorities/.vscode/c_cpp_properties.json](StreamPriorities/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/3_CUDA_Features/bf16TensorCoreGemm/.vscode/c_cpp_properties.json](bf16TensorCoreGemm/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/3_CUDA_Features/binaryPartitionCG/.vscode/c_cpp_properties.json](binaryPartitionCG/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/3_CUDA_Features/bindlessTexture/.vscode/c_cpp_properties.json](bindlessTexture/.vscode/c_cpp_properties.json_docs.md)
+- [Samples/3_CUDA_Features/cdpAdvancedQuicksort/.vscode/c_cpp_properties.json](cdpAdvancedQuicksort/.vscode/c_cpp_properties.json_docs.md)
+- *(and 19 more files)*
 
 **calculateMaxInBuckets**
 - [Samples/3_CUDA_Features/warpAggregatedAtomicsCG/warpAggregatedAtomicsCG.cu](warpAggregatedAtomicsCG/warpAggregatedAtomicsCG.cu_docs.md)
@@ -555,6 +563,14 @@ This keyword index covers all files within `Samples/3_CUDA_Features/` and all it
 **exec**
 - [Samples/3_CUDA_Features/memMapIPCDrv/memMapIpc.cpp](memMapIPCDrv/memMapIpc.cpp_docs.md)
 
+**extensions**
+- [Samples/3_CUDA_Features/StreamPriorities/.vscode/extensions.json](StreamPriorities/.vscode/extensions.json_docs.md)
+- [Samples/3_CUDA_Features/bf16TensorCoreGemm/.vscode/extensions.json](bf16TensorCoreGemm/.vscode/extensions.json_docs.md)
+- [Samples/3_CUDA_Features/binaryPartitionCG/.vscode/extensions.json](binaryPartitionCG/.vscode/extensions.json_docs.md)
+- [Samples/3_CUDA_Features/bindlessTexture/.vscode/extensions.json](bindlessTexture/.vscode/extensions.json_docs.md)
+- [Samples/3_CUDA_Features/cdpAdvancedQuicksort/.vscode/extensions.json](cdpAdvancedQuicksort/.vscode/extensions.json_docs.md)
+- *(and 19 more files)*
+
 
 ### F
 
@@ -824,6 +840,14 @@ This keyword index covers all files within `Samples/3_CUDA_Features/` and all it
 
 **Lines**
 - [Samples/3_CUDA_Features/cdpBezierTessellation/BezierLineCDP.cu](cdpBezierTessellation/BezierLineCDP.cu_docs.md)
+
+**launch**
+- [Samples/3_CUDA_Features/StreamPriorities/.vscode/launch.json](StreamPriorities/.vscode/launch.json_docs.md)
+- [Samples/3_CUDA_Features/bf16TensorCoreGemm/.vscode/launch.json](bf16TensorCoreGemm/.vscode/launch.json_docs.md)
+- [Samples/3_CUDA_Features/binaryPartitionCG/.vscode/launch.json](binaryPartitionCG/.vscode/launch.json_docs.md)
+- [Samples/3_CUDA_Features/bindlessTexture/.vscode/launch.json](bindlessTexture/.vscode/launch.json_docs.md)
+- [Samples/3_CUDA_Features/cdpAdvancedQuicksort/.vscode/launch.json](cdpAdvancedQuicksort/.vscode/launch.json_docs.md)
+- *(and 19 more files)*
 
 **launchSaxpy**
 - [Samples/3_CUDA_Features/cudaCompressibleMemory/saxpy.cu](cudaCompressibleMemory/saxpy.cu_docs.md)
@@ -1591,7 +1615,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### StreamPriorities/
 
-`CMakeLists`, `DAMAGES`, `EACH_SIZE`, `ERR_EQ`, `ERR_NE`, `README`, `StreamPriorities`, `TBLOCKS`, `THREADS`, `TOTAL_SIZE`, `__global__`, `block`, `cudaMalloc`, `cudaMemcpy`, `grid`, `kernel`, `main`, `mem_init`, `memcpy_kernel`, `repeatedly`, `thread`
+`CMakeLists`, `DAMAGES`, `EACH_SIZE`, `ERR_EQ`, `ERR_NE`, `README`, `StreamPriorities`, `TBLOCKS`, `THREADS`, `TOTAL_SIZE`, `__global__`, `block`, `c_cpp_properties`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `grid`, `kernel`, `launch`, `main`, `mem_init`, `memcpy_kernel`, `repeatedly`, `thread`
 
 #### bf16TensorCoreGemm/
 
@@ -1599,35 +1623,35 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### binaryPartitionCG/
 
-`CMakeLists`, `DAMAGES`, `README`, `__global__`, `binaryPartitionCG`, `block`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `grid`, `initOddEvenArr`, `kernel`, `main`, `oddEvenCountAndSumCG`, `thread`, `threads`, `warp`
+`CMakeLists`, `DAMAGES`, `README`, `__global__`, `binaryPartitionCG`, `block`, `c_cpp_properties`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `grid`, `initOddEvenArr`, `kernel`, `launch`, `main`, `oddEvenCountAndSumCG`, `thread`, `threads`, `warp`
 
 #### bindlessTexture/
 
-`CMakeLists`, `DAMAGES`, `Image`, `MAX`, `MAX_EPSILON_ERROR`, `OpenGL`, `README`, `Resource`, `SHOW_MIPMAPS`, `THRESHOLD`, `_BINDLESSTEXTURE_CU_`, `_BINDLESSTEXTURE_KERNEL_CU_`, `__device__`, `__global__`, `__host__`, `_checkHost`, `bindlessTexture`, `bindlessTexture_kernel`, `block`, `blockSize`, `checkCudaErrors`, `checkHost`, `cleanup`, `cleanup_all`, `computeFPS`, `cudaFree`, `cudaGraphicsResource`, `cudaMalloc`, `cudaMemcpy`, `d_mipmap`
+`CMakeLists`, `DAMAGES`, `Image`, `MAX`, `MAX_EPSILON_ERROR`, `OpenGL`, `README`, `Resource`, `SHOW_MIPMAPS`, `THRESHOLD`, `_BINDLESSTEXTURE_CU_`, `_BINDLESSTEXTURE_KERNEL_CU_`, `__device__`, `__global__`, `__host__`, `_checkHost`, `bindlessTexture`, `bindlessTexture_kernel`, `block`, `blockSize`, `c_cpp_properties`, `checkCudaErrors`, `checkHost`, `cleanup`, `cleanup_all`, `computeFPS`, `cudaFree`, `cudaGraphicsResource`, `cudaMalloc`, `cudaMemcpy`
 
 #### cdpAdvancedQuicksort/
 
-`BITONICSORT_LEN`, `CMakeLists`, `DAMAGES`, `QSORT_BLOCKSIZE`, `QSORT_BLOCKSIZE_SHIFT`, `QSORT_MAXDEPTH`, `QSORT_STACK_ELEMS`, `QUICKSORT_H`, `README`, `__align__`, `__btflo`, `__device__`, `__global__`, `__qsflo`, `__shared__`, `big_bitonicsort`, `big_bitonicsort_kernel`, `bitonicsort`, `bitonicsort_kernel`, `block`, `buffer`, `capabilities`, `cdpAdvancedQuicksort`, `cdpBitonicSort`, `cdpQuicksort`, `checkCudaErrors`, `correct`, `cudaDeviceSetLimit`, `cudaFree`, `cudaMalloc`
+`BITONICSORT_LEN`, `CMakeLists`, `DAMAGES`, `QSORT_BLOCKSIZE`, `QSORT_BLOCKSIZE_SHIFT`, `QSORT_MAXDEPTH`, `QSORT_STACK_ELEMS`, `QUICKSORT_H`, `README`, `__align__`, `__btflo`, `__device__`, `__global__`, `__qsflo`, `__shared__`, `big_bitonicsort`, `big_bitonicsort_kernel`, `bitonicsort`, `bitonicsort_kernel`, `block`, `buffer`, `c_cpp_properties`, `capabilities`, `cdpAdvancedQuicksort`, `cdpBitonicSort`, `cdpQuicksort`, `checkCudaErrors`, `correct`, `cudaDeviceSetLimit`, `cudaFree`
 
 #### cdpBezierTessellation/
 
-`BLOCK_DIM`, `BezierLine`, `BezierLineCDP`, `CMakeLists`, `DAMAGES`, `Lines`, `MAX_TESSELLATION`, `N_LINES`, `README`, `__device__`, `__global__`, `block`, `cdpBezierTessellation`, `checkCapableSM35Device`, `computeBezierLinePositions`, `computeBezierLinesCDP`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `freeVertexMem`, `length`, `main`, `sqrtf`, `thread`
+`BLOCK_DIM`, `BezierLine`, `BezierLineCDP`, `CMakeLists`, `DAMAGES`, `Lines`, `MAX_TESSELLATION`, `N_LINES`, `README`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `cdpBezierTessellation`, `checkCapableSM35Device`, `computeBezierLinePositions`, `computeBezierLinesCDP`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `freeVertexMem`, `launch`, `length`, `main`, `sqrtf`, `thread`
 
 #### cdpQuadtree/
 
-`Bounding_box`, `CMakeLists`, `DAMAGES`, `Parameters`, `Points`, `Quadtree_node`, `README`, `Random_generator`, `__device__`, `__global__`, `__host__`, `__shared__`, `block`, `build_quadtree_kernel`, `capabilities`, `cdpQuadtree`, `check_quadtree`, `child`, `compute_center`, `contains`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `for`, `get_point`, `greater`, `grid`, `hash`, `host`, `kernel`
+`Bounding_box`, `CMakeLists`, `DAMAGES`, `Parameters`, `Points`, `Quadtree_node`, `README`, `Random_generator`, `__device__`, `__global__`, `__host__`, `__shared__`, `block`, `build_quadtree_kernel`, `c_cpp_properties`, `capabilities`, `cdpQuadtree`, `check_quadtree`, `child`, `compute_center`, `contains`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `for`, `get_point`, `greater`, `grid`, `hash`
 
 #### cdpSimplePrint/
 
-`CMakeLists`, `DAMAGES`, `Print`, `README`, `__device__`, `__global__`, `__shared__`, `block`, `cdpSimplePrint`, `cdp_kernel`, `grid`, `kernel`, `main`, `print_info`, `thread`
+`CMakeLists`, `DAMAGES`, `Print`, `README`, `__device__`, `__global__`, `__shared__`, `block`, `c_cpp_properties`, `cdpSimplePrint`, `cdp_kernel`, `extensions`, `grid`, `kernel`, `launch`, `main`, `print_info`, `thread`
 
 #### cdpSimpleQuicksort/
 
-`CMakeLists`, `DAMAGES`, `INSERTION_SORT`, `MAX_DEPTH`, `README`, `__device__`, `__global__`, `block`, `cdpSimpleQuicksort`, `cdp_simple_quicksort`, `check_results`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `for`, `initialize_data`, `kernel`, `main`, `run_qsort`, `selection_sort`, `srand`
+`CMakeLists`, `DAMAGES`, `INSERTION_SORT`, `MAX_DEPTH`, `README`, `__device__`, `__global__`, `block`, `c_cpp_properties`, `cdpSimpleQuicksort`, `cdp_simple_quicksort`, `check_results`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `for`, `initialize_data`, `kernel`, `launch`, `main`, `run_qsort`, `selection_sort`, `srand`
 
 #### cudaCompressibleMemory/
 
-`CMakeLists`, `COMP_MALLOC_H`, `CUDA_DRIVER_API`, `DAMAGES`, `README`, `__global__`, `allocateCompressible`, `block`, `checkCudaErrors`, `compMalloc`, `cudaCompressibleMemory`, `cudaMemcpy`, `freeCompressible`, `grid`, `init`, `launchSaxpy`, `main`, `saxpy`, `setProp`, `thread`
+`CMakeLists`, `COMP_MALLOC_H`, `CUDA_DRIVER_API`, `DAMAGES`, `README`, `__global__`, `allocateCompressible`, `block`, `c_cpp_properties`, `checkCudaErrors`, `compMalloc`, `cudaCompressibleMemory`, `cudaMemcpy`, `extensions`, `freeCompressible`, `grid`, `init`, `launch`, `launchSaxpy`, `main`, `saxpy`, `setProp`, `thread`
 
 #### cudaTensorCoreGemm/
 
@@ -1639,19 +1663,19 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### globalToShmemAsyncCopy/
 
-`CMakeLists`, `ConstantInit`, `DAMAGES`, `MatrixMulAsyncCopyLargeChunk`, `MatrixMulAsyncCopyLargeChunkAWBarrier`, `MatrixMulAsyncCopyMultiStage`, `MatrixMulAsyncCopyMultiStageLargeChunk`, `MatrixMulAsyncCopyMultiStageSharedState`, `MatrixMulAsyncCopySingleStage`, `MatrixMulNaive`, `MatrixMulNaiveLargeChunk`, `MatrixMultiply`, `README`, `__global__`, `__shared__`, `__syncthreads`, `alignas`, `block`, `checkCudaErrors`, `chunk`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dimsA`, `dimsB`, `dimsC`, `for`, `globalToShmemAsyncCopy`, `grid`, `gridSharedStateKernel`
+`CMakeLists`, `ConstantInit`, `DAMAGES`, `MatrixMulAsyncCopyLargeChunk`, `MatrixMulAsyncCopyLargeChunkAWBarrier`, `MatrixMulAsyncCopyMultiStage`, `MatrixMulAsyncCopyMultiStageLargeChunk`, `MatrixMulAsyncCopyMultiStageSharedState`, `MatrixMulAsyncCopySingleStage`, `MatrixMulNaive`, `MatrixMulNaiveLargeChunk`, `MatrixMultiply`, `README`, `__global__`, `__shared__`, `__syncthreads`, `alignas`, `block`, `c_cpp_properties`, `checkCudaErrors`, `chunk`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `dimsA`, `dimsB`, `dimsC`, `extensions`, `for`, `globalToShmemAsyncCopy`
 
 #### graphConditionalNodes/
 
-`CMakeLists`, `DAMAGES`, `README`, `__global__`, `block`, `capturedWhileEmptyKernel`, `capturedWhileGraph`, `capturedWhileKernel`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `doWhileEmptyKernel`, `doWhileLoopKernel`, `graphConditionalNodes`, `grid`, `ifGraphKernelA`, `ifGraphKernelC`, `ifGraphKernelD`, `kernel`, `main`, `printf`, `simpleDoWhileGraph`, `simpleIfElseGraph`, `simpleIfGraph`, `simpleSwitchGraph`, `switchGraphKernelA`, `switchGraphKernelC`, `switchGraphKernelD`, `switchGraphKernelE`, `switchGraphKernelF`
+`CMakeLists`, `DAMAGES`, `README`, `__global__`, `block`, `c_cpp_properties`, `capturedWhileEmptyKernel`, `capturedWhileGraph`, `capturedWhileKernel`, `checkCudaErrors`, `cudaFree`, `cudaMalloc`, `doWhileEmptyKernel`, `doWhileLoopKernel`, `extensions`, `graphConditionalNodes`, `grid`, `ifGraphKernelA`, `ifGraphKernelC`, `ifGraphKernelD`, `kernel`, `launch`, `main`, `printf`, `simpleDoWhileGraph`, `simpleIfElseGraph`, `simpleIfGraph`, `simpleSwitchGraph`, `switchGraphKernelA`, `switchGraphKernelC`
 
 #### graphMemoryFootprint/
 
-`CMakeLists`, `DAMAGES`, `NUM_GRAPHS`, `README`, `THREADS_PER_BLOCK`, `__global__`, `block`, `checkCudaErrors`, `cleanupMemory`, `clockBlock`, `createSimpleAllocFreeGraph`, `createSimpleAllocNoFreeGraph`, `createVirtAddrReuseGraph`, `cudaFree`, `graphMemoryFootprint`, `grid`, `kernel`, `main`, `physicalMemoryReuseSingleStream`, `prepareAllocParams`, `printMemoryFootprint`, `simultaneousStreams`, `thread`, `unfreedAllocations`, `virtualAddressReuseSingleGraph`
+`CMakeLists`, `DAMAGES`, `NUM_GRAPHS`, `README`, `THREADS_PER_BLOCK`, `__global__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `cleanupMemory`, `clockBlock`, `createSimpleAllocFreeGraph`, `createSimpleAllocNoFreeGraph`, `createVirtAddrReuseGraph`, `cudaFree`, `extensions`, `graphMemoryFootprint`, `grid`, `kernel`, `launch`, `main`, `physicalMemoryReuseSingleStream`, `prepareAllocParams`, `printMemoryFootprint`, `simultaneousStreams`, `thread`, `unfreedAllocations`, `virtualAddressReuseSingleGraph`
 
 #### graphMemoryNodes/
 
-`ALLOWABLE_VARIANCE`, `CMakeLists`, `DAMAGES`, `NUM_ELEMENTS`, `README`, `THREADS_PER_BLOCK`, `__global__`, `block`, `checkCudaErrors`, `checkValidationFailure`, `createFreeGraph`, `createNegateSquaresGraphExplicitly`, `createNegateSquaresGraphWithStreamCapture`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `doNegateSquaresInStream`, `fillRandomly`, `graphMemoryNodes`, `grid`, `kernel`, `main`, `negSquareArrays`, `negateArray`, `prepareHostArrays`, `prepareRefArrays`, `resetOutputArrays`, `simple`, `squareArray`, `thread`
+`ALLOWABLE_VARIANCE`, `CMakeLists`, `DAMAGES`, `NUM_ELEMENTS`, `README`, `THREADS_PER_BLOCK`, `__global__`, `block`, `c_cpp_properties`, `checkCudaErrors`, `checkValidationFailure`, `createFreeGraph`, `createNegateSquaresGraphExplicitly`, `createNegateSquaresGraphWithStreamCapture`, `cudaFree`, `cudaMalloc`, `cudaMemcpy`, `doNegateSquaresInStream`, `extensions`, `fillRandomly`, `graphMemoryNodes`, `grid`, `kernel`, `launch`, `main`, `negSquareArrays`, `negateArray`, `prepareHostArrays`, `prepareRefArrays`, `resetOutputArrays`
 
 #### immaTensorCoreGemm/
 
@@ -1659,7 +1683,7 @@ This section maps major keywords to the folders where they are most prevalent.
 
 #### jacobiCudaGraphs/
 
-`CMakeLists`, `DAMAGES`, `JACOBI_H`, `JacobiMethod`, `JacobiMethodCPU`, `JacobiMethodGpu`, `JacobiMethodGpuCudaGraphExecKernelSetParams`, `JacobiMethodGpuCudaGraphExecUpdate`, `N_ROWS`, `NaN`, `README`, `ROWS_PER_CTA`, `__device__`, `__global__`, `__longlong_as_double`, `__shared__`, `atomicAdd`, `block`, `createLinearSystem`, `cudaFree`, `cudaGraphExecUpdate`, `cudaMalloc`, `cudaMemcpy`, `finalError`, `for`, `grid`, `jacobi`, `jacobiCudaGraphs`, `kernel`, `main`
+`CMakeLists`, `DAMAGES`, `JACOBI_H`, `JacobiMethod`, `JacobiMethodCPU`, `JacobiMethodGpu`, `JacobiMethodGpuCudaGraphExecKernelSetParams`, `JacobiMethodGpuCudaGraphExecUpdate`, `N_ROWS`, `NaN`, `README`, `ROWS_PER_CTA`, `__device__`, `__global__`, `__longlong_as_double`, `__shared__`, `atomicAdd`, `block`, `c_cpp_properties`, `createLinearSystem`, `cudaFree`, `cudaGraphExecUpdate`, `cudaMalloc`, `cudaMemcpy`, `extensions`, `finalError`, `for`, `grid`, `jacobi`, `jacobiCudaGraphs`
 
 
 ---

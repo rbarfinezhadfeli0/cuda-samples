@@ -7,8 +7,8 @@ Use this index to quickly find files containing specific functions, classes, con
 
 ## Statistics
 
-- **Total Unique Keywords**: 7339
-- **Total Files**: 1478
+- **Total Unique Keywords**: 7344
+- **Total Files**: 2046
 
 ## Keywords by Letter
 
@@ -3157,6 +3157,12 @@ Use this index to quickly find files containing specific functions, classes, con
 **explicit** (1 files)
 - [Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/compare/explicit.hpp](./Samples/2_Concepts_and_Techniques/interval/boost/numeric/interval/compare/explicit.hpp_docs.md)
 
+**extensions** (189 files)
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/extensions.json](./Samples/0_Introduction/UnifiedMemoryStreams/.vscode/extensions.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/extensions.json](./Samples/0_Introduction/asyncAPI/.vscode/extensions.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/extensions.json](./Samples/0_Introduction/clock/.vscode/extensions.json_docs.md)
+- *(and 186 more)*
+
 **extensionsStr** (1 files)
 - [Common/helper_gl.h](./Common/helper_gl.h_docs.md)
 
@@ -4992,15 +4998,17 @@ Use this index to quickly find files containing specific functions, classes, con
 **ImageAllocatorsNPP** (1 files)
 - [Common/UtilNPP/ImageAllocatorsNPP.h](./Common/UtilNPP/ImageAllocatorsNPP.h_docs.md)
 
-**ImageCPU** (2 files)
+**ImageCPU** (3 files)
 - [Common/UtilNPP/ImagesCPU.h](./Common/UtilNPP/ImagesCPU.h_docs.md)
 - [Common/UtilNPP/ImagesNPP.h](./Common/UtilNPP/ImagesNPP.h_docs.md)
+- [generate_comprehensive_book.py](././generate_comprehensive_book.py_docs.md)
 
 **ImageIO** (1 files)
 - [Common/UtilNPP/ImageIO.h](./Common/UtilNPP/ImageIO.h_docs.md)
 
-**ImageNPP** (1 files)
+**ImageNPP** (2 files)
 - [Common/UtilNPP/ImagesNPP.h](./Common/UtilNPP/ImagesNPP.h_docs.md)
+- [generate_comprehensive_book.py](././generate_comprehensive_book.py_docs.md)
 
 **ImagePacked** (1 files)
 - [Common/UtilNPP/ImagePacked.h](./Common/UtilNPP/ImagePacked.h_docs.md)
@@ -6115,11 +6123,11 @@ Use this index to quickly find files containing specific functions, classes, con
 - [Samples/4_CUDA_Libraries/cuSolverSp_LinearSolver/lap3D_7pt_n20.mtx](./Samples/4_CUDA_Libraries/cuSolverSp_LinearSolver/lap3D_7pt_n20.mtx_docs.md)
 - *(and 2 more)*
 
-**launch** (4 files)
-- [Samples/0_Introduction/simpleCallback/simpleCallback.cu](./Samples/0_Introduction/simpleCallback/simpleCallback.cu_docs.md)
-- [Samples/2_Concepts_and_Techniques/reduction/reduction.cpp](./Samples/2_Concepts_and_Techniques/reduction/reduction.cpp_docs.md)
-- [Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu](./Samples/2_Concepts_and_Techniques/reductionMultiBlockCG/reductionMultiBlockCG.cu_docs.md)
-- *(and 1 more)*
+**launch** (193 files)
+- [Samples/0_Introduction/UnifiedMemoryStreams/.vscode/launch.json](./Samples/0_Introduction/UnifiedMemoryStreams/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/asyncAPI/.vscode/launch.json](./Samples/0_Introduction/asyncAPI/.vscode/launch.json_docs.md)
+- [Samples/0_Introduction/clock/.vscode/launch.json](./Samples/0_Introduction/clock/.vscode/launch.json_docs.md)
+- *(and 190 more)*
 
 **launchConfig** (1 files)
 - [Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu](./Samples/0_Introduction/simpleOccupancy/simpleOccupancy.cu_docs.md)
@@ -9745,12 +9753,14 @@ Use this index to quickly find files containing specific functions, classes, con
 **SignalAllocatorsNPP** (1 files)
 - [Common/UtilNPP/SignalAllocatorsNPP.h](./Common/UtilNPP/SignalAllocatorsNPP.h_docs.md)
 
-**SignalCPU** (2 files)
+**SignalCPU** (3 files)
 - [Common/UtilNPP/SignalsCPU.h](./Common/UtilNPP/SignalsCPU.h_docs.md)
 - [Common/UtilNPP/SignalsNPP.h](./Common/UtilNPP/SignalsNPP.h_docs.md)
+- [generate_comprehensive_book.py](././generate_comprehensive_book.py_docs.md)
 
-**SignalNPP** (1 files)
+**SignalNPP** (2 files)
 - [Common/UtilNPP/SignalsNPP.h](./Common/UtilNPP/SignalsNPP.h_docs.md)
+- [generate_comprehensive_book.py](././generate_comprehensive_book.py_docs.md)
 
 **SignalTemplate** (1 files)
 - [Common/UtilNPP/Signal.h](./Common/UtilNPP/Signal.h_docs.md)
@@ -9834,8 +9844,9 @@ Use this index to quickly find files containing specific functions, classes, con
 **Std_Exception** (1 files)
 - [Common/exception.h](./Common/exception.h_docs.md)
 
-**StopWatchInterface** (1 files)
+**StopWatchInterface** (2 files)
 - [Common/helper_timer.h](./Common/helper_timer.h_docs.md)
+- [generate_comprehensive_book.py](././generate_comprehensive_book.py_docs.md)
 
 **StopWatchLinux** (1 files)
 - [Common/helper_timer.h](./Common/helper_timer.h_docs.md)

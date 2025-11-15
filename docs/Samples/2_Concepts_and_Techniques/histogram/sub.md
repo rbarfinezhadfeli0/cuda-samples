@@ -4,8 +4,8 @@
 
 This keyword index covers all files within `Samples/2_Concepts_and_Techniques/histogram/` and all its subdirectories (recursive).
 
-- **Files Indexed**: 10
-- **Unique Keywords**: 54
+- **Files Indexed**: 13
+- **Unique Keywords**: 57
 
 ## Keywords A-Z
 
@@ -37,6 +37,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/hi
 **CMakeLists**
 - [Samples/2_Concepts_and_Techniques/histogram/CMakeLists.txt](CMakeLists.txt_docs.md)
 
+**c_cpp_properties**
+- [Samples/2_Concepts_and_Techniques/histogram/.vscode/c_cpp_properties.json](.vscode/c_cpp_properties.json_docs.md)
+
 **closeHistogram256**
 - [Samples/2_Concepts_and_Techniques/histogram/histogram256.cu](histogram256.cu_docs.md)
 - [Samples/2_Concepts_and_Techniques/histogram/histogram_common.h](histogram_common.h_docs.md)
@@ -67,6 +70,12 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/hi
 - [Samples/2_Concepts_and_Techniques/histogram/histogram_common.h](histogram_common.h_docs.md)
 - [Samples/2_Concepts_and_Techniques/histogram/histogram_gold.cpp](histogram_gold.cpp_docs.md)
 - [Samples/2_Concepts_and_Techniques/histogram/main.cpp](main.cpp_docs.md)
+
+
+### E
+
+**extensions**
+- [Samples/2_Concepts_and_Techniques/histogram/.vscode/extensions.json](.vscode/extensions.json_docs.md)
 
 
 ### F
@@ -169,6 +178,9 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/hi
 **LOG2_WARP_SIZE**
 - [Samples/2_Concepts_and_Techniques/histogram/histogram_common.h](histogram_common.h_docs.md)
 
+**launch**
+- [Samples/2_Concepts_and_Techniques/histogram/.vscode/launch.json](.vscode/launch.json_docs.md)
+
 
 ### M
 
@@ -250,6 +262,10 @@ This keyword index covers all files within `Samples/2_Concepts_and_Techniques/hi
 
 This section maps major keywords to the folders where they are most prevalent.
 
+
+#### .vscode/
+
+`c_cpp_properties`, `extensions`, `launch`
 
 #### CMakeLists.txt/
 

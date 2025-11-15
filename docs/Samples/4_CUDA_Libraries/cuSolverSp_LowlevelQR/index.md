@@ -6,6 +6,15 @@ This folder is part of the CUDA Samples repository structure.
 
 This folder contains files and subdirectories related to: `cuSolverSp_LowlevelQR`
 
+## Subfolders (1)
+
+### .vscode/
+
+- **Path**: `Samples/4_CUDA_Libraries/cuSolverSp_LowlevelQR/.vscode/`
+- **Index**: [View Index](./.vscode/index.md)
+- **Documentation**: [View Documentation](./.vscode/doc.md)
+- **Keywords**: [View Keyword Index](./.vscode/sub.md)
+
 ## Files (9)
 
 | Filename | Type | Documentation | Keywords |
